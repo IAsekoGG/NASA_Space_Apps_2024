@@ -1,9 +1,11 @@
 from openai import OpenAI
 
 # Ініціалізація OpenAI клієнта
-client = OpenAI(api_key='sk-jMEOk_AeFqsriX4e9WlvXuiW6xdIiDWoIaImApR-3CT3BlbkFJVeXbABn_hQ3Hb23_XLNa0lxq6MKKRSQUc_PMoAPuYA')
+
 
 def get_gpt_response(user_prompt, system_prompt = "",  model="gpt-4o-mini"):
+    client = OpenAI(api_key='sk-jMEOk_AeFqsriX4e9WlvXuiW6xdIiDWoIaImApR-3CT3BlbkFJVeXbABn_hQ3Hb23_XLNa0lxq6MKKRSQUc_PMoAPuYA')
+    
     try:
         completion = client.chat.completions.create(
             model=model,
