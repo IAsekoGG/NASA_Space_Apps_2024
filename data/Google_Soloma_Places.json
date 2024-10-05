@@ -1,0 +1,982 @@
+[
+    {
+        "geometry": {
+            "location": {
+                "lat": 50.4503596,
+                "lng": 30.5245025
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.59079800991073,
+                    "lng": 30.82594104187906
+                },
+                "southwest": {
+                    "lat": 50.21327301525928,
+                    "lng": 30.23944009690609
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Kyiv",
+        "photos": [
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113716601886029823850\">Галина Дронова</a>"
+                ],
+                "photo_reference": "AdCG2DMGUN1_KIf34zY8sSU9piNfFdSCyjaE5G12lC557vZWPW1gaQB-a7u0DTDTqOOsU4-DrDXi8FmJREmDTbIEyjpYdmWUUR8Fixee8AC_MX8-fMRYsy153SPVu3glk3-LkZY5w2SW7iNW01JAs8Xm-Vdgmvs7b5JXixe68YxIDhTKG_IB",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJBUVa4U7P1EAR_kYBF9IxSXY",
+        "reference": "ChIJBUVa4U7P1EAR_kYBF9IxSXY",
+        "scope": "GOOGLE",
+        "types": [
+            "locality",
+            "political"
+        ],
+        "vicinity": "Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4490598,
+                "lng": 30.4412408
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4503829302915,
+                    "lng": 30.4425794802915
+                },
+                "southwest": {
+                    "lat": 50.4476849697085,
+                    "lng": 30.4398815197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "IQ Hotel",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3648,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106297374438407260077\">IQ готель</a>"
+                ],
+                "photo_reference": "AdCG2DOzDTf0xVenpIt_CjJCpoixIv_StQcEiU6gTb-FkqaOPMWCYMofb3Rk0mMywDI1puq3VWSj5PFfwpKb75GAXc-NfiCPTZbwaVUSsTjmIDaX6qWJTzFASVh08kpjKy5hmO5fiXTMGhWlMrHD8tpwcQ49P5hdP29c1pgP332MSrxg8o6_",
+                "width": 5472
+            }
+        ],
+        "place_id": "ChIJMWRJ0CTM1EAR0z1wl70lCoA",
+        "plus_code": {
+            "compound_code": "CCXR+JF Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCXR+JF"
+        },
+        "rating": 4.4,
+        "reference": "ChIJMWRJ0CTM1EAR0z1wl70lCoA",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 949,
+        "vicinity": "Vadyma Hetmana Street, 6, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4499808,
+                "lng": 30.44314389999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.45134188029149,
+                    "lng": 30.4449090302915
+                },
+                "southwest": {
+                    "lat": 50.4486439197085,
+                    "lng": 30.4422110697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Mercure Kyiv Congress",
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100729524718344255136\">Mercure Kyiv Congress Hotel</a>"
+                ],
+                "photo_reference": "AdCG2DMXYMHJ51dIfuAYCRVxq5Tk4kIwLGN1E274LI4VDaRPzJuq1gipj-vioUX9GuRwt7VYPkExxzO3yYy4hTKR0UAR-v8DCvTF4ZuX7whkCcvUb3jFYTuMxiJXiVoSbhTbmWM9t_g7LiCdZKFySGjqs78HrOHzp-Dwh_64xl9BjrB5Uq9B",
+                "width": 2268
+            }
+        ],
+        "place_id": "ChIJMWRJ0CTM1EAR3ogJrNX72_s",
+        "plus_code": {
+            "compound_code": "CCXV+X7 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCXV+X7"
+        },
+        "rating": 4.6,
+        "reference": "ChIJMWRJ0CTM1EAR3ogJrNX72_s",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3157,
+        "vicinity": "6, Vadyma Hetmana Street, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4576518,
+                "lng": 30.43341899999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4589834302915,
+                    "lng": 30.43500438029149
+                },
+                "southwest": {
+                    "lat": 50.4562854697085,
+                    "lng": 30.4323064197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Alexandria",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 533,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114766729147065145619\">Александрія</a>"
+                ],
+                "photo_reference": "AdCG2DMqencOZOUqIyzZ-M9Jg38lYHKAyQBFKttztLbOKnqAkuVw2ZR3LOf33n-ko_YUqVv_2jpi0BrZRvnKrazs6TxAPE1UOPTXT-CVMQjf9hz-SYqwCEsUL1luBhrcYBvCrLGPjwpOVJGxpR3jSeuPql6SmD92Doi_KKBJUINvF708pNgK",
+                "width": 800
+            }
+        ],
+        "place_id": "ChIJK4BYmTfM1EARtmRDbqjn2wE",
+        "plus_code": {
+            "compound_code": "FC5M+39 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GFC5M+39"
+        },
+        "rating": 4,
+        "reference": "ChIJK4BYmTfM1EARtmRDbqjn2wE",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "lodging",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 804,
+        "vicinity": "Beresteiskyi Avenue, 62а, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4431661,
+                "lng": 30.4168322
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4445011802915,
+                    "lng": 30.4181200802915
+                },
+                "southwest": {
+                    "lat": 50.4418032197085,
+                    "lng": 30.4154221197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Adler",
+        "photos": [
+            {
+                "height": 2304,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104308609248309485305\">Маргарита Хижняк</a>"
+                ],
+                "photo_reference": "AdCG2DOb68D3HrYzXmiN8sKMIRSMGOkmntm2RILsfS8ntbUVkHqkZCB94kbd88RFYQ-HMj7cTTKc9BdmDzSGsG226u2IAPL_ftPWTDVRkE7XlbY2h3A-PGT-hyR3ll1p6CCZLEDh05tXctlvyWAUFvftYfAnbXb9vEUtR5VwuXIePwenyitV",
+                "width": 4096
+            }
+        ],
+        "place_id": "ChIJMeqNchPM1EAR-Thnh3WP1ds",
+        "plus_code": {
+            "compound_code": "CCV8+7P Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCV8+7P"
+        },
+        "rating": 3.5,
+        "reference": "ChIJMeqNchPM1EAR-Thnh3WP1ds",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 414,
+        "vicinity": "Geroev Sevastopolya Street, 5A, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4400743,
+                "lng": 30.4298761
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4414069802915,
+                    "lng": 30.4311901302915
+                },
+                "southwest": {
+                    "lat": 50.4387090197085,
+                    "lng": 30.4284921697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+        "name": "National Aviation University",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4624,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108413251505967376278\">Юрий К</a>"
+                ],
+                "photo_reference": "AdCG2DO_cmBhvf08fKIV1n_w372PeOhBG0c8TXS-5fXt7qCDjrc_UEQVd6q7LG6qQVBtgZf-nW17cThjtCeS3GZ-vfmXEhH9RZMxtmbUF1DhczC49DrGTE2nBb9yHtQ8V2bf_-MOmNB5q18tcjOJ_UECEPa3Diwvv1oF8uOfMIfSwf6YVn-4",
+                "width": 3468
+            }
+        ],
+        "place_id": "ChIJXXhH9RnM1EARZNk5AiSI5ec",
+        "plus_code": {
+            "compound_code": "CCRH+2X Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCRH+2X"
+        },
+        "rating": 4.1,
+        "reference": "ChIJXXhH9RnM1EARZNk5AiSI5ec",
+        "scope": "GOOGLE",
+        "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1856,
+        "vicinity": "Liubomyra Huzara Avenue, 1, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4394399,
+                "lng": 30.4348176
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4408610802915,
+                    "lng": 30.4361216302915
+                },
+                "southwest": {
+                    "lat": 50.4381631197085,
+                    "lng": 30.4334236697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+        "name": "Forsage",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 640,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104134481574829201328\">Forsage Dance Club</a>"
+                ],
+                "photo_reference": "AdCG2DN3SyrUoGQ4nPQSsJqopEgEquLmHfxFmrzPWx7JQ5UsPRU2s69M-IDCffWFfQIMR0kixadYYvh-Dm5ghJcsYZ-j9kYPMdOjRVhxrFyol7iZBUIj73KZ_IeEWWQpf8-zjPuw1xhjI2zJ2vDqNmVGXaDBhQWjgHlkCzV0GqsFFHmlNtR-",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJ8Q8hXxnM1EARAWBYCJZW7zU",
+        "plus_code": {
+            "compound_code": "CCQM+QW Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCQM+QW"
+        },
+        "price_level": 3,
+        "rating": 3.4,
+        "reference": "ChIJ8Q8hXxnM1EARAWBYCJZW7zU",
+        "scope": "GOOGLE",
+        "types": [
+            "night_club",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1315,
+        "vicinity": "51A, Harmatna Street, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.44402540000001,
+                "lng": 30.4265205
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4456177802915,
+                    "lng": 30.42900149999999
+                },
+                "southwest": {
+                    "lat": 50.4429198197085,
+                    "lng": 30.42499190000001
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Orly Park",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103217425500663227357\">Євген Пазинич</a>"
+                ],
+                "photo_reference": "AdCG2DPKu__mE3d8hl5lPEqv_ZDKZMClimzQsmDlviQn-ZIr56xoeP1dIXkmw5-LMSuHxrDq65T_q-BUtFR2CXvMwAboEgSTnAfMD5f0uHJnvQicjC3vi2DDas7-UlMCVMQTP1TDbKGki8mHOzNEQQUwiFQy2BdHdbxjYIO_uw3QCiblh41D",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJBXnk-RbM1EARU2oObv5PqeA",
+        "plus_code": {
+            "compound_code": "CCVG+JJ Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCVG+JJ"
+        },
+        "price_level": 2,
+        "rating": 4.5,
+        "reference": "ChIJBXnk-RbM1EARU2oObv5PqeA",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3704,
+        "vicinity": "bulvar Vatslava Havela, 9В, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.44982659999999,
+                "lng": 30.4205728
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.45126868029149,
+                    "lng": 30.4219589302915
+                },
+                "southwest": {
+                    "lat": 50.44857071970849,
+                    "lng": 30.4192609697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Style apartment",
+        "photos": [
+            {
+                "height": 1920,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111359574473110571289\">Andrii Azaiev</a>"
+                ],
+                "photo_reference": "AdCG2DMSMXnAn2Pbw1ryZzb4dAbUYhGs4lem3rozdipuzsIAg78xbBunhHJAKBibUttegumIYaXXoJqI-jTEufVTVdnNjQJwCTno-PvKzC5heWEVZJS5iW9S6pxzQ3sXHCLRS7Uh__h5TwrXH-tFOHz8o3yKpCL2zC7TnDbyhsXGtl0aOusD",
+                "width": 1080
+            }
+        ],
+        "place_id": "ChIJHWM98T_M1EARp71YfXB8Rr0",
+        "plus_code": {
+            "compound_code": "CCXC+W6 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCXC+W6"
+        },
+        "rating": 3.7,
+        "reference": "ChIJHWM98T_M1EARp71YfXB8Rr0",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3,
+        "vicinity": "Mashynobudivna Street, 41, off. 610, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4386245,
+                "lng": 30.4597798
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4399258802915,
+                    "lng": 30.4609520802915
+                },
+                "southwest": {
+                    "lat": 50.4372279197085,
+                    "lng": 30.4582541197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+        "icon_background_color": "#13B5C7",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/movie_pinlet",
+        "name": "Sputnik Movie Theater",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112427856687747547726\">Супутник</a>"
+                ],
+                "photo_reference": "AdCG2DNRkn-1NqzGk2GsN5LpNQMbXRa1Ozk2drgmcnfFWlmrvX9he0U-l0MLiEH5rwDQgeNtt0Us4eIQD2KgZJfej5jaLZzQEBfO45T8A-hTcZeXHqeAgQ-25vsdNI-bbN5yzRSlNgXrCCiwt5t5N9_FRIirBQUNKRuSK3RPdbCMb_HkJiQ_",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJaY9JiZjO1EAR3rrxVdXgqeY",
+        "plus_code": {
+            "compound_code": "CFQ5+CW Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCFQ5+CW"
+        },
+        "rating": 4.5,
+        "reference": "ChIJaY9JiZjO1EAR3rrxVdXgqeY",
+        "scope": "GOOGLE",
+        "types": [
+            "movie_theater",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 7203,
+        "vicinity": "Dzhokhar Dudayev street, 18, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.43608739999999,
+                "lng": 30.4510844
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.43747053029149,
+                    "lng": 30.4522992302915
+                },
+                "southwest": {
+                    "lat": 50.43477256970849,
+                    "lng": 30.44960126970851
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+        "icon_background_color": "#4B96F3",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+        "name": "AKS.ua",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 621,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115672876255053673904\">Інтернет-магазин електроніки AKS.ua</a>"
+                ],
+                "photo_reference": "AdCG2DPNqMOaRkz1Q1OMdbqI1sfjtIlBFOwLS1QeC8Du_rFe30yp8OXZMMcfcmZdojB2joZnDfgtiFueK-xq3GFV4NyrJNGsgd0pvBDHvcZmHTxCMXk77vcHQZIPrsdLeP2GZvVVVBGS5dzFwqg92zWBybFGOxTjYnRqd97cfjrrcgpCUSWP",
+                "width": 1205
+            }
+        ],
+        "place_id": "ChIJTysab6HO1EARphUSQAyrbRc",
+        "plus_code": {
+            "compound_code": "CFP2+CC Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCFP2+CC"
+        },
+        "rating": 3.5,
+        "reference": "ChIJTysab6HO1EARphUSQAyrbRc",
+        "scope": "GOOGLE",
+        "types": [
+            "electronics_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "user_ratings_total": 1369,
+        "vicinity": "Ushyns'koho Street, 1, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.44766019999999,
+                "lng": 30.4250718
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.44880428029149,
+                    "lng": 30.4263785302915
+                },
+                "southwest": {
+                    "lat": 50.44610631970849,
+                    "lng": 30.4236805697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+        "icon_background_color": "#4B96F3",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+        "name": "Автодім Атлант Київ Захід",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2304,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115604828835249496179\">Автодім Атлант Київ Захід</a>"
+                ],
+                "photo_reference": "AdCG2DNy5v1Wy8J9D7zrh_yO7UXwYoXaBhXdFrizC4honXz21Tb3Et7m4cdpaIIbHifcyO2PmROamt6XJhUwYyOUAnHvQSc_ip6_mokWTkxax3f82-zZOvqx8p23GYCcLOR52s-fLTQfzyvp3qdEOCQB3Wy_j1BPmAYigDBPY7Rpn866ZgHN",
+                "width": 4096
+            }
+        ],
+        "place_id": "ChIJJxjDHj7M1EARxiRQj_7UJFM",
+        "plus_code": {
+            "compound_code": "CCXG+32 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCXG+32"
+        },
+        "rating": 4.3,
+        "reference": "ChIJJxjDHj7M1EARxiRQj_7UJFM",
+        "scope": "GOOGLE",
+        "types": [
+            "car_dealer",
+            "finance",
+            "point_of_interest",
+            "store",
+            "car_repair",
+            "establishment"
+        ],
+        "user_ratings_total": 1166,
+        "vicinity": "bulvar Vatslava Havela, 4, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.44982659999999,
+                "lng": 30.4205728
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.45126868029149,
+                    "lng": 30.4219589302915
+                },
+                "southwest": {
+                    "lat": 50.44857071970849,
+                    "lng": 30.4192609697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Studio on Mashunobudivna 41",
+        "photos": [
+            {
+                "height": 1920,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111359574473110571289\">Andrii Azaiev</a>"
+                ],
+                "photo_reference": "AdCG2DOmZvRoX45ynobbO-Np2oqeFb4xXkL_fgeBKd89unnivYs_sLwDT2VbY6duUtGY4H_yNOe3PNxCKThoIbcQWZwqKIqSsKBU7QCcUvRb6ndH8Y_IVTlqav_dT5jgG7mfh7yTx9jN4sbAHlIhqDUFK7AcKKawLi66touNjILZuzofda7d",
+                "width": 1080
+            }
+        ],
+        "place_id": "ChIJHWM98T_M1EARo-uyycKsmPE",
+        "plus_code": {
+            "compound_code": "CCXC+W6 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCXC+W6"
+        },
+        "rating": 4.7,
+        "reference": "ChIJHWM98T_M1EARo-uyycKsmPE",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3,
+        "vicinity": "Mashynobudivna Street, 41, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4473067,
+                "lng": 30.45410690000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4486556802915,
+                    "lng": 30.45545588029151
+                },
+                "southwest": {
+                    "lat": 50.4459577197085,
+                    "lng": 30.45275791970851
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Студенческая Шара",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1516,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106145510801339714176\">Sergey UA</a>"
+                ],
+                "photo_reference": "AdCG2DPWSWpr7eVN77-FnHxLbWheprFhifHyP-e8LDve1kiFxYRuDTdi5lyE42LYpl3DR8sZWtlTk9Dh87bLFwzUg-36N8IihMF9Kf48FmGeMLhO-svbi2P82mdRZf0FLYpZ2VlK1NtzORmTeuU6xxsxGWMckDw-fEdN1ERpdusg9IH_TcYH",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJEa7McyfM1EARVHsOwXmbsOM",
+        "plus_code": {
+            "compound_code": "CFW3+WJ Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCFW3+WJ"
+        },
+        "rating": 4.9,
+        "reference": "ChIJEa7McyfM1EARVHsOwXmbsOM",
+        "scope": "GOOGLE",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 7,
+        "vicinity": "Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.44982659999999,
+                "lng": 30.4205728
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.45126868029149,
+                    "lng": 30.4219589302915
+                },
+                "southwest": {
+                    "lat": 50.44857071970849,
+                    "lng": 30.4192609697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "New quiet place in Kiev",
+        "place_id": "ChIJHWM98T_M1EARqK1YhPOp6N0",
+        "plus_code": {
+            "compound_code": "CCXC+W6 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCXC+W6"
+        },
+        "rating": 4.8,
+        "reference": "ChIJHWM98T_M1EARqK1YhPOp6N0",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 5,
+        "vicinity": "Mashynobudivna Street, 41, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4620213,
+                "lng": 30.4483742
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.4633015802915,
+                    "lng": 30.4498608802915
+                },
+                "southwest": {
+                    "lat": 50.4606036197085,
+                    "lng": 30.4471629197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+        "icon_background_color": "#4B96F3",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+        "name": "Zona51",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 2304,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116281031664668616184\">iryna sergeeva</a>"
+                ],
+                "photo_reference": "AdCG2DMeAJxKB4BU5TimZAkkwToi1-wYrU6Q3V4CYNkKJCAG9yz6G5g8Jm6IsDKWj7cM5euRygOWtUWiRdkAKwmbtwK33xOeMcobNp_rVqE2eWxj0qdsv0s58JhzLSMrIzsmHrMju2xT-MgQHpKWBecXplib2fw8P6_9wFjtjzNpLTBqE7cQ",
+                "width": 4096
+            }
+        ],
+        "place_id": "ChIJg5GGBCXM1EAR-8IGVGU9yYg",
+        "plus_code": {
+            "compound_code": "FC6X+R8 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GFC6X+R8"
+        },
+        "rating": 4.5,
+        "reference": "ChIJg5GGBCXM1EAR-8IGVGU9yYg",
+        "scope": "GOOGLE",
+        "types": [
+            "electronics_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "user_ratings_total": 1024,
+        "vicinity": "Dehtiarivska Street, 33А, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.46698319999999,
+                "lng": 30.4285116
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.46829668029149,
+                    "lng": 30.4298553802915
+                },
+                "southwest": {
+                    "lat": 50.4655987197085,
+                    "lng": 30.4271574197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Ремонт SUBARU – СТО JF-service",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 2332,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111202658446037511392\">Ремонт SUBARU – СТО JF-service</a>"
+                ],
+                "photo_reference": "AdCG2DMrhJq4Gr-eNhQ0yvbEt9TajlBQR2BBAFEYKnP-PymlZErmOhUQaNAnRS7GLIP81lZt4EE_3R29Knpoip53dGIsgyplGZFgkD0ozgsD66pVfIZXM8kXiN79tooXWBSWG2EQqhi9ULRKB8MNI-YCnZYvaerANWecn1QT2JnADB4VSuuv",
+                "width": 2000
+            }
+        ],
+        "place_id": "ChIJ64Zb7UvM1EARNYrOAhv-mS0",
+        "plus_code": {
+            "compound_code": "FC8H+QC Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GFC8H+QC"
+        },
+        "rating": 4.8,
+        "reference": "ChIJ64Zb7UvM1EARNYrOAhv-mS0",
+        "scope": "GOOGLE",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 125,
+        "vicinity": "Aviakonstructor Igor Sikorsky Street, 4, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.44982659999999,
+                "lng": 30.4205728
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.45126868029149,
+                    "lng": 30.4219589302915
+                },
+                "southwest": {
+                    "lat": 50.44857071970849,
+                    "lng": 30.4192609697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+        "name": "Guest Resort in Smart House",
+        "photos": [
+            {
+                "height": 1920,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111359574473110571289\">Andrii Azaiev</a>"
+                ],
+                "photo_reference": "AdCG2DNDVzB_5gHyOEYGzz-jV6OBhw6Uauxg8lyE-CXaIHcYgvpl9GDggdbobzYMtkjY24vuzm0tY3ZTNAiSUSm4YQMRp9T-XB_cVHMIcZX0f74xQ5Jatgz88dCtd6yPRXLxrtALGF6V6C0nt43kpWuDuQf9AMpu2d9AAlbR2-AS2pMiHFrJ",
+                "width": 1080
+            }
+        ],
+        "place_id": "ChIJHWM98T_M1EARIwHe-bPfeTQ",
+        "plus_code": {
+            "compound_code": "CCXC+W6 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GCCXC+W6"
+        },
+        "rating": 3.3,
+        "reference": "ChIJHWM98T_M1EARIwHe-bPfeTQ",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 8,
+        "vicinity": "41 Mashynobudivna Street Секция 1, Kyiv"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.4549073,
+                "lng": 30.4651811
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.45640005,
+                    "lng": 30.4677825
+                },
+                "southwest": {
+                    "lat": 50.45042905,
+                    "lng": 30.4573769
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#4DB546",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Kiev Zoo",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 4640,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101940910825466681627\">mohamed alkilani</a>"
+                ],
+                "photo_reference": "AdCG2DPdsPgCXa7sh_rdipvnOyyYBq1uFp43HRvTwFNiBTBTIA1QMAewmRPGwBjDTvBArNu4rMBmEBaDOjFBesZ3xWMp_TsgtAMK5-zRzSKQSjvw2mfKa_90pHvcDoHc28r-yNy_C-2xEVgnsgsjwv_wka5NElKM77H6xMjqmc0PbI0lj0vD",
+                "width": 2610
+            }
+        ],
+        "place_id": "ChIJV7rpdoLO1EAR0aoGlOZOSkQ",
+        "plus_code": {
+            "compound_code": "FF38+X3 Kyiv, Kyiv city, Ukraine",
+            "global_code": "9G2GFF38+X3"
+        },
+        "rating": 4.4,
+        "reference": "ChIJV7rpdoLO1EAR0aoGlOZOSkQ",
+        "scope": "GOOGLE",
+        "types": [
+            "zoo",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 36846,
+        "vicinity": "Beresteiskyi Avenue, 32, Kyiv"
+    },
+    {
+        "geometry": {
+            "location": {
+                "lat": 50.464301,
+                "lng": 30.345138
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.54773204646417,
+                    "lng": 30.42948400705913
+                },
+                "southwest": {
+                    "lat": 50.39798299792532,
+                    "lng": 30.23944009690609
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Svyatoshyns'kyi District",
+        "photos": [
+            {
+                "height": 4624,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118079700714264122676\">Алексей Першко</a>"
+                ],
+                "photo_reference": "AdCG2DPuAWGnf2ZiYJzTgVN5_nXHat2sLDcE53oAMAYJDtC5Ztd00VjdAL6b09bZWyXgapVV91PbOOlE-0BvayzIuOfTUzvYelHqlS5nBoc5gbjxPoVL2Xp22NfYyCSc5EfgPGbykQXbPJ_x3uVQgMnRWSp9qcCTnaCsWe3hF8ZME3CSfEjO",
+                "width": 2600
+            }
+        ],
+        "place_id": "ChIJOUkzm7XM1EAR7vEMYWT3rrc",
+        "reference": "ChIJOUkzm7XM1EAR7vEMYWT3rrc",
+        "scope": "GOOGLE",
+        "types": [
+            "sublocality_level_1",
+            "sublocality",
+            "political"
+        ],
+        "vicinity": "Svyatoshyns'kyi District"
+    }
+]
