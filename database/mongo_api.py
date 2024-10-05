@@ -5,17 +5,14 @@ load_dotenv()
 
 
 def get_database(db_name):
-    mongo_user = os.getenv("MONGO_USER")
-    mongo_password = os.getenv("MONGO_PASSWORD")
-    mongo_cluster = os.getenv("MONGO_CLUSTER")
-    mongo_options = os.getenv("MONGO_OPTIONS", "")
-    
-    if not all([mongo_user, mongo_password, mongo_cluster]):
-        raise ValueError("Missing environment variables for MongoDB connection.")
-    
-    mongo_uri = f"mongodb+srv://{mongo_user}:{mongo_password}@{mongo_cluster}/?{mongo_options}"
-    
+    # Get the MongoDB URI from the environment variable
+    mongo_uri = os.getenv("MONGO_URI")
+    if not mongo_uri:
+        raise ValueError("No MONGO_URI found in environment variables")
+
+    # Create a connection to MongoDB using the URI
     client = MongoClient(mongo_uri)
+    # Access the specified database
     db = client[db_name]
     return db
 
