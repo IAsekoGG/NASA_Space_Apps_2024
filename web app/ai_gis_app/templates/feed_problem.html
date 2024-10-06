@@ -1,0 +1,10 @@
+<!-- templates/feed_problems.html -->
+<ul class="feed-problems-container">
+    {% for problem in problems %}
+    <li class="problem-item" data-problem-id="{{ problem.id }}">
+        <p class="problem-title">{{ problem.title }}</p>
+        <p>{{ problem.description }}</p>
+        <a href="#" class="view-problem">View Details</a>
+    </li>
+    {% endfor %}
+</ul>

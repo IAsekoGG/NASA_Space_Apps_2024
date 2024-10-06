@@ -1,0 +1,146 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Telegram Post</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #1c1f26; /* Dark background */
+                color: #cfcfcf; /* Light text color */
+                padding: 20px;
+                margin: 0;
+                overflow: hidden;
+            }
+            .message {
+                background-color: #2b2f3a;  /* Dark card background */
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
+                overflow: hidden;
+                transition: transform 0.3s, box-shadow 0.3s;
+                padding: 20px;
+                max-width: 600px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            .message:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
+            }
+            .message-header {
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+            }
+            .channel-icon {
+                width: 46px;
+                height: 46px;
+                border-radius: 50%;
+                background-color: #8a99a6;
+                margin-right: 12px;
+                overflow: hidden;
+            }
+            .channel-icon img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .channel-name {
+                font-weight: bold;
+                font-size: 1.5rem;
+                margin: 0;
+                color: #e1e1e1; /* Light title color */
+            }
+            .message-date {
+                color: #808991;
+                font-size: 0.9rem;
+            }
+            .message-text {
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #c0c0c0; /* Light text for the card content */
+                margin-bottom: 12px;
+            }
+            .message-media img, .message-media video {
+                width: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+                filter: brightness(0.8); /* Slightly darkened images */
+                margin-bottom: 12px;
+            }
+            .message-media video {
+                outline: none;
+            }
+            .message-footer {
+                display: flex;
+                justify-content: space-between;
+                color: #808991;
+                font-size: 0.9rem;
+            }
+            .reactions {
+                display: flex;
+                gap: 8px;
+            }
+            .reaction {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+            ::-webkit-scrollbar {
+                display: none;
+            }
+            .button-style {
+                display: inline-block;
+                background-color: #3a4d6b; /* Moonlight dark blue buttons */
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s;
+                font-size: 0.9rem;
+                flex-grow: 1;
+                text-align: center;
+            }
+            .button-style:hover {
+                background-color: #4d628a; /* Slightly lighter on hover */
+            }
+            .move-to-location {
+                display: inline-block;
+                background-color: #5c3d99; /* Purple moonlight button */
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s;
+            }
+            .move-to-location:hover {
+                background-color: #704cb4; /* Lighter purple on hover */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="message">
+            <div class="message-header">
+                <div class="channel-icon">
+    <img src="channel_1934587829.jpg" alt="Channel Icon">
+                </div>
+                <div>
+                    <div class="channel-name">Солома INFO - Солом'янський район</div>
+                    <div class="message-date">2024-08-14 08:09:15</div>
+                </div>
+            </div>
+            <div class="message-text">
+                **The movement of bus No. 12 is delayed**<br><br>The movement of bus No. 12 on Klynychnaya St 18, towards the Railway Station, is delayed due to a road surface collapse.<br><br>Bus traffic is organized along Narodna St - Semenivska St towards the Railway Station.
+            </div>
+    
+            <div class="message-footer">
+                <div>👁 293</div>
+                
+            </div>
+        </div>
+    </body>
+    </html>
+    
