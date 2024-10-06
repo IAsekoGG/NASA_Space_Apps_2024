@@ -42,7 +42,7 @@ Return the translations in a JSON object, following this structure:
 EXTRACT_NEEDED = ChatPromptTemplate.from_messages([
     SystemMessagePromptTemplate.from_template(
         """\
-You are an expert AI Assistant tasked with classifying recent news about Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}into specific topics. You will be provided with news articles or headlines, and your job is to determine the primary topic of each news item.
+You are an expert AI Assistant tasked with analyzing recent news about Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}.
 Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
 {% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
 
@@ -198,7 +198,7 @@ The output should be formatted as a JSON object with the following structure:
 REPHRASE_NEWS = ChatPromptTemplate.from_messages([
     SystemMessagePromptTemplate.from_template(
         """\
-You are an expert AI Assistant tasked with classifying recent news about Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}into specific topics. You will be provided with news articles or headlines, and your job is to determine the primary topic of each news item.
+You are an expert AI Assistant responsible for rephrasing recent news related to Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}. You will be provided with news articles or headlines, and your task is to rewrite each item clearly and concisely.
 Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
 {% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
 
@@ -243,14 +243,55 @@ The output should be formatted as a JSON object with the following structure:
 """, template_format='jinja2')
 ])
 
+# ---------------------- GENERATE TITLE -----------------------
+
+GENERATE_TITLE = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an expert AI Assistant responsible for generating concise, impactful titles for recent news related to Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}. You will be provided with news articles or headlines, and your task is to create a clear and engaging title for each news item.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Guidelines
+1. Ensure the title reflects the core message of the news content and relates to Kyiv or its districts.
+2. The title must be no longer than 5 words.
+3. The title should be clear, avoiding ambiguous language.
+4. Create a headline that captures attention while maintaining journalistic integrity.
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "title": str,  // Generated title
+    }
+  ]
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Rephrase the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.text }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
 # ---------------------- EXTRACT LOCATION ----------------------
 
 EXTRACT_LOCATION = ChatPromptTemplate.from_messages([
     SystemMessagePromptTemplate.from_template(
         """\
-You are an expert AI Assistant tasked with classifying recent news about Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}into specific topics. You will be provided with news articles or headlines, and your job is to determine the primary topic of each news item.
+You are an AI Assistant specialized in extracting location information from news articles or headlines related to Kyiv city. Your primary task is to analyze news content and identify any specific locations within Kyiv mentioned in the text.
 Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
-{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
 
 #### Input details
 You will receive multiple news items in the following XML-like format:
@@ -262,7 +303,9 @@ The text inside the <news> tag is the news content you need to analyze.
 Your task is to analyze each provided news item and extract location information related to Kyiv. For each news item, you should:
 1. Identify any mentions of specific locations within Kyiv.
 2. Determine the level of specificity for the location (exact location, street, district, or city).
-3. Extract the relevant location information.
+3. Extract relevant location details. Aim to extract as much detail as possible, including: City (Kyiv), Street names, Building numbers (if provided).
+4. Avoid assumptions: Only extract location information explicitly mentioned in the text. Do not infer or imagine details that are not present.
+5. Handle Multiple Locations: A single news item may contain more than one location.
 
 #### Output Structure
 The output should be formatted as a JSON object with the following structure:
@@ -277,7 +320,71 @@ The output should be formatted as a JSON object with the following structure:
   ]
 }
 
+Example output:
+```json
+{
+  "news": [
+    {
+      "id": 1,
+      "location_type": ["exact location", "street"],
+      "location": ["Kyiv, Vokzalna Street 5", "Kyiv", "Kyiv, Khreshchatyk"]  
+    },
+    {
+      "id": 2,
+      "location_type": ["city"],
+      "location": ["Kyiv"]  
+    },
+    {
+
+      "id": 3,
+      "location_type": ["district"],
+      "location": ["Kyiv Solomianskyi district"]  
+    }
+  ]
+}
 ```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Extract locations from the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.rephrased_news }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
+# ---------------------- EXTRACT LOCATION ----------------------
+
+
+SUMMARIZE_NEWS = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an AI Assistant specialized in summarising news information from news articles or headlines related to Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Your task
+
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "summary": list,  // Type of location specificity (exact location, street, district, or city)
+    }
+  ]
+}
+```
+
+""", template_format='jinja2'),
     HumanMessagePromptTemplate.from_template(
         """\
 ### Extract locations from the following news:
