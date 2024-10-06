@@ -1,298 +1,395 @@
-import os
-import json
-from langchain_openai import ChatOpenAI
-from langchain_core.output_parsers import JsonOutputParser
-from dotenv import load_dotenv
-from langsmith import traceable
-
-from prompts import *
-
-
-# Function to preprocess data from a JSON file
-def preprocess_data(input_path: str, output_path: str, source: str, min_post_length: int = 10) -> str:
-    # Read input JSON file
-    with open(input_path, "r", encoding="utf-8") as file:
-        input_json = json.load(file) 
-
-    posts_list = []
-
-    # Process data if the source is Telegram ("tg")
-    if source == "tg":
-        for post in input_json:
-            # Filter posts based on minimum length
-            if len(post["text"]) > min_post_length:
-                posts_list.append(post)
-                # Remove specific fields from each post
-                for field in ["forwarded_from", "reactions", "views"]:
-                    post.pop(field, None)
-
-    # Write processed data to output JSON file
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(posts_list, file, indent=4)
-
-    return output_path
-
-
-# Function to translate data using a specified model
-@traceable(name="Translate data", metadata={"model": "GPT-4o-mini"}, project_name="nasa-hackathon")
-def translate_data(model, input_path: str, output_path: str, source: str, batch_size: int, asset) -> str:
-    # Read input JSON file
-    with open(input_path, "r", encoding="utf-8") as file:
-        input_json = json.load(file) 
-
-    # Process data if the source is Telegram ("tg")
-    if source == "tg":
-        output_json = input_json.copy()
-        translate_chain = TRANSLATE_ENG | model | JsonOutputParser()
-
-        # Translate channel name
-        channel_name_ua = input_json[0]["channel_name"]
-        channel_name_eng = translate_chain.invoke({"messages": [{"message_id": 1, "text": channel_name_ua}], "kpi_asset": asset})["messages"][0]["text"]
-        print(channel_name_eng)
-
-        # Create message_id to index mapping for efficient updates
-        message_id_map = {msg.get("message_id"): i for i, msg in enumerate(output_json)}
-        
-        # Process messages in batches
-        total_messages = len(input_json)
-        for i in range(0, total_messages, batch_size):
-            print(f"{total_messages}: {i}")
-            batch = input_json[i:i+batch_size]
-            translated_batch = translate_chain.invoke({"messages": batch, "kpi_asset": asset})
-            
-            # Update output_json with translated text
-            for translated_post in translated_batch["messages"]:
-                message_id = translated_post["message_id"]
-                if message_id in message_id_map:
-                    index = message_id_map[message_id]
-                    output_json[index]["channel_name"] = channel_name_eng
-                    output_json[index]["text"] = translated_post["text"]
-        
-        # Write translated data to output JSON file
-        with open(output_path, "w", encoding="utf-8") as file:
-            json.dump(output_json, file, indent=4)
-
-        return output_path
-
-
-# Function to extract news and classify them as positive, negative, or neutral
-# def extract_news(model, input_path: str, output_path: str, source: str, batch_size: int):
-#     # Read input JSON file
-#     with open(input_path, "r", encoding="utf-8") as file:
-#         input_json = json.load(file) 
-
-#     output_dict = {"positive": [], "negative": [], "neutral": []}
-
-#     # Use a chain to extract and classify news
-#     chain = EXTRACT_NEEDED | model | JsonOutputParser()
-
-#     for i in range(0, len(input_json), batch_size):
-#         classified_indices = chain.invoke({"messages": input_json[i:i+batch_size]})
-
-#         # Categorize news based on classification
-#         for item in input_json:
-#             if item["message_id"] in classified_indices["positive"]:
-#                 output_dict["positive"].append(item)
-#             elif item["message_id"] in classified_indices["negative"]:
-#                 output_dict["negative"].append(item)
-    
-#     # Write classified news to output JSON file
-#     with open(output_path, "w", encoding="utf-8") as file:
-#         json.dump(output_dict, file, indent=4)
-
-#     return output_path
-
-
-# Function to extract news and classify them as positive, negative, or neutral
-@traceable(name="Extract news", metadata={"model": "GPT-4o-mini"}, project_name="nasa-hackathon")
-def extract_news(model, input_path: str, output_path: str, source: str, batch_size: int, save_neutral: bool, asset) -> str:
-    # Read input JSON file
-    with open(input_path, "r", encoding="utf-8") as file:
-        input_json = json.load(file) 
-
-    output_dict = []
-
-    # Use a chain to extract and classify news
-    chain = EXTRACT_NEEDED | model | JsonOutputParser()
-
-    for i in range(0, len(input_json), batch_size):
-        classified_indices = chain.invoke({"messages": input_json[i:i+batch_size], "kpi_asset": asset})
-
-        # Categorize news based on classification
-        for item in input_json:
-            if item["message_id"] in classified_indices["positive"]:
-                item["sentiment"] = "positive"
-                output_dict.append(item)
-            elif item["message_id"] in classified_indices["negative"]:
-                item["sentiment"] = "negative"
-                output_dict.append(item)
-            else:
-                if save_neutral is True:
-                    item["sentiment"] = "neutral"
-                    output_dict.append(item)
-                else:
-                    pass
-    
-    # Write classified news to output JSON file
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(output_dict, file, indent=4)
-
-    return output_path
-
-
-@traceable(name="Classify news", metadata={"model": "GPT-4o-mini"}, project_name="nasa-hackathon")
-def classify_news(model, input_path: str, output_path:str, source: str, batch_size: int, asset) -> str:
-    # Read input JSON file
-    with open(input_path, "r", encoding="utf-8") as file:
-        input_json = json.load(file)
-
-    # Split input_json based on sentiment
-    input_json_positive = [item for item in input_json if item.get("sentiment") == "positive"]
-    input_json_negative = [item for item in input_json if item.get("sentiment") == "negative"]
-
-    # Use a chain
-    chain_positive = CLASSIFY_MESSAGES_POSITIVE | model | JsonOutputParser()
-    chain_negative = CLASSIFY_MESSAGES_NEGATIVE | model | JsonOutputParser()
-
-
-    for i in range(0, len(input_json_positive), batch_size):
-        classified_news_batch = chain_positive.invoke({"messages": input_json_positive[i:i+batch_size], "kpi_asset": asset})
-
-        # Categorize news based on classification
-        for classified_news_item in classified_news_batch["news"]:
-            for item in input_json:
-                if item["message_id"] == classified_news_item["id"]:
-                    item["topic"] = classified_news_item["topic"]
-
-
-    for i in range(0, len(input_json_negative), batch_size):
-        classified_news_batch = chain_negative.invoke({"messages": input_json_negative[i:i+batch_size], "kpi_asset": asset})
-
-        # Categorize news based on classification
-        for classified_news_item in classified_news_batch["news"]:
-            for item in input_json:
-                if item["message_id"] == classified_news_item["id"]:
-                    item["topic"] = classified_news_item["topic"]
-
-    # Write  to output JSON file
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(input_json, file, indent=4)
-
-    return output_path 
-
-
-@traceable(name="Rephrase news", metadata={"model": "GPT-4o-mini"}, project_name="nasa-hackathon")
-def rephrase_news(model, input_path: str, output_path:str, source: str, batch_size: int, asset) -> str:
-    # Read input JSON file
-    with open(input_path, "r", encoding="utf-8") as file:
-        input_json = json.load(file)
-
-    # Use a chain
-    chain = REPHRASE_NEWS | model | JsonOutputParser()
-
-    for i in range(0, len(input_json), batch_size):
-        rephrased_news_batch = chain.invoke({"messages": input_json[i:i+batch_size], "kpi_asset": asset})
-
-        # Categorize news based on classification
-        for rephrased_news_item in rephrased_news_batch["news"]:
-            for item in input_json:
-                if item["message_id"] == rephrased_news_item["id"]:
-                    item["rephrased_news"] = rephrased_news_item["rephrased_news"]
-
-    # Write updated data to output JSON file
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(input_json, file, indent=4)
-
-    return output_path 
-
-
-# Function to extract location information from news items
-@traceable(name="Extract location", metadata={"model": "GPT-4o-mini"}, project_name="nasa-hackathon")
-def extract_location(model, input_path: str, output_path: str, source: str, batch_size: int, asset) -> str: 
-    # Read input JSON file
-    with open(input_path, "r", encoding="utf-8") as file:
-        input_json = json.load(file) 
-
-    # Use a chain to extract location information
-    chain = EXTRACT_LOCATION | model | JsonOutputParser()
-    
-    # Process messages in batches
-    for i in range(len(input_json)//batch_size):
-        locations_batch_json = chain.invoke({"messages": input_json[i*batch_size:(i+1)*batch_size], "kpi_asset": asset})
-
-        # Add extracted location information to each post
-        for post_json, extracted_location_json in zip(input_json[i*batch_size:(i+1)*batch_size], locations_batch_json["news"]):
-            post_json["location_type"] = extracted_location_json["location_type"]
-            post_json["location"] = extracted_location_json["location"]
-
-        break  # Note: This break statement limits processing to only the first batch
-
-    # Write updated data with location information to output JSON file
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(input_json, file, indent=4)
-
-    return output_path
-
-
-def add_coordinates(model, input_path: str, output_path:str, source: str, batch_size: int, asset):
-    
-    return output_path
-
-@traceable(name="Full pipeline", metadata={"version": "v.1.0.0", "model": "GPT-4o-mini"}, project_name="nasa-hackathon")
-def main(files_list: list):
-    for file in files_list:
-        file_path = os.path.join(dir_path, file)
-
-        search_terms = ["kpi", "dorm", "кпі", "гуртожиток", "кпи", "общежитие"]
-        if any(term in file.lower() for term in search_terms):
-            kpi_asset = {
-                "name": "KPI (National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute')",
-                "description": "KPI, officially known as the National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute', is one of Ukraine's largest technical universities. It is located in Kyiv, the capital of Ukraine."
-            }
-        else:
-            kpi_asset = False
-
-        # Step 1: Preprocess the data
-        preprocessed_data_path = preprocess_data(input_path=file_path, output_path=f"{file_path[:-5]}_1_preprocessed.json", source="tg", min_post_length=10)
-
-        # Step 2: Translate the preprocessed data
-        translated_data_path = translate_data(model=gpt_4o_mini, input_path=preprocessed_data_path, output_path=f"{file_path[:-5]}_2_translated.json", source="tg", batch_size=50, asset=kpi_asset)
-
-        # Step 3: Extract important news from the translated data
-        important_data_path = extract_news(model=gpt_4o_mini, input_path=translated_data_path, output_path=f"{file_path[:-5]}_3_pos_neg.json", source="tg", batch_size=10, save_neutral=False, asset=kpi_asset)
-
-        # Step 4: Rephrase the news (Note: input_path is empty, might be an error)
-        rephrased_data_path = rephrase_news(model=gpt_4o_mini, input_path=important_data_path, output_path=f"{file_path[:-5]}_4_rephrased.json", source="tg", batch_size=10, asset=kpi_asset)
-
-        # Step 5: Classify the news (Note: input_path is empty, might be an error)
-        classified_data_path = classify_news(model=gpt_4o_mini, input_path=rephrased_data_path, output_path=f"{file_path[:-5]}_5_classified.json", source="tg", batch_size=10, asset=kpi_asset)
-
-        # Step 6: Extract location information (Note: input_path is empty, might be an error)
-        locations_data = extract_location(model=gpt_4o_mini, input_path=classified_data_path, output_path=f"{file_path[:-5]}_6_locations.json", source="tg", batch_size=50, asset=kpi_asset)
-
-        # Step 7: Add coordinates to the data (Note: input_path is empty, might be an error)
-        # coordinates_data = add_coordinates(model=gpt_4o_mini, input_path=locations_data, output_path=f"{file_path[:-5]}_7_coordinates_final.json", source="tg", batch_size=50)
-
-
-if __name__ == "__main__":
-    OPENAI_API_KEY = "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" # Andrii
-    OPENAI_API_KEY = "sk-y0VjAvBP8mVWsHj-LDhRVzmZFXiALIEOnXAg1ljaeDT3BlbkFJR6cQXiAB0DLlVJoOTKmT7807HRuBRHg6pHdAo9jd8A" # Bohdan
-
-    load_dotenv()
-
-    kpi = "KPI (National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute')"
-    kpi_description = "KPI, officially known as the National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute', is one of Ukraine's largest technical universities. It is located in Kyiv, the capital of Ukraine."
-
-    # Initialize the GPT-4 model with specific parameters
-    gpt_4o_mini = ChatOpenAI(
-        model="gpt-4o-mini",
-        temperature=0.0000000000000001,
-        api_key=OPENAI_API_KEY
-    )
-
-    # Set the directory path and get list of files
-    dir_path = "data1"
-    files_list = os.listdir(dir_path)
-
-    # Process each file in the directory
-    main(files_list)
+from langchain_core.prompts import (
+    ChatPromptTemplate,
+    HumanMessagePromptTemplate,
+    SystemMessagePromptTemplate,
+)
+
+# ---------------------- TRANSLATE INTO ENGLISH ----------------------
+
+TRANSLATE_ENG = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an expert translator with a strong focus on Ukrainian to English translations. Your primary responsibility is to deliver highly accurate, fluent English translations that maintain the original meaning, tone, context, and cultural nuances of the Ukrainian source text.
+
+### Input Format
+You will be given text fragments structured as follows:
+[message_id]. [text fragment in ukrainian]
+[message_id]. [text fragment in ukrainian]
+
+### Output Structure
+Return the translations in a JSON object, following this structure:
+```json
+{
+    "messages": [  // A list of translated text fragments
+        {
+            "message_id": int,  // The unique identifier from the input
+            "text": string  // The translated text fragment in English
+        }
+    ]
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Translate the following text fragments into English:
+{% for message in messages %}
+{{ message.message_id }}. {{ message.text }}
+{% endfor %}
+""", template_format='jinja2')
+])
+
+# ---------------------- EXTRACT POSITIVE / NEGATIVE ----------------------
+
+EXTRACT_NEEDED = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an expert AI Assistant tasked with analyzing recent news about Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Your task
+Your goal is to analyze the sentiment of each news item provided. Based on the content, extract positive and negative news. The criteria for classifications are as follows:
+1. **Negative**
+Classify the news as Negative if it contains or emphasizes any of the following:
+- **City Problems**: Infrastructure breakdowns, transportation disruptions, environmental hazards (e.g., pollution, resource depletion).
+- **Citizen Discomfort**: Inconveniences such as strikes, road closures, or public service disruptions.
+- **Accidents or Disasters**: Incidents like fires, floods, or other natural or man-made disasters.
+- **Crime or Safety Concerns**: Reports of criminal activities, assaults, theft, or safety risks.
+- **Social/Political Instability**: Protests, riots, political turmoil, or social unrest.
+- **Economic Decline**: Rising unemployment, inflation, or other negative economic indicators.
+- **Health Crises**: Outbreaks of diseases, healthcare system failures, or public health concerns.
+- **Public Safety Risks**: Issues like unsafe neighborhoods or risks to public safety (e.g., building collapses).
+- **Social Issues**: Reports on inequality, discrimination, housing shortages, or increases in the cost of living.
+- **Deterioration in Infrastructure**: Decline in public services or neglect of city infrastructure.
+- **Environmental concerns**: Pollution, climate change-related problems, resource depletion.
+
+2. **Positive**
+Classify the news as Positive if it contains or emphasizes any of the following:
+- **Improvements in Infrastructure**: Development of new transportation systems, modern technologies, or other enhancements in public services.
+- **Community Events or Achievements**: Celebrations, festivals, or charity efforts that boost morale and community spirit.
+- **Economic Growth**: Reports of job creation, foreign investments, or reductions in unemployment.
+- **Environmental Improvements**: Successful sustainability efforts or cleaner living conditions (e.g., better air quality).
+- **Political Stability/Positive Reforms**: Effective policy changes, civic engagement, or signs of political stability.
+- **Health and Wellness**: New healthcare initiatives, improved public health outcomes, or successful disease prevention efforts.
+- **Social Progress**: Initiatives promoting equality, inclusivity, or a reduction in crime.
+- **Cultural/Sporting Milestones**: Achievements in sports, culture, or science that foster pride and optimism.
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+    "positive": [], // List of indexes of positively classified news
+    "negative": []  // List of indexes of negative classified news
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Classify the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.text }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
+# ---------------------- CLASSIFY ----------------------
+
+CLASSIFY_MESSAGES_NEGATIVE = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an expert AI Assistant tasked with classifying recent news about Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}into specific topics. You will be provided with news articles or headlines, and your job is to determine the primary topic of each news item.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Your task
+Your goal is to analyze each news item provided and classify it into one of the following topics:
+- **City Problems**: Infrastructure breakdowns, transportation disruptions, environmental hazards (e.g., pollution, resource depletion).
+- **Citizen Discomfort**: Inconveniences such as strikes, road closures, or public service disruptions.
+- **Accidents or Disasters**: Incidents like fires, floods, or other natural or man-made disasters.
+- **Crime or Safety Concerns**: Reports of criminal activities, assaults, theft, or safety risks.
+- **Social/Political Instability**: Protests, riots, political turmoil, or social unrest.
+- **Economic Decline**: Rising unemployment, inflation, or other negative economic indicators.
+- **Health Crises**: Outbreaks of diseases, healthcare system failures, or public health concerns.
+- **Public Safety Risks**: Issues like unsafe neighborhoods or risks to public safety (e.g., building collapses).
+- **Social Issues**: Reports on inequality, discrimination, housing shortages, or increases in the cost of living.
+- **Deterioration in Infrastructure**: Decline in public services or neglect of city infrastructure.
+- **Environmental concerns**: Pollution, climate change-related problems, resource depletion.
+- **Other**: News items that don't clearly fit into any of the above categories or contain multiple topics with no clear primary focus.
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "topic": str,  // Primary topic of the news item
+    }
+  ]
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Classify the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.rephrased_news }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
+CLASSIFY_MESSAGES_POSITIVE = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an expert AI Assistant tasked with classifying recent news about Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}into specific topics. You will be provided with news articles or headlines, and your job is to determine the primary topic of each news item.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Your task
+Your goal is to analyze each news item provided and classify it into one of the following topics:
+- **Improvements in Infrastructure**: Development of new transportation systems, modern technologies, or other enhancements in public services.
+- **Community Events or Achievements**: Celebrations, festivals, or charity efforts that boost morale and community spirit.
+- **Economic Growth**: Reports of job creation, foreign investments, or reductions in unemployment.
+- **Environmental Improvements**: Successful sustainability efforts or cleaner living conditions (e.g., better air quality).
+- **Political Stability/Positive Reforms**: Effective policy changes, civic engagement, or signs of political stability.
+- **Health and Wellness**: New healthcare initiatives, improved public health outcomes, or successful disease prevention efforts.
+- **Social Progress**: Initiatives promoting equality, inclusivity, or a reduction in crime.
+- **Cultural/Sporting Milestones**: Achievements in sports, culture, or science that foster pride and optimism.
+- **Other**: News items that don't clearly fit into any of the above categories or contain multiple topics with no clear primary focus.
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "topic": str,  // Primary topic of the news item
+    }
+  ]
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Classify the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.rephrased_news }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
+# ---------------------- REPHRASE NEWS ----------------------
+
+REPHRASE_NEWS = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an expert AI Assistant responsible for rephrasing recent news related to Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}. You will be provided with news articles or headlines, and your task is to rewrite each item clearly and concisely.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Follow these guidelines
+1. Focus on the core facts and relevant details.
+2. Remove exclamation marks, all-caps text, and other forms of emphasis.
+3. Eliminate direct instructions or calls to action.
+4. Maintain a neutral, informative tone.
+5. Preserve important location details and potential impacts.
+6. Keep the rephrased version concise while retaining all crucial information.
+
+Example input: 
+❗️**A protest is taking place under the walls of the KMDA\n\n**Kyani came to power again to point out that the allocation of funds for paving, construction of a water park, etc., is out of time. \n\nAccording to the initiators of the protest, the Kyiv City Council allocated an additional 1 billion 260 million UAH for the needs of the Armed Forces, but this is a one-time decision. Therefore, **activists put forward three new demands:**\n\n➡️ Transfer to the Armed Forces UAH 120 million allocated for the construction of the water park;\n➡️ Organize public discussions of Kyiv's budget for 2024;\n➡️ Establish a service service for the procurement of assistance to the Armed Forces .
+
+Example output:
+A protest is taking place outside the Kyiv City State Administration (KMDA), led by Kyani, raising concerns about the timing of funding for projects such as road paving and the construction of a water park. While the Kyiv City Council has approved an additional 1.26 billion UAH for the Armed Forces, the protesters point out that this is a one-time allocation. They have three key demands: redirect 120 million UAH from the water park project to the Armed Forces, open up public discussions on Kyiv's 2024 budget, and establish a service to oversee procurement for military support.
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "rephrased_news": str,  // Text containing only the essential, factual information from the original message.
+    }
+  ]
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Rephrase the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.text }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
+# ---------------------- GENERATE TITLE -----------------------
+
+GENERATE_TITLE = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an expert AI Assistant responsible for generating concise, impactful titles for recent news related to Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}. You will be provided with news articles or headlines, and your task is to create a clear and engaging title for each news item.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Guidelines
+1. Ensure the title reflects the core message of the news content and relates to Kyiv or its districts.
+2. The title must be no longer than 5 words.
+3. The title should be clear, avoiding ambiguous language.
+4. Create a headline that captures attention while maintaining journalistic integrity.
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "title": str,  // Generated title
+    }
+  ]
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Rephrase the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.text }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
+# ---------------------- EXTRACT LOCATION ----------------------
+
+EXTRACT_LOCATION = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an AI Assistant specialized in extracting location information from news articles or headlines related to Kyiv city. Your primary task is to analyze news content and identify any specific locations within Kyiv mentioned in the text.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Your task
+Your task is to analyze each provided news item and extract location information related to Kyiv. For each news item, you should:
+1. Identify any mentions of specific locations within Kyiv.
+2. Determine the level of specificity for the location (exact location, street, district, or city).
+3. Extract relevant location details. Aim to extract as much detail as possible, including: City (Kyiv), Street names, Building numbers (if provided).
+4. Avoid assumptions: Only extract location information explicitly mentioned in the text. Do not infer or imagine details that are not present.
+5. Handle Multiple Locations: A single news item may contain more than one location.
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "location_type": str,  // Type of location specificity (exact location, street, district, or city)
+      "location": list  // Extract the relevant location information.
+    }
+  ]
+}
+
+Example output:
+```json
+{
+  "news": [
+    {
+      "id": 1,
+      "location_type": ["exact location", "street"],
+      "location": ["Kyiv, Vokzalna Street 5", "Kyiv", "Kyiv, Khreshchatyk"]  
+    },
+    {
+      "id": 2,
+      "location_type": ["city"],
+      "location": ["Kyiv"]  
+    },
+    {
+
+      "id": 3,
+      "location_type": ["district"],
+      "location": ["Kyiv Solomianskyi district"]  
+    }
+  ]
+}
+```""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Extract locations from the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.rephrased_news }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])
+
+# ---------------------- EXTRACT LOCATION ----------------------
+
+
+SUMMARIZE_NEWS = ChatPromptTemplate.from_messages([
+    SystemMessagePromptTemplate.from_template(
+        """\
+You are an AI Assistant specialized in summarising news information from news articles or headlines related to Kyiv city {% if kpi_asset %}or {{ kpi_asset.name }}{% endif %}.
+Kyiv (also known as Kiev) is the capital and largest city of Ukraine, located along the Dnipro River. It is divided into 10 administrative districts: Shevchenkivskyi, Pecherskyi, Holosiivskyi, Podilskyi, Obolonskyi, Darnytskyi, Desnianskyi, Dniprovskyi, Solomianskyi (Soloma), and Sviatoshynskyi.
+{% if kpi_asset %}{{ kpi_asset.description }}{% endif %}
+
+#### Input details
+You will receive multiple news items in the following XML-like format:
+<news id=[id]>[news content]</news>
+Each news item is wrapped in a <news> tag with an attribute id representing its unique identifier.
+The text inside the <news> tag is the news content you need to analyze.
+
+#### Your task
+
+
+#### Output Structure
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+  "news": [
+    {
+      "id": int,  // Unique identifier for the news item
+      "summary": list,  // Type of location specificity (exact location, street, district, or city)
+    }
+  ]
+}
+```
+
+""", template_format='jinja2'),
+    HumanMessagePromptTemplate.from_template(
+        """\
+### Extract locations from the following news:
+{% for message in messages %}
+<news id={{ message.message_id }}>{{ message.rephrased_news }}</news>
+{% endfor %}
+""", template_format='jinja2')
+])

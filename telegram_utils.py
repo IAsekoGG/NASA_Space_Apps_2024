@@ -7,15 +7,13 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 import shutil
+from tqdm import tqdm
 
-# Replace these with your own values
-api_id = "API_ID"  # Your API ID
-api_hash = 'API_HASH'  # Your API hash
-phone_number = 'PHONE_NUMBER'  # Your phone number with country code
+root_dir = "telegram_posts/LOS SOLOMAS . КИЇВ"
+if not os.path.exists(root_dir):
+    os.mkdir(root_dir)
 
-client = TelegramClient('session_name', api_id, api_hash)
-
-def get_post(channel_name, message_id):
+def get_post(channel_name, message_id, text):
     # Get the channel entity
     channel = client.get_entity(channel_name)
     channel_title = channel.title
@@ -40,7 +38,7 @@ def get_post(channel_name, message_id):
         'forwarded_from': None,
         'reactions': {},
         'views': message.views or -1,
-        'text': message.text or '',
+        'text': text,
         'media_files': [],  # List of tuples (media_type, filename)
     }
 
@@ -55,17 +53,20 @@ def get_post(channel_name, message_id):
             message_data['forwarded_from'] = 'Unknown'
 
     # Handle reactions
-    if message.reactions:
-        reactions = {}
-        for reaction in message.reactions.results:
-            emoji = reaction.reaction.emoticon
-            reactions[emoji] = reaction.count
-        message_data['reactions'] = reactions
+    try:
+        if message.reactions:
+            reactions = {}
+            for reaction in message.reactions.results:
+                emoji = reaction.reaction.emoticon
+                reactions[emoji] = reaction.count
+            message_data['reactions'] = reactions
+    except Exception as e:
+        pass
 
     # Download media if any
     if message.media:
         # Create a directory for the message
-        message_dir = f"message_{message_id}"
+        message_dir = f"{root_dir}/message_{message_id}"
         os.makedirs(message_dir, exist_ok=True)
 
         if message.grouped_id:
@@ -78,6 +79,7 @@ def get_post(channel_name, message_id):
             process_media(message, message_data, message_dir)
 
     return message_data
+
 
 def process_media(message, message_data, message_dir):
     if isinstance(message.media, MessageMediaPhoto):
@@ -101,9 +103,10 @@ def process_media(message, message_data, message_dir):
             # Other types (e.g., documents), handle if needed
             pass
 
+
 def create_html(message_data):
     # Create a directory for the message files
-    message_dir = f"message_{message_data['message_id']}"
+    message_dir = f"{root_dir}/message_{message_data['message_id']}"
     os.makedirs(message_dir, exist_ok=True)
 
     # Copy channel photo to message directory
@@ -123,18 +126,28 @@ def create_html(message_data):
         <style>
             body {{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background-color: #ffffff;
+                background-color: #1c1f26; /* Dark background */
+                color: #cfcfcf; /* Light text color */
                 padding: 20px;
                 margin: 0;
                 overflow: hidden;
             }}
             .message {{
-                border: 1px solid #e5e5e5;
+                background-color: #2b2f3a;  /* Dark card background */
                 border-radius: 10px;
-                padding: 15px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
+                overflow: hidden;
+                transition: transform 0.3s, box-shadow 0.3s;
+                padding: 20px;
                 max-width: 600px;
                 margin: auto;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }}
+            .message:hover {{
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
             }}
             .message-header {{
                 display: flex;
@@ -156,22 +169,25 @@ def create_html(message_data):
             }}
             .channel-name {{
                 font-weight: bold;
-                font-size: 16px;
-                color: #000;
+                font-size: 1.5rem;
+                margin: 0;
+                color: #e1e1e1; /* Light title color */
             }}
             .message-date {{
                 color: #808991;
-                font-size: 13px;
+                font-size: 0.9rem;
             }}
             .message-text {{
-                font-size: 15px;
+                font-size: 1rem;
                 line-height: 1.5;
-                color: #000;
+                color: #c0c0c0; /* Light text for the card content */
                 margin-bottom: 12px;
             }}
             .message-media img, .message-media video {{
-                max-width: 100%;
-                border-radius: 8px;
+                width: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+                filter: brightness(0.8); /* Slightly darkened images */
                 margin-bottom: 12px;
             }}
             .message-media video {{
@@ -181,7 +197,7 @@ def create_html(message_data):
                 display: flex;
                 justify-content: space-between;
                 color: #808991;
-                font-size: 14px;
+                font-size: 0.9rem;
             }}
             .reactions {{
                 display: flex;
@@ -194,6 +210,33 @@ def create_html(message_data):
             }}
             ::-webkit-scrollbar {{
                 display: none;
+            }}
+            .button-style {{
+                display: inline-block;
+                background-color: #3a4d6b; /* Moonlight dark blue buttons */
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s;
+                font-size: 0.9rem;
+                flex-grow: 1;
+                text-align: center;
+            }}
+            .button-style:hover {{
+                background-color: #4d628a; /* Slightly lighter on hover */
+            }}
+            .move-to-location {{
+                display: inline-block;
+                background-color: #5c3d99; /* Purple moonlight button */
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s;
+            }}
+            .move-to-location:hover {{
+                background-color: #704cb4; /* Lighter purple on hover */
             }}
         </style>
     </head>
@@ -238,7 +281,8 @@ def create_html(message_data):
 
     # Add reactions if any
     if message_data['reactions']:
-        reactions_html = ''.join([f'<div class="reaction">{emoji} {count}</div>' for emoji, count in message_data['reactions'].items()])
+        reactions_html = ''.join(
+            [f'<div class="reaction">{emoji} {count}</div>' for emoji, count in message_data['reactions'].items()])
         reactions_html = f'<div class="reactions">{reactions_html}</div>'
     else:
         reactions_html = ''
@@ -255,11 +299,13 @@ def create_html(message_data):
     """
 
     # Save the HTML file in the message directory
-    html_filename = os.path.join(f"message_{message_data['message_id']}", f"message_{message_data['message_id']}.html")
+    html_filename = os.path.join(f"{root_dir}/message_{message_data['message_id']}",
+                                 f"message_{message_data['message_id']}.html")
     with open(html_filename, 'w', encoding='utf-8') as f:
         f.write(html_content)
 
     return html_filename
+
 
 def render_html_to_image(html_filename, output_image):
     from selenium.webdriver.common.by import By
@@ -305,15 +351,18 @@ def render_html_to_image(html_filename, output_image):
 
         # Take a screenshot of the element
         message_element.screenshot(output_image)
-        print(f"Screenshot saved to {output_image}")
-
+    except Exception as e:
+        print(e)
     finally:
         driver.quit()
 
 
-
 if __name__ == '__main__':
-    # Start the client
+    api_id = 25835755  # integer value, e.g., 1234567
+    api_hash = '3c56d1bdd1e114bb582379c9f865c74f'  # string value, e.g., '0123456789abcdef0123456789abcdef'
+    phone_number = '+380635247972'  # Your phone number with country code, e.g., '+1234567890'
+
+    client = TelegramClient('session_name', api_id, api_hash)
     client.start()
     print("Client Created")
 
@@ -326,14 +375,19 @@ if __name__ == '__main__':
             client.sign_in(password=input('Password: '))
 
     # Example usage of get_post
-    channel_name = "Солома INFO - Солом'янський район"  # Replace with the actual channel username
-    message_id = 3851  # Replace with the actual message ID
+    path = '/home/hlak/PycharmProjects/NASA_Space_Apps_2024/data2/los_solomas/LOS_SOLOMAS_res.json'
+    with open(path, 'r', encoding='utf-8') as f:
+        info = json.load(f)
+    for row in tqdm(info, total=len(info)):
+        channel_name = "LOS SOLOMAS . КИЇВ"  # Replace with the actual channel username
+        message_id = row['message_id']  # Replace with the actual message ID
+        if f'message_{message_id}' in os.listdir(root_dir):
+            continue
 
-    message_data = get_post(channel_name, message_id)
-    if message_data:
-        print(json.dumps(message_data, indent=4, ensure_ascii=False))
-        html_filename = create_html(message_data)
-        output_image = os.path.join(os.path.dirname(html_filename), f"post_{message_id}.png")
-        render_html_to_image(html_filename, output_image)
-    else:
-        print("Message not found.")
+        message_data = get_post(channel_name, message_id, row['text'])
+        if message_data:
+            html_filename = create_html(message_data)
+            output_image = os.path.join(os.path.dirname(html_filename), f"post_{message_id}.png")
+            render_html_to_image(html_filename, output_image)
+        else:
+            print("Message not found.")
