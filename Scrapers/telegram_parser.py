@@ -6,9 +6,11 @@ from tqdm import tqdm
 
 
 # Replace these with your own values
+api_id = 25835755           # integer value, e.g., 1234567
+api_hash = '3c56d1bdd1e114bb582379c9f865c74f'     # string value, e.g., '0123456789abcdef0123456789abcdef'
+phone_number = '+380635247972'   # Your phone number with country code, e.g., '+1234567890'
 
-
-channels_username = ['kpi_hostel18', 'kpi_hostel4', 'kpi_hostel7', 'kpi_hostel19', 'kpi_hostel16', 'kpi_hostel14', 'kpi_hostel8', 'kpi_hostel20', 'soloma_info_kyiv']  # e.g., 'example_channel'
+channels_username = ['lossolomas_kyiv']  # e.g., 'example_channel'
 
 # Create the client and connect
 client = TelegramClient('session_name', api_id, api_hash)
@@ -49,7 +51,7 @@ async def main():
                     'reactions': {},
                     'views': message.views or -1,
                     'text': message.text,
-                    'comments': [],
+                    # 'comments': [],
                 }
                 loop.set_postfix({'date': message.date.isoformat(), 'channel_name': channel_name})
                 loop.update(1)
@@ -65,39 +67,43 @@ async def main():
                         message_data['forwarded_from'] = 'Unknown'
 
                 # Reactions
-                if message.reactions:
-                    reactions = {}
-                    for reaction in message.reactions.results:
-                        emoji = reaction.reaction.emoticon
-                        reactions[emoji] = reaction.count
-                    message_data['reactions'] = reactions
+                try:
+                    if message.reactions:
+                        reactions = {}
+                        for reaction in message.reactions.results:
+                            emoji = reaction.reaction.emoticon
+                            reactions[emoji] = reaction.count
+                        message_data['reactions'] = reactions
+                except Exception as e:
+                    message_data['reactions'] = None
+                    print('custom reactions: ', e)
 
                 # Comments (Replies)
-                if message.replies:
-                    async for reply in client.iter_messages(channel, reply_to=message.id, reverse=True):
-                        reply_data = {
-                            'date': reply.date.isoformat(),
-                            'message_id': reply.id,
-                            'text': reply.text,
-                            'reactions': {}
-                        }
-
-                        # Reactions to the reply
-                        if reply.reactions:
-                            reply_reactions = {}
-                            for reaction in reply.reactions.results:
-                                emoji = reaction.reaction.emoticon
-                                reply_reactions[emoji] = reaction.count
-                            reply_data['reactions'] = reply_reactions
-
-                        message_data['comments'].append(reply_data)
+                # if message.replies:
+                #     async for reply in client.iter_messages(channel, reply_to=message.id, reverse=True):
+                #         reply_data = {
+                #             'date': reply.date.isoformat(),
+                #             'message_id': reply.id,
+                #             'text': reply.text,
+                #             'reactions': {}
+                #         }
+                #
+                #         # Reactions to the reply
+                #         if reply.reactions:
+                #             reply_reactions = {}
+                #             for reaction in reply.reactions.results:
+                #                 emoji = reaction.reaction.emoticon
+                #                 reply_reactions[emoji] = reaction.count
+                #             reply_data['reactions'] = reply_reactions
+                #
+                #         message_data['comments'].append(reply_data)
 
                 messages_data.append(message_data)
             except Exception as e:
                 print(e)
 
         # Output to JSON file
-        with open(f'{channel_name}.json', 'w', encoding='utf-8') as f:
+        with open(f'{channel_name}_no_comments.json', 'w', encoding='utf-8') as f:
             json.dump(messages_data, f, ensure_ascii=False, indent=4)
 
 # Run the client
