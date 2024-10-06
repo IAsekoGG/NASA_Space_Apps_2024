@@ -1,0 +1,274 @@
+[
+    {
+        "date": "2023-10-06T10:03:54+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 425,
+        "text": "\ud83d\ude80 **Freshman Sprint**\n\n**KPI is not just about studying, but also about many opportunities for activity and development.**\n\n**On October 7**, come to **FIOT Hub, Building 18, KPI** to listen to lectures from members of the Student Council, teachers, and [\"Tower\"](https://t.me/vezhakpi). The event will last from **12:00 to 16:00**.\n\nWe will talk about the importance of volunteer work, the pros and cons of living in a dormitory, socialization at the university, and much more.\n\n[Fill out the form](https://docs.google.com/forms/d/12_uKqU8qJgqhBimEnJCVPRwMlJqy_2xPnao6ZwJFPzw/edit) \u2014 get a chance to learn useful and interesting information \ud83d\udc99\n\n@sr_kpi",
+        "sentiment": "positive",
+        "rephrased_news": "On October 7, the KPI FIOT Hub in Building 18 will host lectures from Student Council members and teachers, discussing topics such as volunteer work and university socialization. The event runs from 12:00 to 16:00.",
+        "title": "KPI Freshman Sprint Event",
+        "topic": "Community Events or Achievements",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2023-10-12T10:00:08+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 426,
+        "text": "\ud83c\udf21\ufe0f **Heating Network Repairs**\n\nIn some dormitories on Braichevskogo and Yangel streets, hot water supply is unavailable.\n\nAccording to Kyivteploenergo, the estimated time of return is tomorrow at 15:00.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Hot water is currently unavailable in some dormitories on Braichevskogo and Yangel streets. Kyivteploenergo estimates that service will resume by 15:00 tomorrow.",
+        "title": "Hot Water Outage Update",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2023-11-11T07:30:01+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 427,
+        "text": "**\ud83c\udf21\ufe0f Repair Work on Heating Networks**\n\nToday from 9:00, hot water supply and heating are unavailable in most dormitories.\n\nEstimated time of return: 12:00 on November 12.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "As of 9:00 today, hot water and heating are unavailable in most dormitories, with an expected restoration time of 12:00 on November 12.",
+        "title": "Dormitory Heating Disruption",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2023-12-11T15:56:36+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 428,
+        "text": "\ud83d\udeb0 **Message from the Future**\n\nAccording to Kyivteploenergo, starting tomorrow at 9:00, water supply will be unavailable.\n\nThe estimated time of return will be announced by Kyivteploenergo tomorrow, based on the volume of work.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Starting tomorrow at 9:00, water supply will be unavailable, with the restoration time to be announced by Kyivteploenergo based on the work volume.",
+        "title": "Upcoming Water Supply Interruption",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2023-12-25T11:35:29+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 430,
+        "text": "\ud83c\udf21 **Room Temperature Water**\n\nAccording to Kyivteploenergo, there are problems with the circulation of hot water in the student campus, which is causing a decrease in water temperature in most dormitories.\n\nCurrently, this situation has arisen in dormitories 8, 15, and 16. The estimated time of return today is by 18:00.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Kyivteploenergo reports circulation issues causing decreased hot water temperatures in dormitories 8, 15, and 16, with an expected resolution by 18:00 today.",
+        "title": "Hot Water Circulation Issues",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-03-01T14:38:17+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 433,
+        "text": "\u26a0\ufe0f **Emergency**\n\nEmergency power outage across the Shulyavka area and KPI.\n\nAccording to DTEK, the estimated time of return is 18:00.\n\nIf you need to charge, approach the guards for a power bank.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "There is an emergency power outage affecting the Shulyavka area and KPI, with an estimated restoration time of 18:00. Power banks are available from the guards for charging.",
+        "title": "Emergency Power Outage",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-03-28T17:50:30+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 434,
+        "text": "\u2603\ufe0f **Heating Season Ended**\n\nToday marks the end of the heating season according to the [KMDA plan.](https://t.me/KyivCityOfficial/9249)\n\nIn the coming days, heating will be completely turned off in all dormitories.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Today marks the end of the heating season as per the KMDA plan, with heating to be completely turned off in all dormitories in the coming days.",
+        "title": "Heating Season Concludes",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-04-02T13:04:16+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 435,
+        "text": "**\ud83d\udca7Heating Network Emergency**\n\nIn the dormitories on Oleksy Tykhyi and Borshchahivska streets, there is no hot water supply due to a heating network break.\n\nAccording to Kyivteploenergo, the estimated time of return is April 3 by 11:00.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Hot water supply is disrupted in dormitories on Oleksy Tykhyi and Borshchahivska streets due to a heating network break, with an expected restoration by April 3 at 11:00.",
+        "title": "Heating Network Emergency",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-05-15T21:23:07+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 436,
+        "text": "\ud83d\udca1**Power Outage**\n\nStarting May 16, hourly power outages may occur in Kyiv and the student campus according to the [schedule](https://www.dtek-kem.com.ua/ua/shutdowns) of Ukrenergo and DTEK.\n\nPreliminary outages may occur [from](https://t.me/suspilnenews/32727) 00:00 to 9:00 or from 16:00 to 24:00.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Hourly power outages may begin on May 16 in Kyiv and the student campus according to the Ukrenergo and DTEK schedule, potentially occurring from 00:00 to 9:00 or from 16:00 to 24:00.",
+        "title": "Scheduled Power Outages",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-05-21T08:57:03+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 437,
+        "text": "**\ud83d\udfe2 Administration**\n\n**Shelters**\nRepairs are planned in 6 dormitories that have shelters by autumn.\n\n**Power Banks**\nFor emergency charging, most dormitories have [power banks](https://t.me/ecokpi/142) located at the reception.\n\nIf you do not have a power bank or it is in poor condition, write about the replacement to @kpicampus_bot.\n\n**Generators**\nWill only be used in case of power outages longer than 4 hours, and only for charging flashlights and phones.\n\n@kpicampus",
+        "sentiment": "positive",
+        "rephrased_news": "Repairs are planned in six dormitories with shelters by autumn. Power banks are available at receptions for emergency charging, and generators will be used for outages longer than four hours.",
+        "title": "Dormitory Emergency Preparedness",
+        "topic": "Improvements in Infrastructure",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-05-28T13:38:10+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 438,
+        "text": "UPD: The hot water supply outage has been extended to May 10.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "The hot water supply outage has been extended to May 10.",
+        "title": "Hot Water Outage Extended",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-06-04T08:06:15+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 439,
+        "text": "\ud83d\udfe2 **Administration**\n\n**Settlement**\nThe settlement algorithm for summer will be announced tomorrow, based on a similar, [last year's principle](https://t.me/kpicampus/1580).\n\nThe number of settlement places for the next academic year is planned to increase by 1.5 thousand. Instructions for the settlement itself will be available by July 17.\n\n**Elevators**\nElevators are starting to resume operation, but you need to monitor the outage schedules to avoid getting stuck in the elevator in the middle of the night.\n\n**Inventory**\nFrom June 5 to 7, an inventory commission will check the current state of inventory in the rooms.\n\n@kpicampus",
+        "sentiment": "positive",
+        "rephrased_news": "The summer settlement algorithm will be announced tomorrow, with an increase of 1,500 places planned for the next academic year. Elevator operations are resuming, and an inventory check will occur from June 5 to 7.",
+        "title": "Summer Settlement Plans",
+        "topic": "Improvements in Infrastructure",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-06-17T08:56:33+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 441,
+        "text": "**UPD*3: **According to information from** **Kyivteploenergo, the repair of the hot water supply has been extended to 23:00 today.\n\nEstimated time of return: tonight \u2014 tomorrow morning.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Kyivteploenergo has extended the hot water supply repair to 23:00 today, with an estimated return time by tonight or tomorrow morning.",
+        "title": "Hot Water Repair Update",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-06-24T09:30:36+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 442,
+        "text": "\ud83c\udf21\ufe0f **Well, you get it**\n\n**Kyivteploenergo promises every day to finish the work by 23:00, but \"something\" is going wrong.\n\nEstimated time: by the end of the month. Probably in 2024.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Kyivteploenergo continues to promise completion of work by 23:00 daily, but delays are expected, with completion possibly by the end of the month or in 2024.",
+        "title": "Hot Water Repair Delays",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-08-06T09:18:33+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 443,
+        "text": "\ud83d\udfe2 **Administration 06.08**\n\n**Settlement**\nWill begin on August 26, by the end of the week there will be lists for settlement from faculties and institutes. A total of about 9 thousand students are planned for mixed learning.\n\n**Masters**\nBy August 2, they should have written a [request](https://docs.google.com/document/d/13FJxmoUKzXYeRo9T8oGxshdi3MXm1faIDpQwAO6Tk1E/edit?usp=sharing) for a change in payment format and extension of residence in the dormitory until August 31.\n\nIf they did not write a request, they should contact the manager.\n\n**Hot Water**\nIn some dormitories, there has been no hot water for 3 months due to major repair work.\n\n**Elevators**\nDue to the stabilization of electricity supply, the operation of most elevators will be restored.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Settlement will begin on August 26, with lists for settlement from faculties available by the end of the week. Masters must submit requests for dormitory extension by August 2.",
+        "title": "Settlement Process Announcement",
+        "topic": "Other",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-08-28T14:45:28+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 444,
+        "text": "\ud83c\udf21 **Hot Water Outage**\n\n**Due to emergency work by Kyivteploenergo, there is no hot water in some dormitories.**\n\nHot water supply is planned to be restored by the evening of August 29.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Emergency work by Kyivteploenergo has resulted in a hot water outage in some dormitories, with restoration planned by the evening of August 29.",
+        "title": "Emergency Hot Water Outage",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    },
+    {
+        "date": "2024-09-13T06:43:35+00:00",
+        "channel_name": "Dormitory #16 KPI",
+        "message_id": 445,
+        "text": "\ud83d\udca7 **Water Outage**\n\n**Due to emergency work by Kyivteploenergo, there may be interruptions in water supply in some dormitories.**\n\nWater supply is planned to be restored by 14:00 on September 16.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Due to emergency work by Kyivteploenergo, water supply interruptions may occur in some dormitories, with restoration expected by 14:00 on September 16.",
+        "title": "Water Supply Interruption Alert",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 16"
+        ],
+        "latitude": "50.4471963",
+        "longitude": "30.4470161"
+    }
+]

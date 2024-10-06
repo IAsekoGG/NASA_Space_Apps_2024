@@ -1,0 +1,592 @@
+date,channel_name,message_id,text,sentiment,rephrased_news,title,topic,location_type,location,coords
+2024-10-05T21:37:34+00:00,LOS SOLOMAS. KYIV,70883,"We are being informed:
+
+There is a fire on Ushynskyi Street.
+Someone set a garage on fire.
+
+👀",negative,"There is a fire reported on Ushynskyi Street, involving a garage.",Garage Fire on Ushynskyi Street,Accidents or Disasters,street,"Kyiv, Ushynskyi Street","[50.4503596, 30.5245025]"
+2024-10-05T18:49:07+00:00,LOS SOLOMAS. KYIV,70855,"Accident at the Akademmistechko metro station, towards Lavina.",negative,"An accident occurred at the Akademmistechko metro station, affecting travel towards Lavina.",Accident at Akademmistechko Station,Accidents or Disasters,exact location,"Kyiv, Akademmistechko metro station","[50.4649376, 30.3550961]"
+2024-10-05T10:04:02+00:00,LOS SOLOMAS. KYIV,70830,"**Complicated traffic in the direction of Vadym Hetman Street due to an accident,** - police.",negative,"Traffic is complicated in the direction of Vadym Hetman Street due to an accident, according to police reports.",Traffic Complications on Vadym Hetman,Accidents or Disasters,street,"Kyiv, Vadym Hetman Street","[50.4503596, 30.5245025]"
+2024-10-05T07:46:35+00:00,LOS SOLOMAS. KYIV,70825,"DOG MISSING!!!
+
+Today in the area of P. Radchenko Street, a mother was walking her dog, which broke free from the leash and ran after a yard dog.
+
+At 9:10, it was seen running across Lobanovskyi Street and near the Holovka bus stop and the former Belgorodskyi Street.
+
+A black pug, responds to the name John, Joni. Very friendly, approaches people.
+
+White spots on the chest and front paws.
+
+If anyone has seen him and can catch him or has any information - please write to me!
+
+@lakiza_ann
+0669996245
+
+REWARD!
+
+And I kindly ask you to share this in similar local chats 🥺
+
+The little dog is very much awaited at home!!!",negative,A black pug named John went missing in the area of P. Radchenko Street. The owner is seeking help in locating the dog.,Missing Dog in Kyiv Area,Other,street,"Kyiv, P. Radchenko Street","[50.4503596, 30.5245025]"
+2024-10-01T10:57:07+00:00,LOS SOLOMAS. KYIV,70653,"Accident on Oleksy Tykhyi. Traffic is complicated, please take this into account.",negative,Traffic is complicated due to an accident on Oleksy Tykhyi.,Traffic Complications on Oleksy Tykhyi,Citizen Discomfort,street,"Kyiv, Oleksy Tykhyi","[50.4503596, 30.5245025]"
+2024-09-30T15:48:03+00:00,LOS SOLOMAS. KYIV,70623,"Fedor Ernst Street
+
+A courier was hit
+
+@lossolomas_kyiv",negative,A courier was struck by a vehicle on Fedor Ernst Street.,Courier Injured on Fedor Ernst,Accidents or Disasters,street,"Kyiv, Fedor Ernst Street","[50.4503596, 30.5245025]"
+2024-09-30T14:50:14+00:00,LOS SOLOMAS. KYIV,70612,"We are being informed:
+
+The fast tram, Lubomyr Huzar station, is shedding plaster in large chunks.
+Be careful.",negative,"At the Lubomyr Huzar station, large chunks of plaster are falling from the ceiling; caution is advised.",Plaster Falling at Tram Station,Deterioration in Infrastructure,exact location,"Kyiv, Lubomyr Huzar station","[50.4503596, 30.5245025]"
+2024-09-30T09:52:35+00:00,LOS SOLOMAS. KYIV,70608,"**Charity mono-performance ""Unborn for War"".**
+On stage of the theater — a fighter of the Third Assault Brigade, Honored Artist of Ukraine Yevhen Avdiyenko.
+
+This tragicomedy is about black humor, love and loneliness, unbearable military hooliganism, and dangerous adventures. Real stories from the front without pathos and romance.
+
+When: November 21, 19:00.
+
+📍 Where: Kyiv Academic Drama Theater on Podil (Andriivskyi Descent, 20-B).
+
+💸 Cost: 300 - 800 UAH. All funds will be directed to the needs of our military on the front line.
+
+Tickets can be purchased [via this link.](https://kyiv.karabas.com/3-tya-shturmova-bryhada-ta-chornyy-kvadrat-militari-stand-up-nenarodzheni-dlya-viyny-9/)",positive,"A charity mono-performance titled 'Unborn for War' will take place on November 21 at the Kyiv Academic Drama Theater, featuring stories from the frontlines. Proceeds will support military needs.",Charity Performance for Military,Community Events or Achievements,exact location,Kyiv Academic Drama Theater,"[50.4503596, 30.5245025]"
+2024-09-30T09:26:45+00:00,LOS SOLOMAS. KYIV,70607,"**At ""Vokzalna"" metro station, a passenger who fell onto the tracks is alive**
+
+The police are already on site, and an ambulance has been called for the woman. Train movement has been restored, and the delay was no more than 7 minutes.
+
+@lossolomas_kyiv",negative,"A passenger who fell onto the tracks at 'Vokzalna' metro station is alive, and emergency services are on the scene. Train operations have resumed with minimal delay.",Passenger Rescued at Metro Station,Accidents or Disasters,exact location,"Kyiv, Vokzalna metro station","[50.4413353, 30.489963]"
+2024-09-27T14:24:17+00:00,LOS SOLOMAS. KYIV,70394,"**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtier Ivan Svitlychnyi.**
+**He was a literary critic, but he was knowledgeable not only about books but also about people.**
+** He easily established relationships with them and maintained communication with many simultaneously. His Khrushchyovka on Umanska was one of the key points in the sixtiers' topography of Kyiv.**
+**A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today we would call Svitlychnyi a guru of networking and community building.**
+On September 28-29, we will meet at the platform ""Ostriv,"" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and discuss the sixtiers in broader contexts. This is all that matters to us now – attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately – how new media help to make sense of the past. In addition to the educational component, the festival will also include creative workshops from residents of the ""Ostriv"" platform, the content of which will address various figures and dimensions of the sixtiers, including artistic ones.
+
+""Svitlychnyk"" first took place in 2020 as an intimate event for the neighborhood community, aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.
+
+👉[** PROGRAM OF THE FIRST DAY**](https://t.me/lossolomas_kyiv/70119)
+
+👉[** PROGRAM OF THE SECOND DAY **](https://t.me/lossolomas_kyiv/70194)**
+
+👉**[** WORKSHOPS**](https://t.me/lossolomas_kyiv/70199)**
+
+****__*The event is free!
+Workshops - donation to the Armed Forces of Ukraine*__**
+
+**📍Platform ""Ostriv"": Volynska 9/21
+
+📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",positive,"The Svitlychnyk 3.0 festival will be held on September 28-29 at the 'Ostriv' cultural center in Chokolivka, celebrating the legacy of Ivan Svitlychnyi and discussing various cultural topics.",Svitlychnyk Festival Celebrates Literary Legacy,Community Events or Achievements,exact location,"Kyiv, Ostriv cultural center","[50.4503596, 30.5245025]"
+2024-09-27T14:24:17+00:00,LOS SOLOMAS. KYIV,70394,"**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtier Ivan Svitlychnyi.**
+**He was a literary critic, but he was knowledgeable not only about books but also about people.**
+** He easily established relationships with them and maintained communication with many simultaneously. His Khrushchyovka on Umanska was one of the key points in the sixtiers' topography of Kyiv.**
+**A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today we would call Svitlychnyi a guru of networking and community building.**
+On September 28-29, we will meet at the platform ""Ostriv,"" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and discuss the sixtiers in broader contexts. This is all that matters to us now – attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately – how new media help to make sense of the past. In addition to the educational component, the festival will also include creative workshops from residents of the ""Ostriv"" platform, the content of which will address various figures and dimensions of the sixtiers, including artistic ones.
+
+""Svitlychnyk"" first took place in 2020 as an intimate event for the neighborhood community, aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.
+
+👉[** PROGRAM OF THE FIRST DAY**](https://t.me/lossolomas_kyiv/70119)
+
+👉[** PROGRAM OF THE SECOND DAY **](https://t.me/lossolomas_kyiv/70194)**
+
+👉**[** WORKSHOPS**](https://t.me/lossolomas_kyiv/70199)**
+
+****__*The event is free!
+Workshops - donation to the Armed Forces of Ukraine*__**
+
+**📍Platform ""Ostriv"": Volynska 9/21
+
+📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",positive,"The Svitlychnyk 3.0 festival will be held on September 28-29 at the 'Ostriv' cultural center in Chokolivka, celebrating the legacy of Ivan Svitlychnyi and discussing various cultural topics.",Svitlychnyk Festival Celebrates Literary Legacy,Community Events or Achievements,district,"Kyiv, Chokolivka","[50.4242067, 30.4466034]"
+2024-09-27T10:43:03+00:00,LOS SOLOMAS. KYIV,70383,"We are receiving messages:
+
+The temporary restriction at the Holovka stop has turned into a whole quest, as people are forced to walk on the roadway and wait for public transport.",negative,"At the Holovka stop in Kyiv, temporary restrictions have caused passengers to walk on the roadway while waiting for public transport.",Holovka Stop Transport Issues,Citizen Discomfort,exact location,"Kyiv, Holovka stop","[50.4198172, 30.4809137]"
+2024-09-27T10:08:25+00:00,LOS SOLOMAS. KYIV,70376,"**The second festival **[**""Book Country""**](https://www.instagram.com/bookvdng?igsh=MW5jN3NjaHJzMzN4ag==)** has started at VDNH.**
+On the first day of the festival, it was attended by 9750 guests.
+
+A record for Ukraine was set for simultaneous reading (114 people). They read aloud ""Selected Works"" by Vasyl Stus in front of the central pavilion of VDNH.
+
+The organizers also held the final of the book bloggers' award. The winner was the novel ""Yellow-Like"" by Rebecca Kwan, a special award went to the novel ""A Little Drama"" by Valerian Podmohylnyi, and the readers' choice award was given to the novel ""Beyond the Perikop is Land"" by Anastasia Levkova.
+
+The festival will last for another 3 days, with a total of 120 publishers participating in the book fair. Over 300 activities are planned.
+
+**Entry is free**",positive,"The second 'Book Country' festival has commenced at VDNH, attracting 9,750 attendees on its first day and setting a record for simultaneous reading.",Book Country Festival Kicks Off,Cultural/Sporting Milestones,exact location,"Kyiv, VDNH","[50.378485, 30.4789013]"
+2024-09-26T12:10:35+00:00,LOS SOLOMAS. KYIV,70343,Antonov aircraft designers 41 fire victims. Work is in full swing - life goes on 🤝🏻,negative,Work continues at the Antonov aircraft design facility following a fire incident that resulted in 41 casualties.,Antonov Aircraft Designers Remember Victims,Accidents or Disasters,exact location,"Kyiv, Antonov aircraft design facility","[50.4503596, 30.5245025]"
+2024-09-25T18:36:55+00:00,LOS SOLOMAS. KYIV,70280,"Hey, Npop, are you sleeping? Autumn is almost over. When will the repairs be completed in the Mokra 7 building, which was damaged as a result of the Russian shelling on January 2, 2024? It will soon be a year. Damn marauders.",negative,"Concerns are raised about the ongoing repairs at the Mokra 7 building, damaged by Russian shelling nearly a year ago.",Repairs Delayed at Mokra 7,Deterioration in Infrastructure,exact location,"Kyiv, Mokra 7","[50.4503596, 30.5245025]"
+2024-09-25T18:34:32+00:00,LOS SOLOMAS. KYIV,70279,"Residential Complex Dynasty. Before/After. As far as we know, this was done thanks to the efforts of locals, not the Kyiv authorities.",negative,"The Dynasty Residential Complex has undergone changes, reportedly due to local efforts rather than city authorities.",Local Efforts Revive Dynasty Complex,Other,exact location,"Kyiv, Dynasty Residential Complex","[50.4503596, 30.5245025]"
+2024-09-25T14:49:40+00:00,LOS SOLOMAS. KYIV,70260,Pedestrian traffic is partially restricted at the Golovka stop on Lobanovsky.,negative,Pedestrian traffic is partially restricted at the Golovka stop on Lobanovsky.,Pedestrian Traffic Restricted at Golovka,Citizen Discomfort,street,"Kyiv, Lobanovsky Avenue","[50.4125989, 30.4836221]"
+2024-09-24T13:41:07+00:00,LOS SOLOMAS. KYIV,70232,"Friends are still looking for their 👀. **Free vacancy for Barista in one of the coffee shops** [**MOUNTAINS**](https://www.instagram.com/mountains_kyiv?igsh=bHphd3dya29hMTI1)! ** 📍 Svyatoslava Khorebroho 11B (Residential Complex Sky Avenue) ⏰ Schedule 3/3 (weekdays 08:00-21:00 / weekends 09:00-21:00) 💸 On average ~ 1500 per shift + tips (payment twice a month, no delays). We invite adult guys and girls with experience in our field to join a young and healthy team! It's interesting with us 😉. **For interviews, write to: ****@phantom_ls**.",positive,"A coffee shop named MOUNTAINS is seeking a barista. The position is located at Svyatoslava Khorebroho 11B in the Sky Avenue residential complex, with a schedule of 3 days on and 3 days off. The average pay is approximately 1500 UAH per shift plus tips, with payments made bi-monthly. Applicants with experience are encouraged to apply.",Barista Vacancy at MOUNTAINS,Economic Growth,exact location,"Kyiv, Svyatoslava Khorebroho 11B, Sky Avenue residential complex","[50.4503596, 30.5245025]"
+2024-09-24T13:37:39+00:00,LOS SOLOMAS. KYIV,70230,"**On September 25, changes will be made to the routes of trolleybuses No. 3, 9-K; On September 28, changes will be made to the route of trolleybus No. 3**. Work will be carried out to arrange the upper layer of asphalt concrete on Metropolitan Vasyl Lypkivskyi Street. On September 25 from 07:00 to 22:00, trolleybus traffic will be organized: - route No. 3 from the Railway Massif to the 'Ploshcha Ukrayinskykh Heroiv' metro station. For the convenience of passengers, the route has been assigned the number 3-D; - route No. 9-K from Kadetsky Hay St. to the 'Ploshcha Ukrayinskykh Heroiv' metro station. For the convenience of passengers, the route has been assigned the number 9-D. On September 28 from 07:00 to 22:00, trolleybus route No. 3 will be organized from the Railway Massif to Solomyanska St. according to the existing route, then - Solomyanska Square - Air Forces Avenue - Ivan Ohiyenko St. - Heorhiy Kirpa St. - Sicheslavska St. - Metropolitan Vasyl Lypkivskyi St. - Hetman Pavlo Skoropadskyi St., then according to the existing route. For the convenience of passengers, it has been assigned No. 3-A.",negative,"On September 25, trolleybus routes No. 3 and 9-K will be modified due to road work on Metropolitan Vasyl Lypkivskyi Street. Trolleybus No. 3 will operate under the new designation 3-D, and No. 9-K will be designated 9-D. Further changes to route No. 3 will occur on September 28.",Trolleybus Route Changes Announced,Citizen Discomfort,street,"Kyiv, Metropolitan Vasyl Lypkivskyi Street","[50.4503596, 30.5245025]"
+2024-09-24T10:15:06+00:00,LOS SOLOMAS . КИЇВ,70218,"**24 вересня в Києві згадують жертв теракту комуністичного режиму на Хрещатику**
+
+🏚24 вересня 1941 року, за кілька днів після окупації Києва німцями, на Хрещатику пролунала серія потужних вибухів.
+
+Зайнялась масштабна пожежа, яка за тиждень знищила близько 200 будівель: 5 готелів, консерваторію, театри, кінотеатри, бібліотеки, міськраду, житлові будинки. Київ майже втратив історичний центр. Трохи згодом вибухнув центральний храм Києво-Печерської лаври.
+
+👥Напередодні зими без житла залишилось близько 50 000 киян.
+
+💥Це була диверсія радянських спецслужб, у межах тактики ""випаленої землі"". Комуністи готувалися до відступу – мінували важливу інфраструктуру, історичні пам’ятки, житлові будівлі. 
+
+▫️Дивом вдалося врятувати національну святиню – Софію Київську. Директор Софійського заповідника Олекса Повстенко обманув НКВС, заявивши, що в будівлі відсутні підземелля і приховано замінувати її неможливо.
+
+▫️Німці, які на той час окупували Київ, розмінували деякі будівлі: Оперний театр, колишню будівлю Центральної Ради (Будинок вчителя) тощо.
+
+💔Вибухи на Хрещатику, які здійснили комуністи, стали приводом для нацистського режиму влаштувати ще один злочин і трагедію. Менше ніж за тиждень розпочалися масові розстріли євреїв у Бабиному яру.",negative,"On September 24, Kyiv commemorates the victims of a terrorist attack by the communist regime on Khreshchatyk, which occurred in 1941. The attack resulted in significant destruction, leaving around 50,000 residents homeless.",Kyiv Remembers 1941 Terror Victims,Social/Political Instability,street,"Kyiv, Khreshchatyk","[50.4477412, 30.5220779]"
+2024-09-23T16:05:41+00:00,LOS SOLOMAS . КИЇВ,70185,"Ⓜ️**На станції метро «Берестейська» розпочнуть капітальний ремонт ескалаторів**, — КМДА
+
+24 вересня розпочнеться 
+плановий ремонт на ескалаторі №1. Роботи триватимуть орієнтовно до 12 листопада.",negative,Capital repairs on escalator No. 1 at the Beresteyska metro station will begin on September 24 and are expected to last until approximately November 12.,Metro Escalator Renovations Begin,Deterioration in Infrastructure,exact location,"Kyiv, Beresteyska metro station","[50.4593178, 30.4186364]"
+2024-09-21T14:59:55+00:00,LOS SOLOMAS. KYIV,70092,"A person was hit
+
+Solomianska St.",negative,A person was struck on Solomianska Street.,Accident on Solomianska Street,Crime or Safety Concerns,street,"Kyiv, Solomianska Street","[50.4233249, 30.4805921]"
+2024-09-21T14:40:48+00:00,LOS SOLOMAS. KYIV,70089,"**Kyiv police quickly located a 50-year-old man who went missing the day before**
+
+[Information about the missing person was received by law enforcement yesterday evening](https://kyiv.npu.gov.ua/news/politsiia-kyieva-operatyvno-rozshukala-50-richnoho-cholovika-iakyi-znyk-bezvisty-naperedodni) – a local resident reported to the police that her husband left home and stopped communicating.
+
+According to available information, the Kyiv resident could have been in the Solomyansky Landscape Park, so law enforcement used a drone for a more detailed inspection of the area.
+
+""To effectively work the area, we used a map of the landscape park, which clearly marked the areas to be searched. Each search zone was detailed among police officers, which allowed us to coordinate the actions of all services in the shortest possible time and ultimately find the person who needed immediate assistance,"" says the head of the district police department Igor Leus.
+
+The 50-year-old man was taken to a medical facility for examination, and his life is not in danger.",positive,"Kyiv police successfully located a 50-year-old man who had been missing. He was found in Solomyansky Landscape Park and taken to a medical facility for examination, with no threat to his life.",Missing Man Found in Solomyanskyi,Social Progress,exact location,"Kyiv, Solomyansky Landscape Park","[50.4282552, 30.4529175]"
+2024-09-21T07:00:26+00:00,LOS SOLOMAS. KYIV,70068,"**Dear residents of Kyiv and its guests! I invite you to visit the craft fair from September 20-22, 2024, in Vydradnyi Park.**
+
+Here you will find many interesting things for every taste and age.
+At the fair, you will be able to get acquainted with the creativity of the masters and purchase or order products that interest you.
+
+Also, join our social media pages to follow our participants and events:
+[Instagram](https://www.instagram.com/mak.made.world?igsh=NjY3MGQ3dnAxNWU3)
+[Facebook](https://www.facebook.com/profile.php?id=61550786357818)",positive,"Residents and visitors of Kyiv are invited to a craft fair at Vydradnyi Park from September 20-22, 2024, featuring various creative products.",Craft Fair Coming to Kyiv,Community Events or Achievements,exact location,"Kyiv, Vydradnyi Park","[50.4503596, 30.5245025]"
+2024-09-21T05:43:00+00:00,LOS SOLOMAS. KYIV,70065,"A fraudulent call center was discovered in the 'Marmelad' shopping center. Such centers have moved from prisons to capital offices.
+Kyiv law enforcement conducted searches at a fraudulent call center operating in an office in the 'Marmelad' shopping center in the Solomyansky district. The call center functioned as an 'investment office'. There is currently no official information from the police.
+
+Ukrainians often receive calls from fraudsters supposedly from a bank asking for card details or from a 'relative who got into an accident'. They also offer to take out a loan or invest in cryptocurrency.",negative,"A fraudulent call center was discovered in the 'Marmelad' shopping center, where scammers posed as investment advisors. Police are investigating the operation.",Fraud Call Center Raided in Kyiv,Crime or Safety Concerns,exact location,"Kyiv, Marmelad shopping center","[50.4461664, 30.4431536]"
+2024-09-20T17:57:05+00:00,LOS SOLOMAS. KYIV,70046,"Good evening! At 49 Vaclava Havela, someone has lost a puppy. It is running back and forth nervously near the Art Pizza establishment. It has a collar with a medallion, but it won't let anyone catch it to take a look.",negative,"A lost puppy has been spotted near Art Pizza at 49 Vaclava Havela, but it is too frightened to be caught.",Lost Puppy Found Near Art Pizza,Other,exact location,"Kyiv, 49 Vaclava Havela","[50.4503596, 30.5245025]"
+2024-09-19T14:32:31+00:00,LOS SOLOMAS. KYIV,70005,"**Kyiv City Council** **renamed 13 streets, parks, and squares in the capital** **Solomianskyi district:** 🔹Botkin Street - Professor Pavlovskyi Street; 🔹the unnamed square between Sicheslavska and Hrihoriia Kirpa streets has been named ""North Atlantic Alliance Square.""** **Podilskyi district:** 🔹Briusova Street - Valentyna Radzymovska Street; 🔹the park near the T.G. Shevchenko cinema has been named ""Hirka Kristera."" **Pecherskyi district:** 🔹Stanislavskyi Street - Bohdan Stupka Street. **Dniprovskyi district:** 🔹Petro Chaadaev Street - Yelyzaveta Shakhatuni Street. **Darnytskyi district:** 🔹Ivan Turgenev Street - Mykola Volkovych Street. **Shevchenkivskyi district:** 🔹Bechterivskyi Lane - Varazkyi Lane; 🔹the square on Prorezna Street (between houses No. 3 and No. 5) has been named ""Ukrainian Radio."" **Sviatoshynskyi district:** 🔹""Yunist"" park - ""Hamburg"" park; 🔹Zhovtneva Street - Sulymivska Street; 🔹Serhii Yesenin Street - Skarbova Street; 🔹the park on Mykhailo Kotelnykov Street, 26-32 has been named after Mykhailo Reutskyi.",positive,"The Kyiv City Council has renamed 13 streets, parks, and squares across various districts, including Botkin Street to Professor Pavlovskyi Street and Briusova Street to Valentyna Radzymovska Street.",Kyiv Renames 13 Streets,Political Stability/Positive Reforms,street,"Kyiv, Botkin Street","[50.4503596, 30.5245025]"
+2024-09-19T14:23:14+00:00,LOS SOLOMAS. KYIV,70003,"Community! Friends! Today we witnessed another important and historic event on the path to victory in the functioning of the nature reserve named after Roman Ratushnyi ""Protasiv Yar."" The deputies of the Kyiv City Council supported and adopted extremely important decisions: ● ""On the statement of the Kyiv City Council regarding the status of the landscape reserve of local significance 'Protasiv Yar' named after Roman Ratushnyi"" No. 654 ● ""On organizational and legal measures to protect the landscape reserve of local significance 'Protasiv Yar' named after Roman Ratushnyi"" No. 653. We sincerely thank the deputies for their support and the decisions made, which are of great importance for the community and the future of our city!",positive,"The Kyiv City Council has approved significant decisions regarding the protection of the Protasiv Yar nature reserve named after Roman Ratushnyi, emphasizing its local significance.",Protasiv Yar Nature Reserve Protected,Environmental Improvements,exact location,"Kyiv, Protasiv Yar nature reserve","[50.4241074, 30.49896829999999]"
+2024-09-19T10:14:05+00:00,LOS SOLOMAS. KYIV,69999,**In the shopping center **[**'Marmelad'**](https://t.me/lossolomas_kyiv/69999)** a fraudulent call center was discovered.** Such centers have moved from prisons to capital offices. **Kyiv law enforcement conducted searches at a fraudulent call center operating in an office in the 'Marmelad' shopping center in the Solomianskyi district. The call center functioned as an 'investment office.' There is currently no official information from the police. Ukrainians often receive calls from fraudsters supposedly from the bank asking for card details or from a 'relative who got into an accident.' They also offer to take a loan or invest in cryptocurrency.,negative,A fraudulent call center operating in the 'Marmelad' shopping center in the Solomianskyi district has been uncovered by Kyiv law enforcement.,Fraudulent Call Center Raided,Crime or Safety Concerns,exact location,"Kyiv, Marmelad shopping center","[50.4461664, 30.4431536]"
+2024-09-19T10:14:05+00:00,LOS SOLOMAS. KYIV,69999,**In the shopping center **[**'Marmelad'**](https://t.me/lossolomas_kyiv/69999)** a fraudulent call center was discovered.** Such centers have moved from prisons to capital offices. **Kyiv law enforcement conducted searches at a fraudulent call center operating in an office in the 'Marmelad' shopping center in the Solomianskyi district. The call center functioned as an 'investment office.' There is currently no official information from the police. Ukrainians often receive calls from fraudsters supposedly from the bank asking for card details or from a 'relative who got into an accident.' They also offer to take a loan or invest in cryptocurrency.,negative,A fraudulent call center operating in the 'Marmelad' shopping center in the Solomianskyi district has been uncovered by Kyiv law enforcement.,Fraudulent Call Center Raided,Crime or Safety Concerns,district,Kyiv Solomianskyi district,"[50.4282552, 30.4529175]"
+2024-09-17T16:22:52+00:00,LOS SOLOMAS. KYIV,69941,"Protasiv Yar towards Solomyanska Square - traffic accident
+Traffic is partially complicated.",negative,"There has been a traffic accident on Protasiv Yar towards Solomyanska Square, causing partial traffic disruptions.",Traffic Accident Near Protasiv Yar,Citizen Discomfort,street,"Kyiv, Protasiv Yar","[50.4241074, 30.49896829999999]"
+2024-09-17T16:22:52+00:00,LOS SOLOMAS. KYIV,69941,"Protasiv Yar towards Solomyanska Square - traffic accident
+Traffic is partially complicated.",negative,"There has been a traffic accident on Protasiv Yar towards Solomyanska Square, causing partial traffic disruptions.",Traffic Accident Near Protasiv Yar,Citizen Discomfort,district,Kyiv Solomianskyi district,"[50.4282552, 30.4529175]"
+2024-09-17T07:37:39+00:00,LOS SOLOMAS. KYIV,69931,"**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtieth Ivan Svitlychnyi. He was a literary critic, but he was knowledgeable not only about books but also about people.**
+** He easily established relationships with them and maintained communication with many at once. His Khrushchyovka on Umanska was one of the key points in the sixtieth topography of Kyiv. A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today, we would call Svitlychnyi a guru of networking and community building.**
+On September 28-29, we will meet at the platform ""Ostriv,"" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and talk about the sixtieths in broader contexts. This is all that matters to us now - attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately - how new media help to understand the past. In addition to the educational component, the festival will also include creative workshops from the residents of the ""Ostriv"" platform, the content of which will address various figures and dimensions of the sixtieths, particularly artistic ones.
+
+""Svitlychnyk"" first took place in 2020 as an intimate event for the neighborhood community aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.
+
+**📍Platform ""Ostriv"": Volynska 9/21
+
+📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",positive,The Svitlychnyk 3.0 festival will celebrate the legacy of Ivan Svitlychnyi on September 28-29 at the cultural center 'Ostriv' in Chokolivka.,Svitlychnyk Festival Celebrates Legacy,Cultural/Sporting Milestones,exact location,"Kyiv, cultural center 'Ostriv'","[50.4503596, 30.5245025]"
+2024-09-17T07:37:39+00:00,LOS SOLOMAS. KYIV,69931,"**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtieth Ivan Svitlychnyi. He was a literary critic, but he was knowledgeable not only about books but also about people.**
+** He easily established relationships with them and maintained communication with many at once. His Khrushchyovka on Umanska was one of the key points in the sixtieth topography of Kyiv. A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today, we would call Svitlychnyi a guru of networking and community building.**
+On September 28-29, we will meet at the platform ""Ostriv,"" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and talk about the sixtieths in broader contexts. This is all that matters to us now - attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately - how new media help to understand the past. In addition to the educational component, the festival will also include creative workshops from the residents of the ""Ostriv"" platform, the content of which will address various figures and dimensions of the sixtieths, particularly artistic ones.
+
+""Svitlychnyk"" first took place in 2020 as an intimate event for the neighborhood community aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.
+
+**📍Platform ""Ostriv"": Volynska 9/21
+
+📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",positive,The Svitlychnyk 3.0 festival will celebrate the legacy of Ivan Svitlychnyi on September 28-29 at the cultural center 'Ostriv' in Chokolivka.,Svitlychnyk Festival Celebrates Legacy,Cultural/Sporting Milestones,district,"Kyiv, Chokolivka","[50.4242067, 30.4466034]"
+2024-10-05T05:01:01+00:00,Straw INFO - Solomianskyi District,13245,"🍟 McDonald's on Vokzalna will reopen in November. The old building was demolished at the beginning of summer, and since then, construction work has been progressing very quickly.",positive,The McDonald's restaurant on Vokzalna is set to reopen in November following the demolition of the old building earlier this summer.,McDonald's Vokzalna Reopening Soon,Improvements in Infrastructure,street,Vokzalna,"[50.4413353, 30.489963]"
+2024-10-04T07:33:16+00:00,Straw INFO - Solomianskyi District,13237,"**The pumpkin weekend season has started at Kyiv Zoo** Every weekend in October, visitors will be able to watch how the residents of Kyiv Zoo enjoy pumpkin treats. The pumpkin season will be opened by the residents of the Kyiv Zoo's Kopytny Row on October 5-6: ▪️12:00 – Bison ▪️12:15 – European bison ▪️12:30 – Przewalski's horses",positive,"The pumpkin season has begun at Kyiv Zoo, with special events planned every weekend in October.",Pumpkin Weekend at Kyiv Zoo,Community Events or Achievements,exact location,Kyiv Zoo,"[50.4549073, 30.4651811]"
+2024-10-04T05:57:10+00:00,Straw INFO - Solomianskyi District,13229,"❗️There is a major traffic jam on Hlybochytska, Sichovykh Striltsiv, and Illienka Streets. A tram has stopped right at the intersection, blocking traffic in all directions.",negative,"There is significant traffic congestion on Hlybochytska, Sichovykh Striltsiv, and Illienka Streets due to a tram blocking the intersection.",Major Traffic Jam in Kyiv,Citizen Discomfort,street,Hlybochytska Street,"[50.4620758, 30.4960409]"
+2024-10-04T05:57:10+00:00,Straw INFO - Solomianskyi District,13229,"❗️There is a major traffic jam on Hlybochytska, Sichovykh Striltsiv, and Illienka Streets. A tram has stopped right at the intersection, blocking traffic in all directions.",negative,"There is significant traffic congestion on Hlybochytska, Sichovykh Striltsiv, and Illienka Streets due to a tram blocking the intersection.",Major Traffic Jam in Kyiv,Citizen Discomfort,street,Sichovykh Striltsiv Street,"[49.8400626, 24.0237949]"
+2024-10-03T07:09:04+00:00,Straw INFO - Solomianskyi District,13213,"⚡️**McDonald’s on ""Vokzalna"" is almost completed** Work is in full swing at the site. Several floors have already been built today. The updated McDonald’s is planned to be completed by December 1.",positive,"Construction of the McDonald's on Vokzalna is progressing well, with plans for completion by December 1.",McDonald's Vokzalna Near Completion,Improvements in Infrastructure,street,Vokzalna,"[50.4413353, 30.489963]"
+2024-10-02T12:30:59+00:00,Straw INFO - Solomianskyi District,13179,"**Open recruitment for work near LUKYANIVSKA metro station Ⓜ️** Our office offers you to become part of a friendly family that wants to deprive the Russians of the opportunity to finance the war. **Office work, not remote** 1. Chat manager vacancy (ONLY MESSAGING): - You need to conduct short correspondence with clients and pass it on to senior specialists - Salary from 30,000 UAH per month. Payments weekly. 2. Call manager vacancy: - Processing clients according to a prepared script, after correspondence - Salary from 50,000 UAH per month. Payments weekly. **Requirements:** - Work schedule from 08:00 to 17:00, 5 on 2 - Proficient in Russian. **We hire without experience, full training provided.** **Send a message to the manager indicating which vacancy you are interested in!** @HrKiev900",positive,"Recruitment is open for positions near LUKYANIVSKA metro station, offering roles in office work with competitive salaries.",Job Openings Near LUKYANIVSKA Metro,Economic Growth,exact location,Lukyanivska metro station,"[50.4611471, 30.48363239999999]"
+2024-10-02T11:56:46+00:00,Straw INFO - Solomianskyi District,13174,🤔 Mokra Street. It has been almost a year since the city has been unable to remove the remains of cars that burned during the Russian attack last winter.,negative,Mokra Street has not seen the removal of burned car remains from last winter's Russian attack for nearly a year.,Burned Cars Remain on Mokra Street,Deterioration in Infrastructure,street,Mokra Street,"[50.4316826, 30.4881299]"
+2024-10-02T05:38:38+00:00,Straw INFO - Solomianskyi District,13168,"⚡️ **Accident near the National Aviation University in Vidradne,** — eyewitnesses. Traffic is complicated along the entire Borshchahivska line of the fast tram.",negative,An accident near the National Aviation University has caused traffic disruptions along the Borshchahivska tram line.,Traffic Accident Near National Aviation University,Citizen Discomfort,exact location,National Aviation University,"[50.4400743, 30.4298761]"
+2024-10-02T05:38:38+00:00,Straw INFO - Solomianskyi District,13168,"⚡️ **Accident near the National Aviation University in Vidradne,** — eyewitnesses. Traffic is complicated along the entire Borshchahivska line of the fast tram.",negative,An accident near the National Aviation University has caused traffic disruptions along the Borshchahivska tram line.,Traffic Accident Near National Aviation University,Citizen Discomfort,exact location,Borshchahivska tram line,"[50.42576889999999, 30.3743572]"
+2024-10-01T19:09:33+00:00,Straw INFO - Solomianskyi District,13166,"McDonald’s at ""Vokzalna"" is almost completed. Work is in full swing at the site. Today several floors have already been built. The updated McDonald’s is planned to be completed by December 1.",positive,"Construction of a new McDonald's at 'Vokzalna' is nearing completion, with plans to finish by December 1.",McDonald's at Vokzalna Nears Completion,Improvements in Infrastructure,exact location,Vokzalna,"[50.4413353, 30.489963]"
+2024-10-01T09:47:22+00:00,Straw INFO - Solomianskyi District,13152,"❕❕ We are looking for a **sales consultant** who wants to earn and develop ❕❕ 💜 ready to teach everything 🤝 💜 salary 16,000-20,000 UAH 💵 💜 flexible work schedule (3\2; 4\2; 2\2) ⏰ 💜 convenient location near Ⓜ️ Vokzalna: 📍 Vokzalna Square 1 To register for an interview, call **(093) 145 72 34** or fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSdlTXLFyNRqPUGWB7wZyRMKvx0AEKuDKISv3tR3jeh9n7zZLQ/viewform) Join our team! 🌟",positive,"A sales consultant position is available near Vokzalna, offering a flexible schedule and a salary of 16,000-20,000 UAH.",Sales Consultant Positions Available,Economic Growth,exact location,Vokzalna,"[50.4413353, 30.489963]"
+2024-10-01T06:34:48+00:00,Straw INFO - Solomianskyi District,13145,"🕯 At 9:00, Kyiv honored the memory of fallen Defenders with a moment of silence and a halt to traffic on Khreshchatyk and Independence Square.",positive,"At 9:00, Kyiv observed a moment of silence to honor fallen defenders, halting traffic on Khreshchatyk and Independence Square.",Kyiv Honors Fallen Defenders,Community Events or Achievements,exact location,Khreshchatyk,"[50.4477412, 30.5220779]"
+2024-09-30T16:27:01+00:00,Straw INFO - Solomianskyi District,13132,"🤔 Who doesn't know Halyna Yablonska? It seems that people all over the world know her. 👏 But at the Central Library of Solomianskyi, you will have the opportunity to participate in a heartfelt conversation with a living legend this Thursday, October 3, at 16:30 and learn about what is most significant and dear to her!",positive,"A conversation with Halyna Yablonska will take place at the Central Library of Solomianskyi on Thursday, October 3, at 16:30.",Meet Halyna Yablonska in Kyiv,Cultural/Sporting Milestones,exact location,Central Library of Solomianskyi,"[50.4282552, 30.4529175]"
+2024-09-30T09:28:30+00:00,Straw INFO - Solomianskyi District,13118,"At the ""Vokzalna"" metro station, a passenger who fell onto the tracks is alive. The police are already on site, and an ambulance has been called for the woman. Train movement has been restored, with delays of no more than 7 minutes.",negative,"A passenger who fell onto the tracks at the 'Vokzalna' metro station is alive, and emergency services are on site.",Passenger Rescued at Metro Station,Accidents or Disasters,exact location,Vokzalna metro station,"[50.4413353, 30.489963]"
+2024-09-30T08:42:04+00:00,Straw INFO - Solomianskyi District,13116,"🍎🍏🫐 On October 5, agricultural fairs will be held in the Solomianskyi district on Akademika Shalimova Street (between Lyubomyr Huzar Avenue, 28 and Vasyl Chumak Street).",positive,Agricultural fairs will be held in the Solomianskyi district on Akademika Shalimova Street on October 5.,Agricultural Fairs in Solomianskyi,Community Events or Achievements,street,Akademika Shalimova Street,"[50.4364523, 30.4198901]"
+2024-09-30T08:08:20+00:00,Straw INFO - Solomianskyi District,13115,"The mirror opens! 📚✨ On September 30, we celebrate the All-Ukrainian Library Day! This day is an opportunity to look at the library from a new angle: with humor, creativity, and inspiration. The Central Library of Solomianskyi named after Hryhorii Skovoroda invites you to the Library Mirror, where everyone will find something for themselves — from memes to master classes. 😄 ""Speak in library language"" — an online presentation of library memes. 😍 ""Library science = art. How is that?"" — a creative workshop by librarians: poetess Tetiana Yarovitsyna, musician Ihor Yakubovskyi, historian-writer Oleksandr Mykhailik. ☕️ ""If you wrote a book, what would it be about?"" — 30 minutes of conversation and coffee/tea with your chosen/favorite/interesting librarian. 📚 ""How to find a book in 5 minutes"" — a master class on improving the personalization of reader services. 🤗 We look forward to seeing you on September 30 at the Library Mirror on Osviity Street, 14a from 9:00 to 19:00 — together we will make this day special!",positive,"The Central Library of Solomianskyi is hosting the Library Mirror event on September 30, celebrating All-Ukrainian Library Day with various activities.",Library Day Celebrated in Kyiv,Community Events or Achievements,exact location,Central Library of Solomianskyi,"[50.4282552, 30.4529175]"
+2024-09-30T08:01:17+00:00,Straw INFO - Solomianskyi District,13114,"😱🚇 At the Vokzalna metro station, a suicide attempt. A person fell onto the tracks.",negative,A person fell onto the tracks at the Vokzalna metro station in a reported suicide attempt.,Suicide Attempt at Metro Station,Accidents or Disasters,exact location,Vokzalna metro station,"[50.4413353, 30.489963]"
+2024-09-30T07:28:46+00:00,Straw INFO - Solomianskyi District,13111,"In Kyiv, an exhibition on men's mental health has opened at the railway station. A photo exhibition titled ""Be a Friend. To Yourself Too"" was presented at the central railway station in Kyiv, highlighting the important topic of men's mental health. The exhibition consists of photographs depicting rescuers, police officers, National Guard soldiers, and border guards working in the challenging conditions of war. The photographs on the stands show events that occurred during the full-scale war, including evacuations, shelling, and other difficult moments. They convey not only material destruction but also the deep emotional burden that accompanies Ukrainians every day. The aim of the event is to draw attention to the topic of mental health, both among law enforcement agencies and in Ukrainian society as a whole.",negative,"An exhibition on men's mental health has opened at the central railway station in Kyiv, featuring photographs of first responders and military personnel during the war.",Men's Mental Health Exhibition Opens,Other,exact location,central railway station in Kyiv,"[50.4503596, 30.5245025]"
+2024-09-29T07:59:04+00:00,Straw INFO - Solomianskyi District,13081,"☀️ On this sunny and warm Saturday, a cleanup was held in the park named after Mykola Zerov. During the cleanup, a flowerbed was arranged using perennial and cereal plants, including daylilies, liriope, hostas, switchgrass, and astilbe 🌸🌾. More than 70 benches were also repaired and painted. It will be a bit inconvenient temporarily, but in a few days you will be able to relax on the bench and enjoy the autumn coziness of the park 🍁.",positive,"A cleanup event took place at Mykola Zerov Park, where a flowerbed was created with various perennial and cereal plants, including daylilies and hostas. Over 70 benches were also repaired and painted, with temporary inconvenience expected before they can be used to enjoy the park's autumn ambiance.",Park Cleanup Enhances Mykola Zerov,Environmental Improvements,exact location,Mykola Zerov Park,"[50.430245, 30.4694361]"
+2024-09-27T12:25:23+00:00,Straw INFO - Solomianskyi District,13072,"🍉 Time for the demonstration feedings at the Kyiv Zoo
+
+➡️ 12:00 – gorilla Toni;
+➡️ 12:20 – lions Hercules, Kristina, Viliya, and Darina;
+➡️ 12:30 – hyenas Hasan and Tigran;
+➡️ 12:40 – tigress Hekata;
+➡️ 12:50 – tigers Rena and Baby;
+➡️ 13:00 – tigress Dalila.",positive,"The Kyiv Zoo is hosting demonstration feedings for various animals on a scheduled basis, including gorillas, lions, and tigers.",Feeding Schedule at Kyiv Zoo,Community Events or Achievements,exact location,Kyiv Zoo,"[50.4549073, 30.4651811]"
+2024-09-27T10:50:16+00:00,Straw INFO - Solomianskyi District,13068,"🍉🦍 The final watermelon weekend will take place at the Kyiv Zoo.
+
+On the last weekend of September, Kyiv Zoo will host the final watermelon weekend of this year. On Saturday and Sunday, gorilla Toni, lions, tigers, and hyenas will be fed. The feeding will take place according to the schedule.",positive,"The Kyiv Zoo will hold its final watermelon weekend of the year, featuring feedings for gorillas, lions, tigers, and hyenas on the last weekend of September.",Final Watermelon Weekend at Zoo,Community Events or Achievements,exact location,Kyiv Zoo,"[50.4549073, 30.4651811]"
+2024-09-27T10:08:01+00:00,Straw INFO - Solomianskyi District,13066,"Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtieth Ivan Svitlychnyi.
+
+On September 28-29, we will meet at the ""Island"" platform, which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and discuss the sixtieths in broader contexts. This is all that matters to us now – attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately – how new media help to make sense of the past. The next event will be a literary evening of young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.
+
+👉 PROGRAM OF THE FIRST DAY
+
+👉 PROGRAM OF THE SECOND DAY 
+
+👉 WORKSHOPS
+
+*The event is free! Workshops - donation to the Armed Forces of Ukraine*
+
+📍Platform ""Island"": Volynska 9/21
+
+📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35",positive,"The Svitlychnyk 3.0 festival will take place on September 28-29 at the 'Island' cultural center in Chokolivka, celebrating the legacy of Ivan Svitlychnyi and discussing themes related to the Soviet past and contemporary activism.",Svitlychnyk 3.0 Festival Announced,Cultural/Sporting Milestones,exact location,Chokolivka,"[50.4242067, 30.4466034]"
+2024-09-27T06:59:56+00:00,Straw INFO - Solomianskyi District,13061,"An auto crash occurred on Lobanovskyi Avenue, traffic is slowed.",negative,An auto accident on Lobanovskyi Avenue has resulted in slowed traffic.,Traffic Slowdown on Lobanovskyi,Accidents or Disasters,street,Lobanovskyi Avenue,"[50.4125989, 30.4836221]"
+2024-09-25T17:50:36+00:00,Straw INFO - Solomianskyi District,12971,"About the culprit of today's traffic accident on Guzar:
+
+Oh, it's quite a wonder why this goose fell apart on Guzar, right? It seems he drives so carefully.
+
+Remember: impunity breeds permissiveness.",negative,"A traffic accident occurred on Guzar Street, raising concerns about driving behavior.",Traffic Accident on Guzar,Accidents or Disasters,street,Guzar Street,"[18.9591534, 72.8301356]"
+2024-09-25T06:42:22+00:00,Straw INFO - Solomianskyi District,12955,"🚧 Due to a traffic accident on Dehtyarivska Street, traffic is complicated in the direction of Oleksandr Dovzhenko Street.",negative,Traffic is complicated on Dehtyarivska Street due to a traffic accident.,Traffic Complications on Dehtyarivska,Accidents or Disasters,street,Dehtyarivska Street,"[50.4538219, 30.4882207]"
+2024-09-24T19:03:10+00:00,Straw INFO - Solomianskyi District,12949,"🍔 There is one less McDonald's in Kyiv 😪
+
+One of the first McDonald's in Ukraine at Sevastopol Square is closing for reconstruction.
+
+After the reconstruction:
+
+🍟 There will be 121 seats in the hall and 156 on the terrace.
+🍟 Digital menu boards will be installed at the McDrive, an additional pickup window, and two new parking spaces for cars waiting for orders.
+🍟 The restaurant will be equipped with a mobile diesel generator.
+
+The updated establishment will open at the end of January 2025.",negative,"The McDonald's at Sevastopol Square is closing for reconstruction, with plans to reopen in January 2025.",McDonald's Closing for Renovation,Other,exact location,Sevastopol Square,"[44.61665, 33.525367]"
+2024-09-23T18:55:08+00:00,Straw INFO - Solomianskyi District,12939,💥 Traffic accident on Dehtyarivska Street.,negative,A traffic accident occurred on Dehtyarivska Street.,Traffic Accident Reported,Accidents or Disasters,street,Dehtyarivska Street,"[50.4538219, 30.4882207]"
+2024-09-23T18:43:49+00:00,Straw INFO - Solomianskyi District,12936,"〽️ Starting tomorrow, McDonald's at Sevastopol Square will close for repairs.",negative,The McDonald's at Sevastopol Square will close for repairs starting tomorrow.,McDonald's to Close for Repairs,Citizen Discomfort,exact location,Sevastopol Square,"[44.61665, 33.525367]"
+2024-09-23T12:33:03+00:00,Straw INFO - Solomianskyi District,12925,"KP UZN of the Solomianskyi district ℹ️ informs:
+
+As part of the World Cleanup Day, we joined the cleanup that took place on Zaliznychna Street, where together with other communal enterprises and organizations of the district, we organized the area after the dismantling of illegal garages.",positive,"As part of World Cleanup Day, KP UZN of the Solomianskyi district participated in a cleanup on Zaliznychna Street, collaborating with other local organizations to clear the area after illegal garages were dismantled.",Cleanup Event on Zaliznychna Street,Environmental Improvements,street,Solomianskyi district,"[50.4282552, 30.4529175]"
+2024-09-23T12:33:03+00:00,Straw INFO - Solomianskyi District,12925,"KP UZN of the Solomianskyi district ℹ️ informs:
+
+As part of the World Cleanup Day, we joined the cleanup that took place on Zaliznychna Street, where together with other communal enterprises and organizations of the district, we organized the area after the dismantling of illegal garages.",positive,"As part of World Cleanup Day, KP UZN of the Solomianskyi district participated in a cleanup on Zaliznychna Street, collaborating with other local organizations to clear the area after illegal garages were dismantled.",Cleanup Event on Zaliznychna Street,Environmental Improvements,street,Zaliznychna Street,"[49.8429297, 23.9977868]"
+2024-09-23T12:31:31+00:00,Straw INFO - Solomianskyi District,12924,"❗️ Starting September 24, major repairs of the escalators will begin at the ""Beresteiska"" metro station.
+
+The planned repairs will start on escalator No. 1 and will last approximately until November 12. This escalator was last majorly repaired in 2012.",negative,"Major repairs on the escalators at the 'Beresteiska' metro station will begin on September 24, starting with escalator No. 1, and are expected to last until approximately November 12.",Escalator Repairs at Beresteiska Metro,Citizen Discomfort,exact location,Beresteiska metro station,"[50.4593178, 30.4186364]"
+2024-09-20T20:34:35+00:00,Straw INFO - Solomianskyi District,12894,👀 This is what the morning looked like today in Vidradne due to air pollution.,negative,"This morning, Vidradne experienced significant air pollution.",Morning Haze in Vidradne,Environmental concerns,exact location,Vidradne,"[44.5057623, 34.2146208]"
+2024-09-20T19:23:01+00:00,Straw INFO - Solomianskyi District,12891,"🇺🇦 KOLIZHANKA HUB invites you to a women's charity meeting ""Angels of GOOD""
+
+Join us at Vcentri Hub Solomianskyi to create Angels of ""GOOD"" for World Prematurity Day.
+
+More details 👇
+
+This is an annual tradition initiated by the CHARITY FOUNDATION ""ANNA MY"", which provides warmth and support to mothers caring for their tiny ones in perinatal centers.
+
+You will have the opportunity to create two angels:
+👼 One for yourself, as a talisman
+👼 The second - for premature babies
+
+✨ The meeting will be led by art therapist, psychologist, resource guide, and specialist working with mothers at the Family Art Therapy Center #Pospyshaychyky, Iryna Hassan.
+
+📍 Vcentri Hub Solomianskyi | Volynska St., 28/17
+
+🗓 Saturday, September 21
+
+⏰ 11:00 AM – 1:00 PM
+
+🌐 Registration via the link: https://forms.gle/rWi47WwCgdEvQD7fA",positive,"KOLIZHANKA HUB is hosting a women's charity meeting titled 'Angels of GOOD' at Vcentri Hub Solomianskyi on September 21, aimed at supporting mothers of premature babies.",Women's Charity Meeting in Kyiv,Community Events or Achievements,exact location,Vcentri Hub Solomianskyi,"[50.4277302, 30.4498082]"
+2024-09-20T18:56:31+00:00,Straw INFO - Solomianskyi District,12887,"The Public Organization Community of Protasov Yar ℹ️ informs:
+
+Community! Friends!
+
+Yesterday we witnessed another important and historic event on the path to victory in the functioning of the nature reserve named after Roman Ratushny ""Protasiv Yar"". The deputies of the Kyiv City Council supported and adopted extremely important decisions:
+
+● ""On the statement of the Kyiv City Council regarding the status of the local significance landscape reserve ""Protasiv Yar"" named after Roman Ratushny"" No. 654
+
+● ""On organizational and legal measures to protect the local significance landscape reserve ""Protasiv Yar"" named after Roman Ratushny"" No. 653
+
+We sincerely thank the deputies for their support and the decisions made, which are of great importance for the community and the future of our city!",positive,The Kyiv City Council has adopted important measures to protect the local significance landscape reserve 'Protasiv Yar' named after Roman Ratushny.,Protasiv Yar Reserve Protected,Political Stability/Positive Reforms,exact location,Protasiv Yar,"[50.4241074, 30.49896829999999]"
+2024-09-19T18:33:01+00:00,Straw INFO - Solomianskyi District,12842,"✅All interested are invited to visit the Fair ""Workshop for Peace"" in Vidradnyi Park.
+
+🗓 September 20-22, 2024, to purchase various handmade products and toys and to try various treats and drinks.
+
+There will be goods for everyone, from small to adult, to suit any taste.",positive,"The 'Workshop for Peace' fair will take place in Vidradnyi Park from September 20-22, 2024, featuring handmade products and various food options.",Upcoming Fair in Vidradnyi Park,Community Events or Achievements,exact location,Vidradnyi Park,"[50.4311122, 30.4235445]"
+2024-09-19T11:35:10+00:00,Straw INFO - Solomianskyi District,12834,"🍁 **Kyiv City Council will consider a draft resolution on the purchase of Protasov Yar from private ownership to preserve the nature reserve in its current form.**
+
+This was reported by the Deputy Mayor - Secretary of the Kyiv City Council Volodymyr Bondarenko.",positive,The Kyiv City Council will consider a resolution to purchase Protasov Yar to preserve the nature reserve.,Kyiv City Council to Preserve Nature Reserve,Environmental Improvements,exact location,Protasov Yar,"[50.4226568, 30.5012244]"
+2024-09-19T05:53:14+00:00,Straw INFO - Solomianskyi District,12829,"⚡️ **Kyiv City Council will consider another ""toilet scheme"" for the construction of a residential complex.**
+
+On September 19, the Kyiv City Council will consider another ""toilet scheme"" for the construction of a residential complex. This concerns the construction of a residential complex on a site where there is currently a parking lot, at the intersection of Shalimova and Huzara Streets.
+
+This was reported by Kyiv City Council member Ksenia Semenova.",negative,The Kyiv City Council will review a proposal for a residential complex construction at the intersection of Shalimova and Huzara Streets.,Controversial Residential Complex Proposal,Other,street,Shalimova Street,"[49.9733498, 36.3201918]"
+2024-09-19T05:53:14+00:00,Straw INFO - Solomianskyi District,12829,"⚡️ **Kyiv City Council will consider another ""toilet scheme"" for the construction of a residential complex.**
+
+On September 19, the Kyiv City Council will consider another ""toilet scheme"" for the construction of a residential complex. This concerns the construction of a residential complex on a site where there is currently a parking lot, at the intersection of Shalimova and Huzara Streets.
+
+This was reported by Kyiv City Council member Ksenia Semenova.",negative,The Kyiv City Council will review a proposal for a residential complex construction at the intersection of Shalimova and Huzara Streets.,Controversial Residential Complex Proposal,Other,street,Huzara Street,"[24.9144976, 66.9645785]"
+2024-09-18T07:10:33+00:00,Straw INFO - Solomianskyi District,12814,The renovation of the theater on Yerevanska Street for 10 million UAH has begun.,positive,"Renovation work has commenced on the theater located on Yerevanska Street, with a budget of 10 million UAH.",Theater Renovation Begins,Improvements in Infrastructure,street,Yerevanska Street,"[48.4289381, 22.7240532]"
+2024-09-18T06:06:44+00:00,Straw INFO - Solomianskyi District,12810,"**The movement of trolleybuses No. 8, 9k, 22k, 30, 35, 40, 40k, 42 is delayed.**
+
+The movement of trolleybuses No. 8, 9k, 22k, 30, 35, 40, 40k, 42 at Sevastopol Square is delayed due to technical reasons. The responsible service of the enterprise has been dispatched to the site.",negative,"The operation of trolleybuses No. 8, 9k, 22k, 30, 35, 40, 40k, and 42 at Sevastopol Square is currently delayed due to technical issues, with a service team dispatched to address the situation.",Trolleybus Delays at Sevastopol Square,Citizen Discomfort,exact location,Sevastopol Square,"[44.61665, 33.525367]"
+2024-09-17T18:38:30+00:00,Straw INFO - Solomianskyi District,12803,❗️Traffic accident at Solomianska Square.,negative,A traffic accident has occurred at Solomianska Square.,Traffic Accident at Solomianska Square,Accidents or Disasters,exact location,Solomianska Square,"[50.4313864, 30.4704653]"
+2024-09-14T07:24:01+00:00,Straw INFO - Solomianskyi District,12743,"⚡ Watermelon weekends at Kyiv Zoo: this weekend, the residents of the bear continent will enjoy the berries, — KMDA.
+
+For the animals, this is not just a treat, but part of an important enrichment program. Admission for adults is 220 UAH, and for children — 130 UAH.",positive,"This weekend, the Kyiv Zoo will host 'watermelon weekends' for its bear residents as part of an enrichment program, with admission fees set at 220 UAH for adults and 130 UAH for children.",Watermelon Treats at Zoo,Community Events or Achievements,exact location,Kyiv Zoo,"[50.4549073, 30.4651811]"
+2024-09-13T10:02:18+00:00,Straw INFO - Solomianskyi District,12735,"Smoke is coming from the building of an abandoned pool in Vidradnyi, probably set on fire again by homeless people.",negative,"Smoke is emanating from an abandoned pool building in Vidradnyi, likely set on fire again by homeless individuals.",Smoke from Abandoned Pool,Accidents or Disasters,exact location,Vidradnyi,"[50.4311122, 30.4235445]"
+2024-09-13T10:01:52+00:00,Straw INFO - Solomianskyi District,12734,"Attention! #Wanted!
+
+A female individual came into the ""Prostor"" store in Vidradnyi, where she stole goods worth 5000 hryvnias.
+By the way, it seems she is also pregnant.
+
+Maybe someone will recognize her?",negative,A woman is wanted for stealing goods worth 5000 hryvnias from the 'Prostor' store in Vidradnyi; she is reportedly pregnant.,Wanted: Pregnant Shoplifter,Crime or Safety Concerns,exact location,Vidradnyi,"[50.4311122, 30.4235445]"
+2024-09-13T06:02:21+00:00,Straw INFO - Solomianskyi District,12730,"**The movement of trolleybuses No. 3, 40, 40k is delayed.**
+
+The movement of trolleybuses No. 3, 40, 41 on Solomianska Street is delayed due to technical reasons. The responsible service of the enterprise has been dispatched to the scene.",negative,"Trolleybus services No. 3, 40, and 41 are experiencing delays on Solomianska Street due to technical issues.",Trolleybus Delays Reported,Citizen Discomfort,street,Solomianska Street,"[50.4233249, 30.4805921]"
+2024-09-13T05:45:18+00:00,Straw INFO - Solomianskyi District,12728,**Tram traffic on routes No. 14 and 15 is delayed**. The movement of trams No. 14 and 15 on Vasylenka Street towards Starovokzalna Street is delayed for technical reasons. A responsible service of the company has been dispatched to the site.,negative,Tram services on routes No. 14 and 15 are delayed on Vasylenka Street due to technical reasons.,Tram Delays on Vasylenka Street,Citizen Discomfort,street,Vasylenka Street,"[50.4484937, 30.4194663]"
+2024-09-12T06:23:03+00:00,Straw INFO - Solomianskyi District,12693,🚧Utility workers have partially localized the leak at the intersection of Holosiivska and Horyana streets. A vehicle has partially sunk under the asphalt at the site of the damage. Further work is currently suspended as other vehicles are parked nearby. Traffic is limited to two lanes out of four in the direction of Holosiivskyi Avenue.,negative,"Utility workers have partially contained a leak at the intersection of Holosiivska and Horyana streets, causing traffic restrictions.",Utility Leak Addressed in Kyiv,City Problems,exact location,Holosiivska Street,"[50.4000293, 30.51907]"
+2024-09-12T06:23:03+00:00,Straw INFO - Solomianskyi District,12693,🚧Utility workers have partially localized the leak at the intersection of Holosiivska and Horyana streets. A vehicle has partially sunk under the asphalt at the site of the damage. Further work is currently suspended as other vehicles are parked nearby. Traffic is limited to two lanes out of four in the direction of Holosiivskyi Avenue.,negative,"Utility workers have partially contained a leak at the intersection of Holosiivska and Horyana streets, causing traffic restrictions.",Utility Leak Addressed in Kyiv,City Problems,exact location,Horyana Street,"[48.431532, 35.0543615]"
+2024-09-11T05:41:34+00:00,Straw INFO - Solomianskyi District,12665,"⚡ Wild traffic jams in Kyiv: on the right bank, traffic has built up on Beresteyskyi Avenue from Zhytomyrska to Beresteiska and from Shuliavska to Halytska Square, — eyewitnesses.",negative,Traffic jams have been reported on Beresteyskyi Avenue and other major roads in Kyiv.,Wild Traffic Jams Reported,Citizen Discomfort,street,Beresteyskyi Avenue,"[50.4587577, 30.4194449]"
+2024-09-10T11:55:43+00:00,Straw INFO - Solomianskyi District,12655,"⚠️ **Collision of a car with a trolleybus: Kyiv police are establishing the circumstances of the accident in the Solomianskyi district.**
+
+The traffic accident occurred today in the afternoon on Borshchahivska Street in the Solomianskyi district of Kyiv. Investigators from the police department and patrol officers are still working at the scene.
+
+According to preliminary information, the driver of a Suzuki car, born in 1954, lost control, crossed into the oncoming lane, and collided with a trolleybus that was stopped due to an accident involving a Nissan car.
+
+As a result of the collision, a passenger of the car, born in 1952, and an elderly woman standing near the trolleybus were injured. The injured were hospitalized for medical assistance.
+
+Police continue to work at the scene, and the legal qualification of the incident is being determined.",negative,A traffic accident involving a car and a trolleybus occurred on Borshchahivska Street in the Solomianskyi district. Preliminary reports indicate that a Suzuki driver lost control and collided with a stationary trolleybus. Two individuals were injured and hospitalized. Police are investigating the incident.,Car-Trolleybus Collision in Solomianskyi,Accidents or Disasters,street,Borshchahivska Street,"[50.446083, 30.4571071]"
+2024-09-10T11:55:43+00:00,Straw INFO - Solomianskyi District,12655,"⚠️ **Collision of a car with a trolleybus: Kyiv police are establishing the circumstances of the accident in the Solomianskyi district.**
+
+The traffic accident occurred today in the afternoon on Borshchahivska Street in the Solomianskyi district of Kyiv. Investigators from the police department and patrol officers are still working at the scene.
+
+According to preliminary information, the driver of a Suzuki car, born in 1954, lost control, crossed into the oncoming lane, and collided with a trolleybus that was stopped due to an accident involving a Nissan car.
+
+As a result of the collision, a passenger of the car, born in 1952, and an elderly woman standing near the trolleybus were injured. The injured were hospitalized for medical assistance.
+
+Police continue to work at the scene, and the legal qualification of the incident is being determined.",negative,A traffic accident involving a car and a trolleybus occurred on Borshchahivska Street in the Solomianskyi district. Preliminary reports indicate that a Suzuki driver lost control and collided with a stationary trolleybus. Two individuals were injured and hospitalized. Police are investigating the incident.,Car-Trolleybus Collision in Solomianskyi,Accidents or Disasters,street,Solomianskyi district,"[50.4282552, 30.4529175]"
+2024-09-10T11:51:48+00:00,Straw INFO - Solomianskyi District,12652,"Repair work on Lypkivskyi continues.
+
+One lane in the direction of Solomianska Square is closed.",negative,"Repair work on Lypkivskyi is ongoing, resulting in the closure of one lane towards Solomianska Square.",Lane Closure for Repairs,Citizen Discomfort,street,Solomianska Square,"[50.4313864, 30.4704653]"
+2024-09-10T08:43:59+00:00,Straw INFO - Solomianskyi District,12649,"**The movement of trolleybuses No. 22k, 27, 30, 42 is delayed.**
+
+The movement of trolleybuses No. 22k, 27, 30, 42 on Hetmana Street is delayed due to an accident. Police have been called to the scene.",negative,"The operation of trolleybuses No. 22k, 27, 30, and 42 on Hetmana Street is delayed due to an accident, with police responding to the scene.",Trolleybus Delays Due to Accident,Citizen Discomfort,street,Hetmana Street,"[48.5239882, 25.0302734]"
+2024-09-10T08:18:31+00:00,Straw INFO - Solomianskyi District,12647,"🚶‍➡️🛣️ In Kyiv, two new ground crossings are being arranged to duplicate the underground and above-ground ones.
+
+Work is being carried out at the crossings: across Hetmana Street on Oleksy Tykhyi Street and across Valerii Lobanovskyi Avenue on Demiivska Street. The lowering of the curb has already been completed, and the work is expected to be fully finished by the end of 2024.",positive,"Two new ground crossings are being constructed in Kyiv to supplement existing underground and above-ground crossings. Work is underway on Hetmana Street and Valerii Lobanovskyi Avenue, with completion expected by the end of 2024.",New Ground Crossings Under Construction,Improvements in Infrastructure,street,Hetmana Street,"[48.5239882, 25.0302734]"
+2024-09-10T08:18:31+00:00,Straw INFO - Solomianskyi District,12647,"🚶‍➡️🛣️ In Kyiv, two new ground crossings are being arranged to duplicate the underground and above-ground ones.
+
+Work is being carried out at the crossings: across Hetmana Street on Oleksy Tykhyi Street and across Valerii Lobanovskyi Avenue on Demiivska Street. The lowering of the curb has already been completed, and the work is expected to be fully finished by the end of 2024.",positive,"Two new ground crossings are being constructed in Kyiv to supplement existing underground and above-ground crossings. Work is underway on Hetmana Street and Valerii Lobanovskyi Avenue, with completion expected by the end of 2024.",New Ground Crossings Under Construction,Improvements in Infrastructure,street,Valerii Lobanovskyi Avenue,"[50.4125989, 30.4836221]"
+2024-09-09T16:55:19+00:00,Straw INFO - Solomianskyi District,12625,"⚡️ The Roman Ratushnyi Nature Reserve in Protasov Yar is under threat: people have gathered for a rally outside the Kyiv City State Administration.
+
+The head of the Kyiv City Council's permanent commission on architecture, urban planning, and land relations has invited the construction company, faction leaders, and representatives of the NGO 'Protect Protasov Yar' and the community today at 15:00 to 'discuss problematic issues that may arise when considering the draft decisions of the Kyiv City Council regarding the protection of the Roman Ratushnyi Nature Reserve in Protasov Yar'.
+
+These are the projects aimed at preserving the status of Protasov Yar as a green zone.
+
+Activists claim that the representative of the developer had previously met with Kyiv City Council deputies without the presence of community representatives. Therefore, people decided to gather outside the Kyiv City Council.",negative,A rally is taking place outside the Kyiv City State Administration to protect the Roman Ratushnyi Nature Reserve in Protasov Yar. Activists are concerned about construction projects that may threaten the green zone.,Rally to Protect Nature Reserve,Social/Political Instability,exact location,Kyiv City State Administration,"[50.446306, 30.520272]"
+2024-09-09T16:55:19+00:00,Straw INFO - Solomianskyi District,12625,"⚡️ The Roman Ratushnyi Nature Reserve in Protasov Yar is under threat: people have gathered for a rally outside the Kyiv City State Administration.
+
+The head of the Kyiv City Council's permanent commission on architecture, urban planning, and land relations has invited the construction company, faction leaders, and representatives of the NGO 'Protect Protasov Yar' and the community today at 15:00 to 'discuss problematic issues that may arise when considering the draft decisions of the Kyiv City Council regarding the protection of the Roman Ratushnyi Nature Reserve in Protasov Yar'.
+
+These are the projects aimed at preserving the status of Protasov Yar as a green zone.
+
+Activists claim that the representative of the developer had previously met with Kyiv City Council deputies without the presence of community representatives. Therefore, people decided to gather outside the Kyiv City Council.",negative,A rally is taking place outside the Kyiv City State Administration to protect the Roman Ratushnyi Nature Reserve in Protasov Yar. Activists are concerned about construction projects that may threaten the green zone.,Rally to Protect Nature Reserve,Social/Political Instability,exact location,Protasov Yar,"[50.4226568, 30.5012244]"
+2024-09-09T12:18:06+00:00,Straw INFO - Solomianskyi District,12617,"⚠️ Traffic accident involving an ambulance at the intersection of Zhilyanska and Pavlo Skoropadskyi streets.
+
+It is also reported that the movement of trolleybuses No. 3 and 9 is blocked towards Solomianska.",negative,"An ambulance was involved in a traffic accident at the intersection of Zhilyanska and Pavlo Skoropadskyi streets, blocking trolleybus routes No. 3 and 9 towards Solomianska.",Ambulance Involved in Traffic Accident,Accidents or Disasters,street,Zhilyanska Street,"[50.4396641, 30.498437]"
+2024-09-09T12:18:06+00:00,Straw INFO - Solomianskyi District,12617,"⚠️ Traffic accident involving an ambulance at the intersection of Zhilyanska and Pavlo Skoropadskyi streets.
+
+It is also reported that the movement of trolleybuses No. 3 and 9 is blocked towards Solomianska.",negative,"An ambulance was involved in a traffic accident at the intersection of Zhilyanska and Pavlo Skoropadskyi streets, blocking trolleybus routes No. 3 and 9 towards Solomianska.",Ambulance Involved in Traffic Accident,Accidents or Disasters,street,Solomianska,"[50.4311745, 30.47186589999999]"
+2024-09-07T18:27:23+00:00,Straw INFO - Solomianskyi District,12596,"The KyivBookFest book forum, taking place from September 5 to 8 at the ""Gorodok Galery"" shopping center, is an important cultural and artistic event and extremely interesting for the librarians of our library regarding the arts. It is not only a large book fair but also an industry forum. More than 130 publishers are participating, with over 200 events taking place – industry lectures, presentations, poetry readings, and musical performances. The festival organizers announced a charity collection – 1,500,000 UAH to update the library collections of military educational institutions with modern literature.",positive,"The KyivBookFest, running from September 5 to 8 at the Gorodok Gallery, is a significant cultural event featuring over 130 publishers and more than 200 activities, including lectures and performances. The organizers are also collecting 1.5 million UAH to update library collections for military educational institutions.",KyivBookFest Celebrates Literature,Cultural/Sporting Milestones,exact location,Gorodok Gallery,"[50.48993400000001, 30.4951873]"
+2024-09-07T17:40:35+00:00,Straw INFO - Solomianskyi District,12595,There was a fire in Zhulyany🔥,negative,A fire occurred in Zhulyany.,Fire Breaks Out in Zhulyany,Accidents or Disasters,exact location,Zhulyany,"[50.39428239999999, 30.4406358]"
+2024-09-07T17:39:51+00:00,Straw INFO - Solomianskyi District,12594,Traffic accident at Solomianska Square,negative,There was a traffic accident at Solomianska Square.,Traffic Accident at Solomianska,Accidents or Disasters,exact location,Solomianska Square,"[50.4313864, 30.4704653]"
+2024-09-07T15:06:41+00:00,Straw INFO - Solomianskyi District,12592,"🚧 Due to a traffic accident on Beresteiskyi Avenue, traffic is complicated in the direction of leaving the city.",negative,Traffic is complicated on Beresteiskyi Avenue due to an accident.,Traffic Complications on Beresteiskyi,Accidents or Disasters,street,Beresteiskyi Avenue,"[50.4587577, 30.4194449]"
+2024-09-06T07:22:44+00:00,Straw INFO - Solomianskyi District,12573,"🐢🦜**Turtles and Ara parrots are enjoying watermelons at Kyiv Zoo**
+
+➡️You can watch the feeding demonstrations on September 7-8 at 12:00.",positive,"Turtles and Ara parrots at Kyiv Zoo are being fed watermelons, with demonstrations scheduled for September 7-8.",Zoo Animals Enjoy Watermelons,Community Events or Achievements,exact location,Kyiv Zoo,"[50.4549073, 30.4651811]"
+2024-09-05T07:10:12+00:00,Straw INFO - Solomianskyi District,12540,❗️Attention everyone ❗️ Shaheds continue to attack Kyiv region. The alert has been ongoing for more than 10 hours. The cities of Boyarka and Vyshneve are at the epicenter of events. All information can be found at the links: Boyarka - https://t.me/boyarkainfo Vyshneve - https://t.me/vyshneve_info. Subscribe for only current information in real-time.,negative,"The Kyiv region is under attack from Shahed drones, with alerts ongoing for over 10 hours. Boyarka and Vyshneve are the main areas affected.",Kyiv Region Under Shahed Attack,Public Safety Risks,street,Vasylenka Street,"[50.4484937, 30.4194663]"
+2024-09-05T04:07:58+00:00,Straw INFO - Solomianskyi District,12515,"💬 'The air raid alert continues! Air defense is active in the capital. Stay in shelters until the air raid alert is lifted!' Sergey Popko, head of KMVA.",negative,"The air raid alert is ongoing, with active air defense measures in place in the capital.",Air Defense Active in Kyiv,Social/Political Instability,street,Hetmana Street,"[48.5239882, 25.0302734]"
+2024-09-04T09:45:25+00:00,Straw INFO - Solomianskyi District,12499,The movement of trolleybuses No. 7 and 36 is delayed due to a traffic accident on Beresteisky Avenue / 'Dachna' bus station towards Chornobylska Street. The police have been called to the scene.,negative,The movement of trolleybuses No. 7 and 36 is delayed due to a traffic accident on Beresteisky Avenue.,Trolleybus Delays Due to Accident,Accidents or Disasters,street,Beresteisky Avenue,"[50.4587577, 30.4194449]"
+2024-09-04T09:19:39+00:00,Straw INFO - Solomianskyi District,12497,A traffic accident occurred at the intersection of Harmatna and Borshchahivska streets towards the city center.,negative,A traffic accident has occurred at the intersection of Harmatna and Borshchahivska streets.,Traffic Accident in City Center,Accidents or Disasters,exact location,Intersection of Harmatna and Borshchahivska streets,"[50.4415683, 30.4321724]"
+2024-09-04T06:57:45+00:00,Straw INFO - Solomianskyi District,12493,The movement of trolleybuses No. 27 is delayed on Harmatna Street due to a traffic accident. The police have been called to the scene.,negative,The movement of trolleybus No. 27 is delayed on Harmatna Street due to a traffic accident.,Trolleybus Delays on Harmatna Street,Accidents or Disasters,street,Harmatna Street,"[50.4462306, 30.4325286]"
+2024-09-04T06:14:01+00:00,Straw INFO - Solomianskyi District,12487,"Kyivteploenergo: Under the central street of Solomianskyi, pipes were replaced without stopping the busy traffic. 🛠Kyivteploenergo replaced part of the damaged pipe, with a diameter of 400 mm on Solomianska Street. More than 30 meters of pipes were laid directly under the roadway. The energy workers carried out the work without stopping traffic on one of the busiest highways in the city. The heating network on Solomianska Street was laid over 45 years ago. In recent years, 8 damages have been detected here. To prevent future ruptures in the heating network, it was decided to replace the damaged section. The repair team dismantled the old pipes and laid new ones in special boxes that protect the pipeline from transport loads. Hydro insulation and thermal insulation were performed on the new section to increase durability and efficiency.",positive,"Kyivteploenergo has replaced a section of a damaged 400 mm pipe on Solomianska Street without halting traffic. Over 30 meters of new pipes were installed under the busy roadway, which has had eight damages in recent years. The old pipes were removed and new ones were placed in protective boxes, with hydro and thermal insulation added for durability.",Traffic Maintained During Pipe Replacement,Improvements in Infrastructure,street,Solomianska Street,"[50.4233249, 30.4805921]"
+2024-09-03T07:29:47+00:00,Straw INFO - Solomianskyi District,12463,"😱 A man was seen running in Solomianka with a hole in his stomach. He was spotted running on Chokolivskyi Boulevard, holding his stomach. It turned out that the man had a stab wound. The police provided him with first aid and handed him over to doctors. According to the victim, he was stabbed by an unknown woman.",negative,A man was seen running on Chokolivskyi Boulevard with a stab wound to his stomach. He received first aid from the police before being taken to the hospital.,Stabbing Incident in Solomianka,Crime or Safety Concerns,street,Chokolivskyi Boulevard,"[50.4317703, 30.4551932]"
+2024-08-30T19:24:50+00:00,Straw INFO - Solomianskyi District,12382,"✅ Recently, on Valerii Lobanovskyi Avenue, police noticed a BMW vehicle whose driver crossed a double solid line of road markings.
+
+Inspectors immediately stopped the driver and drew up the relevant administrative materials.
+
+❗️ We remind you that according to Section 34 ""Road Markings"" of the Traffic Rules of Ukraine, a double solid line of road marking under number 1.3 divides the directions of movement on highways, with at least two lanes of traffic in each direction. Crossing the line is prohibited.
+
+Be polite and do not violate the traffic rules!",negative,Police stopped a driver for crossing a double solid line on Valerii Lobanovskyi Avenue.,Police Stop Traffic Violator,Crime or Safety Concerns,street,Valerii Lobanovskyi Avenue,"[50.4125989, 30.4836221]"
+2024-08-30T18:53:27+00:00,Straw INFO - Solomianskyi District,12378,"On August 31, instead of trams No. 1 and 3, buses will temporarily operate.
+
+On August 31, approximately until 18:00, trams on routes No. 1 and 3 will not operate temporarily due to the repair of the tram track on Zhylianska Street. This was reported by KP ""Kyivpastrans"".
+
+Passenger transportation will be carried out by temporary bus routes:
+
+Bus No. 1-T
+""Mykhailivska Borshchahivka – Staro-Vokzalna St."" – Simyrenka St. – Mykola Rudenko Boulevard – Lesia Ukrainka Avenue – Liubomyr Huzar Avenue – Borshchahivska St. – Zhylianska St. – Staro-Vokzalna St. – Zhylianska St. – Borshchahivska St. – Liubomyr Huzar Avenue – Lesia Ukrainka Avenue – Volodymyr Pokotylo St. – Mykola Rudenko Boulevard – Simyrenka St.;
+
+Bus No. 3-T
+""Ring Road – Staro-Vokzalna St."" – Lesia Ukrainka Avenue – Liubomyr Huzar Avenue – Borshchahivska St. – Zhylianska St. – Staro-Vokzalna St.
+""Kyivpastrans"" apologizes for the temporary inconvenience.",negative,"On August 31, buses will temporarily replace trams No. 1 and 3 due to track repairs on Zhylianska Street.",Bus Replaces Trams Temporarily,Citizen Discomfort,street,Zhylianska Street,"[50.4396641, 30.498437]"
+2024-08-30T16:05:40+00:00,Straw INFO - Solomianskyi District,12376,The battle of the kiosks continues: the passage near the Central Railway Station has been cleared of kiosks.,negative,The area near the Central Railway Station has been cleared of kiosks.,Kiosk Removal Near Railway Station,City Problems,exact location,Central Railway Station,"[13.0832022, 80.27552519999999]"
+2024-08-30T07:32:44+00:00,Straw INFO - Solomianskyi District,12361,"**The movement of trams No. 14, 15 is delayed.**
+
+The movement of trams No. 14, 15 on Vasylenka St. towards Kontraktova Square is delayed due to a parked car in the passageway. The responsible city service has been dispatched to the scene.",negative,Tram services No. 14 and 15 on Vasylenka Street towards Kontraktova Square are delayed because of a parked car obstructing the passage. City services are responding to the situation.,Tram Delays on Vasylenka St.,Citizen Discomfort,street,Vasylenka Street,"[50.4484937, 30.4194663]"
+2024-08-30T07:32:44+00:00,Straw INFO - Solomianskyi District,12361,"**The movement of trams No. 14, 15 is delayed.**
+
+The movement of trams No. 14, 15 on Vasylenka St. towards Kontraktova Square is delayed due to a parked car in the passageway. The responsible city service has been dispatched to the scene.",negative,Tram services No. 14 and 15 on Vasylenka Street towards Kontraktova Square are delayed because of a parked car obstructing the passage. City services are responding to the situation.,Tram Delays on Vasylenka St.,Citizen Discomfort,street,Kontraktova Square,"[50.463945, 30.5174135]"
+2024-08-30T07:25:12+00:00,Straw INFO - Solomianskyi District,12358,🔥 Something has burned on Dehtiarivska St. 15.,negative,A fire incident has occurred at Dehtiarivska Street 15.,Fire Incident on Dehtiarivska St.,Accidents or Disasters,exact location,Dehtiarivska Street 15,"[50.4616558, 30.4767528]"
+2024-08-30T07:09:00+00:00,Straw INFO - Solomianskyi District,12355,"**The movement of trolleybuses No. 7, 36 is delayed.**
+
+The movement of trolleybuses No. 7, 36 on Beresteyskyi Ave. - metro station ""Zhytomyrska"" towards metro station ""Ukrainian Heroes Square"" is delayed due to a traffic accident. The police have been called to the scene.
+
+Bus movement has been organized to the metro station ""Sviatoshyn"".",negative,"Trolleybus services No. 7 and 36 on Beresteyskyi Avenue towards Ukrainian Heroes Square are delayed due to a traffic accident, with police on site. Bus services have been arranged to Sviatoshyn metro station.",Trolleybus Delays Due to Accident,Accidents or Disasters,street,Beresteyskyi Avenue,"[50.4587577, 30.4194449]"
+2024-08-30T07:09:00+00:00,Straw INFO - Solomianskyi District,12355,"**The movement of trolleybuses No. 7, 36 is delayed.**
+
+The movement of trolleybuses No. 7, 36 on Beresteyskyi Ave. - metro station ""Zhytomyrska"" towards metro station ""Ukrainian Heroes Square"" is delayed due to a traffic accident. The police have been called to the scene.
+
+Bus movement has been organized to the metro station ""Sviatoshyn"".",negative,"Trolleybus services No. 7 and 36 on Beresteyskyi Avenue towards Ukrainian Heroes Square are delayed due to a traffic accident, with police on site. Bus services have been arranged to Sviatoshyn metro station.",Trolleybus Delays Due to Accident,Accidents or Disasters,street,Sviatoshyn metro station,"[50.4577675, 30.3906572]"
+2024-08-29T18:58:46+00:00,Straw INFO - Solomianskyi District,12351,"**Train movement on the ""red"" metro line is carried out between the stations ""Akademmistechko"" – ""Vokzalna"", ""Khreshchatyk"" – ""Lisova""**
+The stations ""Teatralna"" and ""Universitet"" are temporarily closed for passenger entry.
+
+❕️ At the ""Universitet"" station, a passenger fell onto the tracks.
+
+Relevant services are working at the scene.
+
+Law enforcement agencies are clarifying the circumstances.",negative,"Train services on the 'red' metro line are operating between Akademmistechko and Vokzalna, and Khreshchatyk and Lisova stations, while Teatralna and Universitet stations are temporarily closed due to an incident involving a passenger.",Metro Stations Temporarily Closed,Citizen Discomfort,exact location,Akademmistechko,"[50.4656815, 30.3667554]"
+2024-08-29T18:58:46+00:00,Straw INFO - Solomianskyi District,12351,"**Train movement on the ""red"" metro line is carried out between the stations ""Akademmistechko"" – ""Vokzalna"", ""Khreshchatyk"" – ""Lisova""**
+The stations ""Teatralna"" and ""Universitet"" are temporarily closed for passenger entry.
+
+❕️ At the ""Universitet"" station, a passenger fell onto the tracks.
+
+Relevant services are working at the scene.
+
+Law enforcement agencies are clarifying the circumstances.",negative,"Train services on the 'red' metro line are operating between Akademmistechko and Vokzalna, and Khreshchatyk and Lisova stations, while Teatralna and Universitet stations are temporarily closed due to an incident involving a passenger.",Metro Stations Temporarily Closed,Citizen Discomfort,exact location,Vokzalna,"[50.4413353, 30.489963]"
+2024-08-29T18:58:46+00:00,Straw INFO - Solomianskyi District,12351,"**Train movement on the ""red"" metro line is carried out between the stations ""Akademmistechko"" – ""Vokzalna"", ""Khreshchatyk"" – ""Lisova""**
+The stations ""Teatralna"" and ""Universitet"" are temporarily closed for passenger entry.
+
+❕️ At the ""Universitet"" station, a passenger fell onto the tracks.
+
+Relevant services are working at the scene.
+
+Law enforcement agencies are clarifying the circumstances.",negative,"Train services on the 'red' metro line are operating between Akademmistechko and Vokzalna, and Khreshchatyk and Lisova stations, while Teatralna and Universitet stations are temporarily closed due to an incident involving a passenger.",Metro Stations Temporarily Closed,Citizen Discomfort,exact location,Khreshchatyk,"[50.4477412, 30.5220779]"
+2024-08-29T08:56:17+00:00,Straw INFO - Solomianskyi District,12339,"🔴 A corrupt official is being apprehended at Sevastopol Square, a suitcase with money is visible in the car. Investigative actions are underway.",negative,"A corrupt official was apprehended at Sevastopol Square, with a suitcase containing money visible in the vehicle.",Corrupt Official Apprehended,Crime or Safety Concerns,exact location,Sevastopol Square,"[44.61665, 33.525367]"
+2024-08-28T20:02:20+00:00,Straw INFO - Solomianskyi District,12312,"💡Regarding electricity. At 23:00
+
+— Connecting group 4
+— Group 5 remains disconnected
+— Group 6 remains disconnected.",negative,"At 23:00, group 4 will be connected, while groups 5 and 6 will remain disconnected.",Electricity Status Update,Citizen Discomfort,street,Povitroflotskyi,"[50.4206903, 30.4544947]"
+2024-08-28T20:02:20+00:00,Straw INFO - Solomianskyi District,12312,"💡Regarding electricity. At 23:00
+
+— Connecting group 4
+— Group 5 remains disconnected
+— Group 6 remains disconnected.",negative,"At 23:00, group 4 will be connected, while groups 5 and 6 will remain disconnected.",Electricity Status Update,Citizen Discomfort,street,Sevastopol Square,"[44.61665, 33.525367]"
+2024-08-27T04:32:35+00:00,Straw INFO - Solomianskyi District,12268,"📸 blooming park ""Vidradnyi""",positive,The blooming park 'Vidradnyi' is featured.,Blooming Park 'Vidradnyi' Captured,Environmental Improvements,exact location,Vidradnyi Park,"[50.4311122, 30.4235445]"
+2024-08-26T14:59:09+00:00,Straw INFO - Solomianskyi District,12255,"**The movement of trolleybuses No. 4, 5, 7, 22, 27, 30, 42 is delayed**
+
+The movement of trolleybuses No. 4, 5, 7, 22, 27, 30, 42 at the metro station ""Shulyavska"" is delayed due to the lack of voltage.",negative,"The movement of trolleybuses No. 4, 5, 7, 22, 27, 30, and 42 is delayed at the Shulyavska metro station due to a lack of voltage.",Trolleybus Services Delayed in Kyiv,Citizen Discomfort,exact location,Shulyavska metro station,"[50.4513475, 30.44457199999999]"
+2024-08-26T06:32:30+00:00,Straw INFO - Solomianskyi District,12231,"🚇 **The 'Green' line! The 'Vydubychi' station is operating in shelter mode due to a significant increase in people.**
+
+Train movement on the green line is ongoing:
+▫️ from 'Syrets' station to 'Zvirynetska' station;
+▫️ from 'Osokorky' station to 'Chervonyi Khutir' station.
+
+❕ 'Vydubychi' and 'Slavutych' stations are operating in shelter mode.",negative,The 'Vydubychi' station on the green line is operating in shelter mode due to a significant increase in passengers. Train services continue from 'Syrets' to 'Zvirynetska' and from 'Osokorky' to 'Chervonyi Khutir'.,Vydubychi Station in Shelter Mode,Citizen Discomfort,exact location,Vydubychi station,"[50.400692, 30.557399]"
+2024-08-26T06:32:30+00:00,Straw INFO - Solomianskyi District,12231,"🚇 **The 'Green' line! The 'Vydubychi' station is operating in shelter mode due to a significant increase in people.**
+
+Train movement on the green line is ongoing:
+▫️ from 'Syrets' station to 'Zvirynetska' station;
+▫️ from 'Osokorky' station to 'Chervonyi Khutir' station.
+
+❕ 'Vydubychi' and 'Slavutych' stations are operating in shelter mode.",negative,The 'Vydubychi' station on the green line is operating in shelter mode due to a significant increase in passengers. Train services continue from 'Syrets' to 'Zvirynetska' and from 'Osokorky' to 'Chervonyi Khutir'.,Vydubychi Station in Shelter Mode,Citizen Discomfort,exact location,Syrets station,"[50.475221, 30.430001]"
+2024-08-26T06:32:30+00:00,Straw INFO - Solomianskyi District,12231,"🚇 **The 'Green' line! The 'Vydubychi' station is operating in shelter mode due to a significant increase in people.**
+
+Train movement on the green line is ongoing:
+▫️ from 'Syrets' station to 'Zvirynetska' station;
+▫️ from 'Osokorky' station to 'Chervonyi Khutir' station.
+
+❕ 'Vydubychi' and 'Slavutych' stations are operating in shelter mode.",negative,The 'Vydubychi' station on the green line is operating in shelter mode due to a significant increase in passengers. Train services continue from 'Syrets' to 'Zvirynetska' and from 'Osokorky' to 'Chervonyi Khutir'.,Vydubychi Station in Shelter Mode,Citizen Discomfort,exact location,Zvirynetska station,"[50.417033, 30.547317]"
+2024-08-26T06:32:30+00:00,Straw INFO - Solomianskyi District,12231,"🚇 **The 'Green' line! The 'Vydubychi' station is operating in shelter mode due to a significant increase in people.**
+
+Train movement on the green line is ongoing:
+▫️ from 'Syrets' station to 'Zvirynetska' station;
+▫️ from 'Osokorky' station to 'Chervonyi Khutir' station.
+
+❕ 'Vydubychi' and 'Slavutych' stations are operating in shelter mode.",negative,The 'Vydubychi' station on the green line is operating in shelter mode due to a significant increase in passengers. Train services continue from 'Syrets' to 'Zvirynetska' and from 'Osokorky' to 'Chervonyi Khutir'.,Vydubychi Station in Shelter Mode,Citizen Discomfort,exact location,Osokorky station,"[50.3825909, 30.604857]"
+2024-08-26T06:32:30+00:00,Straw INFO - Solomianskyi District,12231,"🚇 **The 'Green' line! The 'Vydubychi' station is operating in shelter mode due to a significant increase in people.**
+
+Train movement on the green line is ongoing:
+▫️ from 'Syrets' station to 'Zvirynetska' station;
+▫️ from 'Osokorky' station to 'Chervonyi Khutir' station.
+
+❕ 'Vydubychi' and 'Slavutych' stations are operating in shelter mode.",negative,The 'Vydubychi' station on the green line is operating in shelter mode due to a significant increase in passengers. Train services continue from 'Syrets' to 'Zvirynetska' and from 'Osokorky' to 'Chervonyi Khutir'.,Vydubychi Station in Shelter Mode,Citizen Discomfort,exact location,Chervonyi Khutir station,"[49.087498, 31.857418]"
+2024-08-26T06:03:47+00:00,Straw INFO - Solomianskyi District,12215,"**🚇 Metro trains are running on the 'Red' line from 'Akademmistechko' station to 'Teatralna' station.**
+
+The metro stations 'Arsenalna' and 'Khreshchatyk' are operating only in shelter mode.",negative,"Metro trains are operational on the 'Red' line between 'Akademmistechko' and 'Teatralna' stations, while 'Arsenalna' and 'Khreshchatyk' stations are in shelter mode.",Red Line Metro Operations Update,Citizen Discomfort,exact location,Akademmistechko station,"[50.4656815, 30.3667554]"
+2024-08-26T06:03:47+00:00,Straw INFO - Solomianskyi District,12215,"**🚇 Metro trains are running on the 'Red' line from 'Akademmistechko' station to 'Teatralna' station.**
+
+The metro stations 'Arsenalna' and 'Khreshchatyk' are operating only in shelter mode.",negative,"Metro trains are operational on the 'Red' line between 'Akademmistechko' and 'Teatralna' stations, while 'Arsenalna' and 'Khreshchatyk' stations are in shelter mode.",Red Line Metro Operations Update,Citizen Discomfort,exact location,Teatralna station,"[50.445037, 30.519]"
+2024-08-26T06:03:47+00:00,Straw INFO - Solomianskyi District,12215,"**🚇 Metro trains are running on the 'Red' line from 'Akademmistechko' station to 'Teatralna' station.**
+
+The metro stations 'Arsenalna' and 'Khreshchatyk' are operating only in shelter mode.",negative,"Metro trains are operational on the 'Red' line between 'Akademmistechko' and 'Teatralna' stations, while 'Arsenalna' and 'Khreshchatyk' stations are in shelter mode.",Red Line Metro Operations Update,Citizen Discomfort,exact location,Arsenalna station,"[50.4430624, 30.5471574]"
+2024-08-26T06:03:47+00:00,Straw INFO - Solomianskyi District,12215,"**🚇 Metro trains are running on the 'Red' line from 'Akademmistechko' station to 'Teatralna' station.**
+
+The metro stations 'Arsenalna' and 'Khreshchatyk' are operating only in shelter mode.",negative,"Metro trains are operational on the 'Red' line between 'Akademmistechko' and 'Teatralna' stations, while 'Arsenalna' and 'Khreshchatyk' stations are in shelter mode.",Red Line Metro Operations Update,Citizen Discomfort,exact location,Khreshchatyk station,"[50.4477412, 30.5220779]"
+2024-08-23T05:08:41+00:00,Straw INFO - Solomianskyi District,12153,"The movement of trams No. 14, 15 is delayed on Dehtyarivska Street 36 for technical reasons. A responsible service of the enterprise has been dispatched to the site.",negative,Tram services No. 14 and 15 are also delayed on Dehtyarivska Street due to technical issues.,Tram Delays on Dehtyarivska,Citizen Discomfort,street,Dehtyarivska Street,"[50.4538219, 30.4882207]"
+2024-08-22T11:49:01+00:00,Straw INFO - Solomianskyi District,12151,🚧Morning traffic accident on Solomianska Street.,negative,A traffic accident occurred this morning on Solomianska Street.,Traffic Accident on Solomianska,Accidents or Disasters,street,Solomianska Street,"[50.4233249, 30.4805921]"
+2024-08-22T10:44:53+00:00,Straw INFO - Solomianskyi District,12149,"The movement of trolleybuses No. 4, 5, 7 is delayed on Beresteyskyi Avenue towards the ""Ukrainian Heroes Square"" metro station due to a traffic accident. Police have been called to the scene.",negative,"Trolleybus services No. 4, 5, and 7 are delayed on Beresteyskyi Avenue due to a traffic accident.",Trolleybus Delays Due to Accident,Citizen Discomfort,street,Beresteyskyi Avenue,"[50.4587577, 30.4194449]"
+2024-08-21T17:59:07+00:00,Straw INFO - Solomianskyi District,12131,"⚡ A Bolt taxi driver hit a person: the incident occurred at the intersection of Solomianska and Narodna streets, — eyewitnesses.",negative,A Bolt taxi driver was involved in an incident at the intersection of Solomianska and Narodna streets.,Taxi Driver Hits Pedestrian,Accidents or Disasters,exact location,Intersection of Solomianska and Narodna streets,"[50.4208219, 30.4863431]"
+2024-08-21T08:28:27+00:00,Straw INFO - Solomianskyi District,12124,"A person was hit at the intersection of Solomianska and Narodna streets🚶‍♂️💥🚗
+
+The injured person was taken by ambulance🚑",negative,A person was injured in an incident at the intersection of Solomianska and Narodna streets and was taken to the hospital.,Pedestrian Injured in Accident,Accidents or Disasters,exact location,Intersection of Solomianska and Narodna streets,"[50.4208219, 30.4863431]"
+2024-08-20T17:47:10+00:00,Straw INFO - Solomianskyi District,12110,"Subsequently, it was privatized based on an independent assessment. It was established that the appraisers intentionally did not properly inspect the real estate object, resulting in the inclusion of false information in the appraisal report amounting to over 330 thousand hryvnias.
+
+At the same time, the director of the KMDA Department, Hudz, did not take appropriate control measures and did not verify the indicated data. As a result of such actions, municipal real estate was privatized at a reduced value.
+
+The Solomianska District Prosecutor's Office of Kyiv has sent an indictment to the court against the director of the KMDA Department of Municipal Property, Hudz, and two appraisers for negligence and abuse of office, as well as for the preparation of a knowingly forged official document during the privatization of municipal real estate in Kyiv (part 2 of article 367, part 3 of article 365-2, part 3 of article 358 of the Criminal Code of Ukraine).",negative,"An indictment has been filed against Hudz, the director of the KMDA Department of Municipal Property, and two appraisers for negligence and falsifying documents during the privatization of municipal real estate.",Prosecutors Charge KMDA Director,Crime or Safety Concerns,exact location,National Aviation University,"[50.4400743, 30.4298761]"
+2024-08-20T10:51:21+00:00,Straw INFO - Solomianskyi District,12103,"**Another 22-year-old dealer of psychotropic substances was detained in the Solomianskyi district**
+
+The young man was engaged in the distribution of prohibited substances through ""stash"" methods. Among the ""goods"" - ""Alpha-PVP"" and cannabis.
+
+During the investigative actions, over 200 packages of drugs and psychotropics, as well as means for packaging and preparing orders, were seized from the offender and his residence.",negative,"A 22-year-old man was arrested in Solomianskyi district for distributing psychotropic substances, with over 200 packages seized during the investigation.",22-Year-Old Drug Dealer Arrested,Crime or Safety Concerns,street,Solomianska Street,"[50.4233249, 30.4805921]"
+2024-08-20T05:49:01+00:00,Straw INFO - Solomianskyi District,12100,"Due to a malfunctioning traffic light, a car hit a person.
+
+Another issue due to the impotence and irresponsibility of the Kyiv authorities, who cannot connect traffic lights to a backup line, although there was more than enough time.
+
+Solomianska St. (Protasiv Yar stop)",negative,A pedestrian was struck by a car due to a malfunctioning traffic light on Solomianska Street.,Pedestrian Hit by Car Incident,Accidents or Disasters,street,Maksym Kryvonos Street,"[49.4769481, 24.1112799]"
+2024-08-19T08:00:58+00:00,Straw INFO - Solomianskyi District,12078,"😷 In Kyiv, there is an increased level of air pollution observed in the morning.
+
+On Beresteiskyi Avenue and on Kharkiv Highway - moderate pollution level.",negative,"Increased air pollution levels were observed in Kyiv this morning, particularly on Beresteiskyi Avenue and Kharkiv Highway.",Morning Air Pollution Levels Rise,Environmental concerns,street,Beresteiskyi Avenue,"[50.4587577, 30.4194449]"
+2024-08-19T08:00:58+00:00,Straw INFO - Solomianskyi District,12078,"😷 In Kyiv, there is an increased level of air pollution observed in the morning.
+
+On Beresteiskyi Avenue and on Kharkiv Highway - moderate pollution level.",negative,"Increased air pollution levels were observed in Kyiv this morning, particularly on Beresteiskyi Avenue and Kharkiv Highway.",Morning Air Pollution Levels Rise,Environmental concerns,street,Kharkiv Highway,"[50.00201269999999, 36.3073994]"
+2024-08-18T14:13:13+00:00,Straw INFO - Solomianskyi District,12059,"⬜️🚬 A public ashtray has been installed near the ""Flowers of Ukraine"" building. 
+
+Previously, residents threw cigarette butts into a tin can or even onto flower beds. Capital activists made a square ashtray from concrete and placed instructions nearby on how to use it.",positive,"A public ashtray has been installed near the 'Flowers of Ukraine' building to encourage proper disposal of cigarette butts, which were previously discarded improperly.",New Public Ashtray Installed,Environmental Improvements,exact location,'Flowers of Ukraine' building,"[48.379433, 31.16558]"
+2024-08-17T04:57:01+00:00,Straw INFO - Solomianskyi District,12050,"In the ""Orlyatko"" park, flower beds have been updated and arranged, where decorative bushes, perennial flowers, and grasses have been skillfully combined, along with a bit of begonia and coleus for color 🌺🌾",positive,"Flower beds in 'Orlyatko' park have been updated with a combination of decorative bushes, perennial flowers, and grasses.",Orlyatko Park Flower Beds Revamped,Environmental Improvements,exact location,'Orlyatko' park,"[28.5383832, -81.3789269]"
+2024-08-16T07:37:02+00:00,Straw INFO - Solomianskyi District,12034,"[**🦜**](https://nashkiev.ua/news/dvi-rodini-papug-ara-pereihali-do-novogo-aviariya-u-sadu-kiivskogo-zooparku-foto) **Two families of Ara parrots have moved to a new aviary in the Kyiv Zoo garden.** 
+
+These birds were handed over to the Kyiv Zoo by volunteers during the war. Veterinarians conducted treatment and rehabilitation. The next recovery stage is currently underway — socialization. 
+
+__Photo - Kyiv Zoo__",positive,Two families of Ara parrots have been relocated to a new aviary at the Kyiv Zoo after being rehabilitated by veterinarians.,Ara Parrots Relocated to Zoo,Environmental Improvements,exact location,Kyiv Zoo,"[50.4549073, 30.4651811]"
+2024-08-15T18:30:35+00:00,Straw INFO - Solomianskyi District,12022,"""VAZ"" caught fire while driving on Valerii Lobanovskyi Avenue 🔥 
+
+The fire was extinguished by the State Emergency Service rescuers 🚒",negative,"A vehicle caught fire while driving on Valerii Lobanovskyi Avenue, but the fire was extinguished by emergency services.",Car Fire on Lobanovskyi Avenue,Accidents or Disasters,street,Valerii Lobanovskyi Avenue,"[50.4125989, 30.4836221]"
+2024-08-14T08:09:15+00:00,Straw INFO - Solomianskyi District,11986,"**The movement of bus No. 12 is delayed**
+
+The movement of bus No. 12 on Klynychnaya St 18, towards the Railway Station, is delayed due to a road surface collapse.
+
+Bus traffic is organized along Narodna St - Semenivska St towards the Railway Station.",negative,"Bus No. 12 is delayed due to a road surface collapse on Klynychnaya St, with traffic redirected along Narodna St and Semenivska St.",Bus No. 12 Delays Reported,City Problems,street,Narodna St,"[49.2566752, 23.8494121]"
+2024-08-14T08:09:15+00:00,Straw INFO - Solomianskyi District,11986,"**The movement of bus No. 12 is delayed**
+
+The movement of bus No. 12 on Klynychnaya St 18, towards the Railway Station, is delayed due to a road surface collapse.
+
+Bus traffic is organized along Narodna St - Semenivska St towards the Railway Station.",negative,"Bus No. 12 is delayed due to a road surface collapse on Klynychnaya St, with traffic redirected along Narodna St and Semenivska St.",Bus No. 12 Delays Reported,City Problems,street,Semenivska St,"[50.5611755, 30.1977688]"
+2024-08-13T11:59:22+00:00,Straw INFO - Solomianskyi District,11969,"🤗 The Central Library of Solomianska is hosting a series of summer intellectual games 'Electionville'.
+🔹 This coming Saturday, August 17 at 12:00, Kyiv residents are invited to the fifth game, to deepen their understanding of the needs of local communities through close interaction and interesting discussions, to enhance cognitive abilities and acquire skills for caring for the city!
+🔹 This game trains attention, critical thinking, active listening, empathy towards different social groups, the ability to communicate effectively and make optimal decisions (which are not always simple).
+🔹 If you register at the link in the first comment, you definitely won't miss this game and all the following ones. Your age does not matter; it is more likely to reflect your experience.
+🔹 We look forward to seeing you!
+📍 Location: Osviity St, 14a.
+🗓 Date: August 17
+🕧 Time: 12:00
+💁‍♂️ Free entry
+✅ Shelter available
+***
+For reference.
+🎯 'Electionville' is an interactive board game about democracy and local self-government, created based on the Swedish game 'Electionville'.
+🤵 According to the rules of the game, the fictional town serves as a platform for practicing democratic participation in real-time. During the gameplay, players learn to see what lies behind local decision-making and to consider the basic needs of local communities. The game has no age limit and is suitable for players of any age.
+🤔 Electionville is a game that is very relevant today, as it teaches participants civic responsibility, systematic analytical thinking, understanding societal needs, effective interaction for the welfare of the community, the ability to argue and convey one's opinion, and establish cooperation in a Win-Win format. So it's no surprise that the number of its supporters is steadily growing.
+☝️ Let us remind you that the game was developed by the content bureau 'Fabel AB' for the Swedish Association of Local Authorities and Regions, particularly for use in Swedish schools - to strengthen knowledge about the processes of democracy and local self-government.",positive,"The Central Library of Solomianska is hosting summer intellectual games titled 'Electionville' on August 17, aimed at enhancing civic understanding and engagement.",Intellectual Games at Library,Community Events or Achievements,exact location,Central Library of Solomianska,"[50.4311745, 30.47186589999999]"
+2024-08-13T05:26:38+00:00,Straw INFO - Solomianskyi District,11956,"📚 On August 11, a literary and musical meeting took place at the Central Library of Solomianskyi with the romantic title ""August Rhapsody."" This time, over 20 guests visited the reading room, including those who opened the doors of our library for the first time.
+
+😍 Ihor Yakubovskyi, the host and inspirer of the Sunday meetings, proposed a journey into the past, where it all began with the legendary ""Shchedryk"" by Mykola Leontovych – a melody that is now a true global Ukrainian hit.
+
+😊 This musical journey was particularly inspiring, and the visitors sang their favorite songs together, including: ""August Rhapsody,"" ""What a Moonlit Night,"" ""Oh, in the Meadow, the Red Viburnum,"" ""Brown Eyes, Black Eyebrows,"" and others.
+🌺 The performances by regular visitors, writers Iryna Livoberezhna and Tetiana Lavyniukova, who read their wonderful poems and shared their beautiful impressions of the past, were interesting.
+🎉 Don't miss the next event on August 18 at 12:00 titled ""Patriotic August.""",positive,"On August 11, a literary and musical event titled 'August Rhapsody' was held at the Central Library of Solomianskyi, attracting over 20 guests. The host, Ihor Yakubovskyi, led a musical journey featuring popular Ukrainian songs. The next event, 'Patriotic August,' is scheduled for August 18.",Literary Event at Solomianskyi Library,Cultural/Sporting Milestones,exact location,Central Library of Solomianskyi,"[50.4282552, 30.4529175]"

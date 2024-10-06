@@ -1,0 +1,66 @@
+[
+    {
+        "date": "2023-10-10T10:52:35+00:00",
+        "channel_name": "Dormitory #4 KPI",
+        "message_id": 158,
+        "text": "\ud83d\udfe2 **Administration**\n\n**Masters**\nStudents who complete their master's studies in winter will be evicted.\n\nWe remind you that previously, master's interns could continue to [stay until summer as external individuals.](https://t.me/kpicampus/1504)\n\n**Heating**\nHeating is planned to be supplied according to the KMDA schedule \u2014 **around October 15.** As usual, heating in the dormitories will be delayed by a week.\n\n**Payment**\nPayment in September was calculated at the rate of 4 people per room; starting in October, the payment amount will be calculated based on the [number of registered residents in the room](https://t.me/kpicampus/1059).\n\nIf a student is settled in the middle of the month, the payment will change from the following month, not from the moment of their settlement.\n\n**\"Laundry\"**\nNew washing machines are planned to be added to the dormitories to replace the old ones.\n\n**Illegal Residents**\nThe surveillance cameras planned to be installed in the student campus will be directly connected to the DB office to reduce the number of illegal residents entering the dormitory.\n\n**Windows**\nThe installation of new windows in Dormitory 4 is delayed due to incorrectly specified dimensions.\n\n@kpicampus",
+        "sentiment": "positive",
+        "rephrased_news": "Students completing their master's studies in winter will be required to vacate. Previously, master's interns could remain until summer as external individuals. Heating is scheduled to begin around October 15, with a typical one-week delay for dormitories. September payments were based on four residents per room, but from October, charges will reflect the actual number of registered residents. If a student moves in mid-month, the payment adjustment will take effect the following month. New washing machines are set to replace old ones in the dormitories. Surveillance cameras will be installed on campus to help reduce illegal residents. The installation of new windows in Dormitory 4 is delayed due to incorrect measurements.",
+        "title": "Dormitory Updates for Students",
+        "topic": "Improvements in Infrastructure",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 4"
+        ],
+        "latitude": "50.4490125",
+        "longitude": "30.4508679"
+    },
+    {
+        "date": "2024-05-08T12:25:22+00:00",
+        "channel_name": "Dormitory #4 KPI",
+        "message_id": 161,
+        "text": "\ud83d\udca7**May Without Water**\n\nThere is no hot water supply in the dormitories due to a break in the heating network and the corresponding repair work until May 13 at 23:59. After their completion, hydraulic tests of the pipes will begin until the end of the month.\n\nThe estimated completion date for all work and the return of water, according to Kyivteploenergo, is May 28 \u2014 31.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "Hot water supply in the dormitories is currently unavailable due to a break in the heating network, with repairs expected to last until May 13 at 23:59. Following repairs, hydraulic tests will be conducted until the end of the month. Kyivteploenergo estimates that all work will be completed and water restored between May 28 and 31.",
+        "title": "Hot Water Outage Extended",
+        "topic": "City Problems",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 4"
+        ],
+        "latitude": "50.4490125",
+        "longitude": "30.4508679"
+    },
+    {
+        "date": "2024-05-21T08:43:10+00:00",
+        "channel_name": "Dormitory #4 KPI",
+        "message_id": 162,
+        "text": "**\ud83d\udfe2 Administration**\n\n**Shelters**\nRepairs are planned in 6 dormitories that have shelters by autumn.\n\n**Power Banks**\nFor emergency charging, most dormitories have [power banks](https://t.me/ecokpi/142) available at the reception.\n\nIf you do not have a power bank or it is in poor condition, please request a replacement at @kpicampus_bot.\n\n**Generators**\nWill only be used in case of power outages lasting more than 4 hours, and only for charging flashlights and phones.\n\n@kpicampus",
+        "sentiment": "positive",
+        "rephrased_news": "Repairs are planned for six dormitories with shelters by autumn. Most dormitories have power banks available at the reception for emergency charging. If a power bank is unavailable or in poor condition, students can request a replacement. Generators will be used only during power outages lasting over four hours, specifically for charging flashlights and phones.",
+        "title": "Dormitory Repairs and Resources",
+        "topic": "Improvements in Infrastructure",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 4"
+        ],
+        "latitude": "50.4490125",
+        "longitude": "30.4508679"
+    },
+    {
+        "date": "2024-05-28T13:44:46+00:00",
+        "channel_name": "Dormitory #4 KPI",
+        "message_id": 163,
+        "text": "UPD: The hot water supply shutdown has been extended to June 10.\n\n@kpicampus",
+        "sentiment": "negative",
+        "rephrased_news": "The shutdown of hot water supply has been extended to June 10.",
+        "title": "Hot Water Shutdown Extended",
+        "topic": "City Problems",
+        "location_type": "exact location",
+        "location": [
+            "KPI Dormitory 4"
+        ],
+        "latitude": "50.4490125",
+        "longitude": "30.4508679"
+    }
+]

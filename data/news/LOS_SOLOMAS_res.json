@@ -1,0 +1,546 @@
+[
+    {
+        "date": "2024-10-05T21:37:34+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70883,
+        "text": "We are being informed:\n\nThere is a fire on Ushynskyi Street.\nSomeone set a garage on fire.\n\n👀",
+        "sentiment": "negative",
+        "rephrased_news": "There is a fire reported on Ushynskyi Street, involving a garage.",
+        "title": "Garage Fire on Ushynskyi Street",
+        "topic": "Accidents or Disasters",
+        "location_type": "street",
+        "location": "Kyiv, Ushynskyi Street",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-10-05T18:49:07+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70855,
+        "text": "Accident at the Akademmistechko metro station, towards Lavina.",
+        "sentiment": "negative",
+        "rephrased_news": "An accident occurred at the Akademmistechko metro station, affecting travel towards Lavina.",
+        "title": "Accident at Akademmistechko Station",
+        "topic": "Accidents or Disasters",
+        "location_type": "exact location",
+        "location": "Kyiv, Akademmistechko metro station",
+        "coords": [
+            50.4649376,
+            30.3550961
+        ]
+    },
+    {
+        "date": "2024-10-05T10:04:02+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70830,
+        "text": "**Complicated traffic in the direction of Vadym Hetman Street due to an accident,** - police.",
+        "sentiment": "negative",
+        "rephrased_news": "Traffic is complicated in the direction of Vadym Hetman Street due to an accident, according to police reports.",
+        "title": "Traffic Complications on Vadym Hetman",
+        "topic": "Accidents or Disasters",
+        "location_type": "street",
+        "location": "Kyiv, Vadym Hetman Street",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-10-05T07:46:35+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70825,
+        "text": "DOG MISSING!!!\n\nToday in the area of P. Radchenko Street, a mother was walking her dog, which broke free from the leash and ran after a yard dog.\n\nAt 9:10, it was seen running across Lobanovskyi Street and near the Holovka bus stop and the former Belgorodskyi Street.\n\nA black pug, responds to the name John, Joni. Very friendly, approaches people.\n\nWhite spots on the chest and front paws.\n\nIf anyone has seen him and can catch him or has any information - please write to me!\n\n@lakiza_ann\n0669996245\n\nREWARD!\n\nAnd I kindly ask you to share this in similar local chats 🥺\n\nThe little dog is very much awaited at home!!!",
+        "sentiment": "negative",
+        "rephrased_news": "A black pug named John went missing in the area of P. Radchenko Street. The owner is seeking help in locating the dog.",
+        "title": "Missing Dog in Kyiv Area",
+        "topic": "Other",
+        "location_type": "street",
+        "location": "Kyiv, P. Radchenko Street",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-10-01T10:57:07+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70653,
+        "text": "Accident on Oleksy Tykhyi. Traffic is complicated, please take this into account.",
+        "sentiment": "negative",
+        "rephrased_news": "Traffic is complicated due to an accident on Oleksy Tykhyi.",
+        "title": "Traffic Complications on Oleksy Tykhyi",
+        "topic": "Citizen Discomfort",
+        "location_type": "street",
+        "location": "Kyiv, Oleksy Tykhyi",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-30T15:48:03+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70623,
+        "text": "Fedor Ernst Street\n\nA courier was hit\n\n@lossolomas_kyiv",
+        "sentiment": "negative",
+        "rephrased_news": "A courier was struck by a vehicle on Fedor Ernst Street.",
+        "title": "Courier Injured on Fedor Ernst",
+        "topic": "Accidents or Disasters",
+        "location_type": "street",
+        "location": "Kyiv, Fedor Ernst Street",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-30T14:50:14+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70612,
+        "text": "We are being informed:\n\nThe fast tram, Lubomyr Huzar station, is shedding plaster in large chunks.\nBe careful.",
+        "sentiment": "negative",
+        "rephrased_news": "At the Lubomyr Huzar station, large chunks of plaster are falling from the ceiling; caution is advised.",
+        "title": "Plaster Falling at Tram Station",
+        "topic": "Deterioration in Infrastructure",
+        "location_type": "exact location",
+        "location": "Kyiv, Lubomyr Huzar station",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-30T09:52:35+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70608,
+        "text": "**Charity mono-performance \"Unborn for War\".**\nOn stage of the theater — a fighter of the Third Assault Brigade, Honored Artist of Ukraine Yevhen Avdiyenko.\n\nThis tragicomedy is about black humor, love and loneliness, unbearable military hooliganism, and dangerous adventures. Real stories from the front without pathos and romance.\n\nWhen: November 21, 19:00.\n\n📍 Where: Kyiv Academic Drama Theater on Podil (Andriivskyi Descent, 20-B).\n\n💸 Cost: 300 - 800 UAH. All funds will be directed to the needs of our military on the front line.\n\nTickets can be purchased [via this link.](https://kyiv.karabas.com/3-tya-shturmova-bryhada-ta-chornyy-kvadrat-militari-stand-up-nenarodzheni-dlya-viyny-9/)",
+        "sentiment": "positive",
+        "rephrased_news": "A charity mono-performance titled 'Unborn for War' will take place on November 21 at the Kyiv Academic Drama Theater, featuring stories from the frontlines. Proceeds will support military needs.",
+        "title": "Charity Performance for Military",
+        "topic": "Community Events or Achievements",
+        "location_type": "exact location",
+        "location": "Kyiv Academic Drama Theater",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-30T09:26:45+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70607,
+        "text": "**At \"Vokzalna\" metro station, a passenger who fell onto the tracks is alive**\n\nThe police are already on site, and an ambulance has been called for the woman. Train movement has been restored, and the delay was no more than 7 minutes.\n\n@lossolomas_kyiv",
+        "sentiment": "negative",
+        "rephrased_news": "A passenger who fell onto the tracks at 'Vokzalna' metro station is alive, and emergency services are on the scene. Train operations have resumed with minimal delay.",
+        "title": "Passenger Rescued at Metro Station",
+        "topic": "Accidents or Disasters",
+        "location_type": "exact location",
+        "location": "Kyiv, Vokzalna metro station",
+        "coords": [
+            50.4413353,
+            30.489963
+        ]
+    },
+    {
+        "date": "2024-09-27T14:24:17+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70394,
+        "text": "**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtier Ivan Svitlychnyi.**\n**He was a literary critic, but he was knowledgeable not only about books but also about people.**\n** He easily established relationships with them and maintained communication with many simultaneously. His Khrushchyovka on Umanska was one of the key points in the sixtiers' topography of Kyiv.**\n**A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today we would call Svitlychnyi a guru of networking and community building.**\nOn September 28-29, we will meet at the platform \"Ostriv,\" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and discuss the sixtiers in broader contexts. This is all that matters to us now – attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately – how new media help to make sense of the past. In addition to the educational component, the festival will also include creative workshops from residents of the \"Ostriv\" platform, the content of which will address various figures and dimensions of the sixtiers, including artistic ones.\n\n\"Svitlychnyk\" first took place in 2020 as an intimate event for the neighborhood community, aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.\n\n👉[** PROGRAM OF THE FIRST DAY**](https://t.me/lossolomas_kyiv/70119)\n\n👉[** PROGRAM OF THE SECOND DAY **](https://t.me/lossolomas_kyiv/70194)**\n\n👉**[** WORKSHOPS**](https://t.me/lossolomas_kyiv/70199)**\n\n****__*The event is free!\nWorkshops - donation to the Armed Forces of Ukraine*__**\n\n**📍Platform \"Ostriv\": Volynska 9/21\n\n📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",
+        "sentiment": "positive",
+        "rephrased_news": "The Svitlychnyk 3.0 festival will be held on September 28-29 at the 'Ostriv' cultural center in Chokolivka, celebrating the legacy of Ivan Svitlychnyi and discussing various cultural topics.",
+        "title": "Svitlychnyk Festival Celebrates Literary Legacy",
+        "topic": "Community Events or Achievements",
+        "location_type": "exact location",
+        "location": "Kyiv, Ostriv cultural center",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-27T14:24:17+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70394,
+        "text": "**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtier Ivan Svitlychnyi.**\n**He was a literary critic, but he was knowledgeable not only about books but also about people.**\n** He easily established relationships with them and maintained communication with many simultaneously. His Khrushchyovka on Umanska was one of the key points in the sixtiers' topography of Kyiv.**\n**A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today we would call Svitlychnyi a guru of networking and community building.**\nOn September 28-29, we will meet at the platform \"Ostriv,\" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and discuss the sixtiers in broader contexts. This is all that matters to us now – attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately – how new media help to make sense of the past. In addition to the educational component, the festival will also include creative workshops from residents of the \"Ostriv\" platform, the content of which will address various figures and dimensions of the sixtiers, including artistic ones.\n\n\"Svitlychnyk\" first took place in 2020 as an intimate event for the neighborhood community, aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.\n\n👉[** PROGRAM OF THE FIRST DAY**](https://t.me/lossolomas_kyiv/70119)\n\n👉[** PROGRAM OF THE SECOND DAY **](https://t.me/lossolomas_kyiv/70194)**\n\n👉**[** WORKSHOPS**](https://t.me/lossolomas_kyiv/70199)**\n\n****__*The event is free!\nWorkshops - donation to the Armed Forces of Ukraine*__**\n\n**📍Platform \"Ostriv\": Volynska 9/21\n\n📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",
+        "sentiment": "positive",
+        "rephrased_news": "The Svitlychnyk 3.0 festival will be held on September 28-29 at the 'Ostriv' cultural center in Chokolivka, celebrating the legacy of Ivan Svitlychnyi and discussing various cultural topics.",
+        "title": "Svitlychnyk Festival Celebrates Literary Legacy",
+        "topic": "Community Events or Achievements",
+        "location_type": "district",
+        "location": "Kyiv, Chokolivka",
+        "coords": [
+            50.4242067,
+            30.4466034
+        ]
+    },
+    {
+        "date": "2024-09-27T10:43:03+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70383,
+        "text": "We are receiving messages:\n\nThe temporary restriction at the Holovka stop has turned into a whole quest, as people are forced to walk on the roadway and wait for public transport.",
+        "sentiment": "negative",
+        "rephrased_news": "At the Holovka stop in Kyiv, temporary restrictions have caused passengers to walk on the roadway while waiting for public transport.",
+        "title": "Holovka Stop Transport Issues",
+        "topic": "Citizen Discomfort",
+        "location_type": "exact location",
+        "location": "Kyiv, Holovka stop",
+        "coords": [
+            50.4198172,
+            30.4809137
+        ]
+    },
+    {
+        "date": "2024-09-27T10:08:25+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70376,
+        "text": "**The second festival **[**\"Book Country\"**](https://www.instagram.com/bookvdng?igsh=MW5jN3NjaHJzMzN4ag==)** has started at VDNH.**\nOn the first day of the festival, it was attended by 9750 guests.\n\nA record for Ukraine was set for simultaneous reading (114 people). They read aloud \"Selected Works\" by Vasyl Stus in front of the central pavilion of VDNH.\n\nThe organizers also held the final of the book bloggers' award. The winner was the novel \"Yellow-Like\" by Rebecca Kwan, a special award went to the novel \"A Little Drama\" by Valerian Podmohylnyi, and the readers' choice award was given to the novel \"Beyond the Perikop is Land\" by Anastasia Levkova.\n\nThe festival will last for another 3 days, with a total of 120 publishers participating in the book fair. Over 300 activities are planned.\n\n**Entry is free**",
+        "sentiment": "positive",
+        "rephrased_news": "The second 'Book Country' festival has commenced at VDNH, attracting 9,750 attendees on its first day and setting a record for simultaneous reading.",
+        "title": "Book Country Festival Kicks Off",
+        "topic": "Cultural/Sporting Milestones",
+        "location_type": "exact location",
+        "location": "Kyiv, VDNH",
+        "coords": [
+            50.378485,
+            30.4789013
+        ]
+    },
+    {
+        "date": "2024-09-26T12:10:35+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70343,
+        "text": "Antonov aircraft designers 41 fire victims. Work is in full swing - life goes on 🤝🏻",
+        "sentiment": "negative",
+        "rephrased_news": "Work continues at the Antonov aircraft design facility following a fire incident that resulted in 41 casualties.",
+        "title": "Antonov Aircraft Designers Remember Victims",
+        "topic": "Accidents or Disasters",
+        "location_type": "exact location",
+        "location": "Kyiv, Antonov aircraft design facility",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-25T18:36:55+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70280,
+        "text": "Hey, Npop, are you sleeping? Autumn is almost over. When will the repairs be completed in the Mokra 7 building, which was damaged as a result of the Russian shelling on January 2, 2024? It will soon be a year. Damn marauders.",
+        "sentiment": "negative",
+        "rephrased_news": "Concerns are raised about the ongoing repairs at the Mokra 7 building, damaged by Russian shelling nearly a year ago.",
+        "title": "Repairs Delayed at Mokra 7",
+        "topic": "Deterioration in Infrastructure",
+        "location_type": "exact location",
+        "location": "Kyiv, Mokra 7",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-25T18:34:32+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70279,
+        "text": "Residential Complex Dynasty. Before/After. As far as we know, this was done thanks to the efforts of locals, not the Kyiv authorities.",
+        "sentiment": "negative",
+        "rephrased_news": "The Dynasty Residential Complex has undergone changes, reportedly due to local efforts rather than city authorities.",
+        "title": "Local Efforts Revive Dynasty Complex",
+        "topic": "Other",
+        "location_type": "exact location",
+        "location": "Kyiv, Dynasty Residential Complex",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-25T14:49:40+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70260,
+        "text": "Pedestrian traffic is partially restricted at the Golovka stop on Lobanovsky.",
+        "sentiment": "negative",
+        "rephrased_news": "Pedestrian traffic is partially restricted at the Golovka stop on Lobanovsky.",
+        "title": "Pedestrian Traffic Restricted at Golovka",
+        "topic": "Citizen Discomfort",
+        "location_type": "street",
+        "location": "Kyiv, Lobanovsky Avenue",
+        "coords": [
+            50.4125989,
+            30.4836221
+        ]
+    },
+    {
+        "date": "2024-09-24T13:41:07+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70232,
+        "text": "Friends are still looking for their 👀. **Free vacancy for Barista in one of the coffee shops** [**MOUNTAINS**](https://www.instagram.com/mountains_kyiv?igsh=bHphd3dya29hMTI1)! ** 📍 Svyatoslava Khorebroho 11B (Residential Complex Sky Avenue) ⏰ Schedule 3/3 (weekdays 08:00-21:00 / weekends 09:00-21:00) 💸 On average ~ 1500 per shift + tips (payment twice a month, no delays). We invite adult guys and girls with experience in our field to join a young and healthy team! It's interesting with us 😉. **For interviews, write to: ****@phantom_ls**.",
+        "sentiment": "positive",
+        "rephrased_news": "A coffee shop named MOUNTAINS is seeking a barista. The position is located at Svyatoslava Khorebroho 11B in the Sky Avenue residential complex, with a schedule of 3 days on and 3 days off. The average pay is approximately 1500 UAH per shift plus tips, with payments made bi-monthly. Applicants with experience are encouraged to apply.",
+        "title": "Barista Vacancy at MOUNTAINS",
+        "topic": "Economic Growth",
+        "location_type": "exact location",
+        "location": "Kyiv, Svyatoslava Khorebroho 11B, Sky Avenue residential complex",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-24T13:37:39+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70230,
+        "text": "**On September 25, changes will be made to the routes of trolleybuses No. 3, 9-K; On September 28, changes will be made to the route of trolleybus No. 3**. Work will be carried out to arrange the upper layer of asphalt concrete on Metropolitan Vasyl Lypkivskyi Street. On September 25 from 07:00 to 22:00, trolleybus traffic will be organized: - route No. 3 from the Railway Massif to the 'Ploshcha Ukrayinskykh Heroiv' metro station. For the convenience of passengers, the route has been assigned the number 3-D; - route No. 9-K from Kadetsky Hay St. to the 'Ploshcha Ukrayinskykh Heroiv' metro station. For the convenience of passengers, the route has been assigned the number 9-D. On September 28 from 07:00 to 22:00, trolleybus route No. 3 will be organized from the Railway Massif to Solomyanska St. according to the existing route, then - Solomyanska Square - Air Forces Avenue - Ivan Ohiyenko St. - Heorhiy Kirpa St. - Sicheslavska St. - Metropolitan Vasyl Lypkivskyi St. - Hetman Pavlo Skoropadskyi St., then according to the existing route. For the convenience of passengers, it has been assigned No. 3-A.",
+        "sentiment": "negative",
+        "rephrased_news": "On September 25, trolleybus routes No. 3 and 9-K will be modified due to road work on Metropolitan Vasyl Lypkivskyi Street. Trolleybus No. 3 will operate under the new designation 3-D, and No. 9-K will be designated 9-D. Further changes to route No. 3 will occur on September 28.",
+        "title": "Trolleybus Route Changes Announced",
+        "topic": "Citizen Discomfort",
+        "location_type": "street",
+        "location": "Kyiv, Metropolitan Vasyl Lypkivskyi Street",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-24T10:15:06+00:00",
+        "channel_name": "LOS SOLOMAS . КИЇВ",
+        "message_id": 70218,
+        "text": "**24 вересня в Києві згадують жертв теракту комуністичного режиму на Хрещатику**\n\n🏚24 вересня 1941 року, за кілька днів після окупації Києва німцями, на Хрещатику пролунала серія потужних вибухів.\n\nЗайнялась масштабна пожежа, яка за тиждень знищила близько 200 будівель: 5 готелів, консерваторію, театри, кінотеатри, бібліотеки, міськраду, житлові будинки. Київ майже втратив історичний центр. Трохи згодом вибухнув центральний храм Києво-Печерської лаври.\n\n👥Напередодні зими без житла залишилось близько 50 000 киян.\n\n💥Це була диверсія радянських спецслужб, у межах тактики \"випаленої землі\". Комуністи готувалися до відступу – мінували важливу інфраструктуру, історичні пам’ятки, житлові будівлі. \n\n▫️Дивом вдалося врятувати національну святиню – Софію Київську. Директор Софійського заповідника Олекса Повстенко обманув НКВС, заявивши, що в будівлі відсутні підземелля і приховано замінувати її неможливо.\n\n▫️Німці, які на той час окупували Київ, розмінували деякі будівлі: Оперний театр, колишню будівлю Центральної Ради (Будинок вчителя) тощо.\n\n💔Вибухи на Хрещатику, які здійснили комуністи, стали приводом для нацистського режиму влаштувати ще один злочин і трагедію. Менше ніж за тиждень розпочалися масові розстріли євреїв у Бабиному яру.",
+        "sentiment": "negative",
+        "rephrased_news": "On September 24, Kyiv commemorates the victims of a terrorist attack by the communist regime on Khreshchatyk, which occurred in 1941. The attack resulted in significant destruction, leaving around 50,000 residents homeless.",
+        "title": "Kyiv Remembers 1941 Terror Victims",
+        "topic": "Social/Political Instability",
+        "location_type": "street",
+        "location": "Kyiv, Khreshchatyk",
+        "coords": [
+            50.4477412,
+            30.5220779
+        ]
+    },
+    {
+        "date": "2024-09-23T16:05:41+00:00",
+        "channel_name": "LOS SOLOMAS . КИЇВ",
+        "message_id": 70185,
+        "text": "Ⓜ️**На станції метро «Берестейська» розпочнуть капітальний ремонт ескалаторів**, — КМДА\n\n24 вересня розпочнеться \nплановий ремонт на ескалаторі №1. Роботи триватимуть орієнтовно до 12 листопада.",
+        "sentiment": "negative",
+        "rephrased_news": "Capital repairs on escalator No. 1 at the Beresteyska metro station will begin on September 24 and are expected to last until approximately November 12.",
+        "title": "Metro Escalator Renovations Begin",
+        "topic": "Deterioration in Infrastructure",
+        "location_type": "exact location",
+        "location": "Kyiv, Beresteyska metro station",
+        "coords": [
+            50.4593178,
+            30.4186364
+        ]
+    },
+    {
+        "date": "2024-09-21T14:59:55+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70092,
+        "text": "A person was hit\n\nSolomianska St.",
+        "sentiment": "negative",
+        "rephrased_news": "A person was struck on Solomianska Street.",
+        "title": "Accident on Solomianska Street",
+        "topic": "Crime or Safety Concerns",
+        "location_type": "street",
+        "location": "Kyiv, Solomianska Street",
+        "coords": [
+            50.4233249,
+            30.4805921
+        ]
+    },
+    {
+        "date": "2024-09-21T14:40:48+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70089,
+        "text": "**Kyiv police quickly located a 50-year-old man who went missing the day before**\n\n[Information about the missing person was received by law enforcement yesterday evening](https://kyiv.npu.gov.ua/news/politsiia-kyieva-operatyvno-rozshukala-50-richnoho-cholovika-iakyi-znyk-bezvisty-naperedodni) – a local resident reported to the police that her husband left home and stopped communicating.\n\nAccording to available information, the Kyiv resident could have been in the Solomyansky Landscape Park, so law enforcement used a drone for a more detailed inspection of the area.\n\n\"To effectively work the area, we used a map of the landscape park, which clearly marked the areas to be searched. Each search zone was detailed among police officers, which allowed us to coordinate the actions of all services in the shortest possible time and ultimately find the person who needed immediate assistance,\" says the head of the district police department Igor Leus.\n\nThe 50-year-old man was taken to a medical facility for examination, and his life is not in danger.",
+        "sentiment": "positive",
+        "rephrased_news": "Kyiv police successfully located a 50-year-old man who had been missing. He was found in Solomyansky Landscape Park and taken to a medical facility for examination, with no threat to his life.",
+        "title": "Missing Man Found in Solomyanskyi",
+        "topic": "Social Progress",
+        "location_type": "exact location",
+        "location": "Kyiv, Solomyansky Landscape Park",
+        "coords": [
+            50.4282552,
+            30.4529175
+        ]
+    },
+    {
+        "date": "2024-09-21T07:00:26+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70068,
+        "text": "**Dear residents of Kyiv and its guests! I invite you to visit the craft fair from September 20-22, 2024, in Vydradnyi Park.**\n\nHere you will find many interesting things for every taste and age.\nAt the fair, you will be able to get acquainted with the creativity of the masters and purchase or order products that interest you.\n\nAlso, join our social media pages to follow our participants and events:\n[Instagram](https://www.instagram.com/mak.made.world?igsh=NjY3MGQ3dnAxNWU3)\n[Facebook](https://www.facebook.com/profile.php?id=61550786357818)",
+        "sentiment": "positive",
+        "rephrased_news": "Residents and visitors of Kyiv are invited to a craft fair at Vydradnyi Park from September 20-22, 2024, featuring various creative products.",
+        "title": "Craft Fair Coming to Kyiv",
+        "topic": "Community Events or Achievements",
+        "location_type": "exact location",
+        "location": "Kyiv, Vydradnyi Park",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-21T05:43:00+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70065,
+        "text": "A fraudulent call center was discovered in the 'Marmelad' shopping center. Such centers have moved from prisons to capital offices.\nKyiv law enforcement conducted searches at a fraudulent call center operating in an office in the 'Marmelad' shopping center in the Solomyansky district. The call center functioned as an 'investment office'. There is currently no official information from the police.\n\nUkrainians often receive calls from fraudsters supposedly from a bank asking for card details or from a 'relative who got into an accident'. They also offer to take out a loan or invest in cryptocurrency.",
+        "sentiment": "negative",
+        "rephrased_news": "A fraudulent call center was discovered in the 'Marmelad' shopping center, where scammers posed as investment advisors. Police are investigating the operation.",
+        "title": "Fraud Call Center Raided in Kyiv",
+        "topic": "Crime or Safety Concerns",
+        "location_type": "exact location",
+        "location": "Kyiv, Marmelad shopping center",
+        "coords": [
+            50.4461664,
+            30.4431536
+        ]
+    },
+    {
+        "date": "2024-09-20T17:57:05+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70046,
+        "text": "Good evening! At 49 Vaclava Havela, someone has lost a puppy. It is running back and forth nervously near the Art Pizza establishment. It has a collar with a medallion, but it won't let anyone catch it to take a look.",
+        "sentiment": "negative",
+        "rephrased_news": "A lost puppy has been spotted near Art Pizza at 49 Vaclava Havela, but it is too frightened to be caught.",
+        "title": "Lost Puppy Found Near Art Pizza",
+        "topic": "Other",
+        "location_type": "exact location",
+        "location": "Kyiv, 49 Vaclava Havela",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-19T14:32:31+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70005,
+        "text": "**Kyiv City Council** **renamed 13 streets, parks, and squares in the capital** **Solomianskyi district:** 🔹Botkin Street - Professor Pavlovskyi Street; 🔹the unnamed square between Sicheslavska and Hrihoriia Kirpa streets has been named \"North Atlantic Alliance Square.\"** **Podilskyi district:** 🔹Briusova Street - Valentyna Radzymovska Street; 🔹the park near the T.G. Shevchenko cinema has been named \"Hirka Kristera.\" **Pecherskyi district:** 🔹Stanislavskyi Street - Bohdan Stupka Street. **Dniprovskyi district:** 🔹Petro Chaadaev Street - Yelyzaveta Shakhatuni Street. **Darnytskyi district:** 🔹Ivan Turgenev Street - Mykola Volkovych Street. **Shevchenkivskyi district:** 🔹Bechterivskyi Lane - Varazkyi Lane; 🔹the square on Prorezna Street (between houses No. 3 and No. 5) has been named \"Ukrainian Radio.\" **Sviatoshynskyi district:** 🔹\"Yunist\" park - \"Hamburg\" park; 🔹Zhovtneva Street - Sulymivska Street; 🔹Serhii Yesenin Street - Skarbova Street; 🔹the park on Mykhailo Kotelnykov Street, 26-32 has been named after Mykhailo Reutskyi.",
+        "sentiment": "positive",
+        "rephrased_news": "The Kyiv City Council has renamed 13 streets, parks, and squares across various districts, including Botkin Street to Professor Pavlovskyi Street and Briusova Street to Valentyna Radzymovska Street.",
+        "title": "Kyiv Renames 13 Streets",
+        "topic": "Political Stability/Positive Reforms",
+        "location_type": "street",
+        "location": "Kyiv, Botkin Street",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-19T14:23:14+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 70003,
+        "text": "Community! Friends! Today we witnessed another important and historic event on the path to victory in the functioning of the nature reserve named after Roman Ratushnyi \"Protasiv Yar.\" The deputies of the Kyiv City Council supported and adopted extremely important decisions: ● \"On the statement of the Kyiv City Council regarding the status of the landscape reserve of local significance 'Protasiv Yar' named after Roman Ratushnyi\" No. 654 ● \"On organizational and legal measures to protect the landscape reserve of local significance 'Protasiv Yar' named after Roman Ratushnyi\" No. 653. We sincerely thank the deputies for their support and the decisions made, which are of great importance for the community and the future of our city!",
+        "sentiment": "positive",
+        "rephrased_news": "The Kyiv City Council has approved significant decisions regarding the protection of the Protasiv Yar nature reserve named after Roman Ratushnyi, emphasizing its local significance.",
+        "title": "Protasiv Yar Nature Reserve Protected",
+        "topic": "Environmental Improvements",
+        "location_type": "exact location",
+        "location": "Kyiv, Protasiv Yar nature reserve",
+        "coords": [
+            50.4241074,
+            30.49896829999999
+        ]
+    },
+    {
+        "date": "2024-09-19T10:14:05+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 69999,
+        "text": "**In the shopping center **[**'Marmelad'**](https://t.me/lossolomas_kyiv/69999)** a fraudulent call center was discovered.** Such centers have moved from prisons to capital offices. **Kyiv law enforcement conducted searches at a fraudulent call center operating in an office in the 'Marmelad' shopping center in the Solomianskyi district. The call center functioned as an 'investment office.' There is currently no official information from the police. Ukrainians often receive calls from fraudsters supposedly from the bank asking for card details or from a 'relative who got into an accident.' They also offer to take a loan or invest in cryptocurrency.",
+        "sentiment": "negative",
+        "rephrased_news": "A fraudulent call center operating in the 'Marmelad' shopping center in the Solomianskyi district has been uncovered by Kyiv law enforcement.",
+        "title": "Fraudulent Call Center Raided",
+        "topic": "Crime or Safety Concerns",
+        "location_type": "exact location",
+        "location": "Kyiv, Marmelad shopping center",
+        "coords": [
+            50.4461664,
+            30.4431536
+        ]
+    },
+    {
+        "date": "2024-09-19T10:14:05+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 69999,
+        "text": "**In the shopping center **[**'Marmelad'**](https://t.me/lossolomas_kyiv/69999)** a fraudulent call center was discovered.** Such centers have moved from prisons to capital offices. **Kyiv law enforcement conducted searches at a fraudulent call center operating in an office in the 'Marmelad' shopping center in the Solomianskyi district. The call center functioned as an 'investment office.' There is currently no official information from the police. Ukrainians often receive calls from fraudsters supposedly from the bank asking for card details or from a 'relative who got into an accident.' They also offer to take a loan or invest in cryptocurrency.",
+        "sentiment": "negative",
+        "rephrased_news": "A fraudulent call center operating in the 'Marmelad' shopping center in the Solomianskyi district has been uncovered by Kyiv law enforcement.",
+        "title": "Fraudulent Call Center Raided",
+        "topic": "Crime or Safety Concerns",
+        "location_type": "district",
+        "location": "Kyiv Solomianskyi district",
+        "coords": [
+            50.4282552,
+            30.4529175
+        ]
+    },
+    {
+        "date": "2024-09-17T16:22:52+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 69941,
+        "text": "Protasiv Yar towards Solomyanska Square - traffic accident\nTraffic is partially complicated.",
+        "sentiment": "negative",
+        "rephrased_news": "There has been a traffic accident on Protasiv Yar towards Solomyanska Square, causing partial traffic disruptions.",
+        "title": "Traffic Accident Near Protasiv Yar",
+        "topic": "Citizen Discomfort",
+        "location_type": "street",
+        "location": "Kyiv, Protasiv Yar",
+        "coords": [
+            50.4241074,
+            30.49896829999999
+        ]
+    },
+    {
+        "date": "2024-09-17T16:22:52+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 69941,
+        "text": "Protasiv Yar towards Solomyanska Square - traffic accident\nTraffic is partially complicated.",
+        "sentiment": "negative",
+        "rephrased_news": "There has been a traffic accident on Protasiv Yar towards Solomyanska Square, causing partial traffic disruptions.",
+        "title": "Traffic Accident Near Protasiv Yar",
+        "topic": "Citizen Discomfort",
+        "location_type": "district",
+        "location": "Kyiv Solomianskyi district",
+        "coords": [
+            50.4282552,
+            30.4529175
+        ]
+    },
+    {
+        "date": "2024-09-17T07:37:39+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 69931,
+        "text": "**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtieth Ivan Svitlychnyi. He was a literary critic, but he was knowledgeable not only about books but also about people.**\n** He easily established relationships with them and maintained communication with many at once. His Khrushchyovka on Umanska was one of the key points in the sixtieth topography of Kyiv. A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today, we would call Svitlychnyi a guru of networking and community building.**\nOn September 28-29, we will meet at the platform \"Ostriv,\" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and talk about the sixtieths in broader contexts. This is all that matters to us now - attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately - how new media help to understand the past. In addition to the educational component, the festival will also include creative workshops from the residents of the \"Ostriv\" platform, the content of which will address various figures and dimensions of the sixtieths, particularly artistic ones.\n\n\"Svitlychnyk\" first took place in 2020 as an intimate event for the neighborhood community aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.\n\n**📍Platform \"Ostriv\": Volynska 9/21\n\n📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",
+        "sentiment": "positive",
+        "rephrased_news": "The Svitlychnyk 3.0 festival will celebrate the legacy of Ivan Svitlychnyi on September 28-29 at the cultural center 'Ostriv' in Chokolivka.",
+        "title": "Svitlychnyk Festival Celebrates Legacy",
+        "topic": "Cultural/Sporting Milestones",
+        "location_type": "exact location",
+        "location": "Kyiv, cultural center 'Ostriv'",
+        "coords": [
+            50.4503596,
+            30.5245025
+        ]
+    },
+    {
+        "date": "2024-09-17T07:37:39+00:00",
+        "channel_name": "LOS SOLOMAS. KYIV",
+        "message_id": 69931,
+        "text": "**Svitlychnyk 3.0 is a two-day local festival for the birthday of the sixtieth Ivan Svitlychnyi. He was a literary critic, but he was knowledgeable not only about books but also about people.**\n** He easily established relationships with them and maintained communication with many at once. His Khrushchyovka on Umanska was one of the key points in the sixtieth topography of Kyiv. A place for meetings and acquaintances, a poetic workshop, a club, and a library for the creative youth of the 1960s. Today, we would call Svitlychnyi a guru of networking and community building.**\nOn September 28-29, we will meet at the platform \"Ostriv,\" which is a local cultural center in Chokolivka, to celebrate the birthday of a neighbor from the past and talk about the sixtieths in broader contexts. This is all that matters to us now - attitudes towards the Soviet legacy, activism and solidarity networks, memory and commemoration practices, ultimately - how new media help to understand the past. In addition to the educational component, the festival will also include creative workshops from the residents of the \"Ostriv\" platform, the content of which will address various figures and dimensions of the sixtieths, particularly artistic ones.\n\n\"Svitlychnyk\" first took place in 2020 as an intimate event for the neighborhood community aimed at communicating the emergence of Ivan Svitlychnyi Street in Chokolivka. The next event was held as a literary evening for young authors. During the full-scale war, we continue this commemorative practice in the district space, scaling it up to a mini-festival.\n\n**📍Platform \"Ostriv\": Volynska 9/21\n\n📍Park Suputnyk (opposite Svitlychnyi's house): Umanska 35**",
+        "sentiment": "positive",
+        "rephrased_news": "The Svitlychnyk 3.0 festival will celebrate the legacy of Ivan Svitlychnyi on September 28-29 at the cultural center 'Ostriv' in Chokolivka.",
+        "title": "Svitlychnyk Festival Celebrates Legacy",
+        "topic": "Cultural/Sporting Milestones",
+        "location_type": "district",
+        "location": "Kyiv, Chokolivka",
+        "coords": [
+            50.4242067,
+            30.4466034
+        ]
+    }
+]
